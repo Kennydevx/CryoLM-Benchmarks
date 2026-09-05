@@ -1,0 +1,104 @@
+{
+  "phase": "FASE 4 \u2014 Prova Estat\u00edstica de Complexidade de Mem\u00f3ria",
+  "cryo_linear_fit": {
+    "model": "M(L) = a + b*L",
+    "a_intercept_mb": 53.335181548645075,
+    "b_slope_mb_per_token": 0.024473417110194677,
+    "b_slope_kb_per_token": 25.06077912083935,
+    "b_slope_bytes_per_token": 25662.237819739494,
+    "se_b": 9.20499827182647e-05,
+    "ci_95_low": 0.02426520004928596,
+    "ci_95_high": 0.024681634171103393,
+    "r_squared": 0.9998726950131304,
+    "t_statistic": 265.87095822820424,
+    "t_critical_95": 2.262,
+    "df": 9,
+    "h0_b_equals_zero_rejected": true,
+    "complexity_class": "O(L)",
+    "rmse_mb": 5.8308964379795905,
+    "max_residual_mb": 9.17292943621726,
+    "mean_abs_residual_mb": 4.775613023847021,
+    "data_points": 11,
+    "L_range": [
+      128,
+      65536
+    ],
+    "residuals": [
+      {
+        "L": 128,
+        "observed": 61.9951171875,
+        "predicted": 56.47,
+        "residual": 5.53
+      },
+      {
+        "L": 256,
+        "observed": 64.8798828125,
+        "predicted": 59.6,
+        "residual": 5.28
+      },
+      {
+        "L": 512,
+        "observed": 70.6494140625,
+        "predicted": 65.87,
+        "residual": 4.78
+      },
+      {
+        "L": 1024,
+        "observed": 82.1884765625,
+        "predicted": 78.4,
+        "residual": 3.79
+      },
+      {
+        "L": 2048,
+        "observed": 105.2666015625,
+        "predicted": 103.46,
+        "residual": 1.81
+      },
+      {
+        "L": 4096,
+        "observed": 151.4228515625,
+        "predicted": 153.58,
+        "residual": -2.16
+      },
+      {
+        "L": 8192,
+        "observed": 245.3916015625,
+        "predicted": 253.82,
+        "residual": -8.43
+      },
+      {
+        "L": 12288,
+        "observed": 344.8916015625,
+        "predicted": 354.06,
+        "residual": -9.17
+      },
+      {
+        "L": 16384,
+        "observed": 450.6884765625,
+        "predicted": 454.31,
+        "residual": -3.62
+      },
+      {
+        "L": 32768,
+        "observed": 852.3916015625,
+        "predicted": 855.28,
+        "residual": -2.89
+      },
+      {
+        "L": 65536,
+        "observed": 1662.2978515625,
+        "predicted": 1657.23,
+        "residual": 5.07
+      }
+    ]
+  },
+  "dense_quadratic_fit": {
+    "model": "M(L) = a + b*L + c*L\u00b2",
+    "a": 45.23325711381838,
+    "b": 0.00924936684331707,
+    "c": 7.260985960195729e-05,
+    "r_squared": 0.9999999861262847,
+    "complexity_class": "O(L\u00b2)",
+    "linear_r_squared": 0.9351706361186669
+  }
+}

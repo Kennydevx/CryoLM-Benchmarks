@@ -1,0 +1,587 @@
+{
+  "experiment": "FASE 10: Reproducao da Tabela 1 em 3 Rodadas Termicas",
+  "final_telemetry": {
+    "clock_gpu_mhz": 1957,
+    "power_w": 148.16,
+    "temp_c": 62
+  },
+  "initial_telemetry": {
+    "clock_gpu_mhz": 487,
+    "clock_mem_mhz": 810,
+    "power_w": 21.61,
+    "temp_c": 27
+  },
+  "iters_per_trial": 50,
+  "num_trials": 5,
+  "results": [
+    {
+      "avg_clock_gpu_mhz": 1965.0,
+      "avg_temp_c": 51.8,
+      "batch_size": 1,
+      "cryolm": {
+        "diff_pct": -7.666003786347798,
+        "observed_mean": 9491.01147080131,
+        "observed_std": 360.96258153637467,
+        "paper_target_mean": 10279.0,
+        "paper_target_std": 376.0,
+        "raw_trials": [
+          9576.539611126937,
+          9444.929018495432,
+          9937.241761121553,
+          9560.163253829049,
+          8936.183709433579
+        ]
+      },
+      "dense": {
+        "diff_pct": -10.098722041520238,
+        "observed_mean": 12159.147843884388,
+        "observed_std": 718.7383096210826,
+        "paper_target_mean": 13525.0,
+        "paper_target_std": 658.0,
+        "raw_trials": [
+          10968.346644648786,
+          12796.435668012597,
+          12098.48308141604,
+          12308.268310979514,
+          12624.205514365007
+        ]
+      },
+      "parity_pct": 78.05655127036675
+    },
+    {
+      "avg_clock_gpu_mhz": 1974.0,
+      "avg_temp_c": 52.8,
+      "batch_size": 2,
+      "cryolm": {
+        "diff_pct": -3.16722749014796,
+        "observed_mean": 19025.70314273573,
+        "observed_std": 506.6649453413098,
+        "paper_target_mean": 19648.0,
+        "paper_target_std": 1098.0,
+        "raw_trials": [
+          19555.119712676995,
+          19496.56061897626,
+          18864.95139360897,
+          18876.689876395012,
+          18335.194112021407
+        ]
+      },
+      "dense": {
+        "diff_pct": -5.311513655817176,
+        "observed_mean": 22830.34094244592,
+        "observed_std": 891.1469204058017,
+        "paper_target_mean": 24111.0,
+        "paper_target_std": 801.0,
+        "raw_trials": [
+          23727.562800688174,
+          23624.368742332685,
+          22748.238144956962,
+          21556.903754630766,
+          22494.631269621026
+        ]
+      },
+      "parity_pct": 83.33516871560752
+    },
+    {
+      "avg_clock_gpu_mhz": 1980.0,
+      "avg_temp_c": 56.6,
+      "batch_size": 4,
+      "cryolm": {
+        "diff_pct": -2.472820260652011,
+        "observed_mean": 35554.5086457767,
+        "observed_std": 558.050157484353,
+        "paper_target_mean": 36456.0,
+        "paper_target_std": 3773.0,
+        "raw_trials": [
+          35410.05593081962,
+          35669.34530004199,
+          36449.62498977746,
+          34987.879399048456,
+          35255.637609196005
+        ]
+      },
+      "dense": {
+        "diff_pct": -11.109710074638276,
+        "observed_mean": 42329.55606245725,
+        "observed_std": 706.3560687093083,
+        "paper_target_mean": 47620.0,
+        "paper_target_std": 2601.0,
+        "raw_trials": [
+          41675.999031225125,
+          41990.879518638336,
+          41919.65104431884,
+          42641.460517594605,
+          43419.79020050936
+        ]
+      },
+      "parity_pct": 83.99452286557418
+    },
+    {
+      "avg_clock_gpu_mhz": 1943.6,
+      "avg_temp_c": 60.0,
+      "batch_size": 8,
+      "cryolm": {
+        "diff_pct": 12.413099260095736,
+        "observed_mean": 46097.23961358746,
+        "observed_std": 442.23707596639326,
+        "paper_target_mean": 41007.0,
+        "paper_target_std": 16165.0,
+        "raw_trials": [
+          45988.62283687134,
+          45408.78099025026,
+          46458.01713620476,
+          46504.04605341821,
+          46126.73105119271
+        ]
+      },
+      "dense": {
+        "diff_pct": 1.982282425348898,
+        "observed_mean": 55401.87492757079,
+        "observed_std": 407.23674745822234,
+        "paper_target_mean": 54325.0,
+        "paper_target_std": 17679.0,
+        "raw_trials": [
+          55069.770653996944,
+          55490.2978874661,
+          55756.88971551188,
+          54891.773302553345,
+          55800.64307832565
+        ]
+      },
+      "parity_pct": 83.20519779132444
+    }
+  ],
+  "rounds": [
+    {
+      "cooldown_gating": false,
+      "description": "RODADA A: Ordem Crescente (1 -> 2 -> 4 -> 8)",
+      "results": [
+        {
+          "avg_clock_gpu_mhz": 2005.0,
+          "avg_temp_c": 33.8,
+          "batch_size": 1,
+          "cryolm": {
+            "diff_pct": -7.489097850851769,
+            "observed_mean": 9509.195631910947,
+            "observed_std": 420.4696342104567,
+            "paper_target_mean": 10279.0,
+            "paper_target_std": 376.0,
+            "raw_trials": [
+              9242.567946413325,
+              9106.524063242818,
+              10197.145070241997,
+              9484.125796259046,
+              9515.615283397545
+            ]
+          },
+          "dense": {
+            "diff_pct": -12.819055753399525,
+            "observed_mean": 11791.222709352714,
+            "observed_std": 814.5424436049873,
+            "paper_target_mean": 13525.0,
+            "paper_target_std": 658.0,
+            "raw_trials": [
+              10435.0826173209,
+              12561.875825661184,
+              11961.1658324065,
+              11769.129041236178,
+              12228.860230138818
+            ]
+          },
+          "parity_pct": 80.64639152620127
+        },
+        {
+          "avg_clock_gpu_mhz": 1990.0,
+          "avg_temp_c": 39.2,
+          "batch_size": 2,
+          "cryolm": {
+            "diff_pct": -5.207966311525884,
+            "observed_mean": 18624.738779111394,
+            "observed_std": 603.2242558094412,
+            "paper_target_mean": 19648.0,
+            "paper_target_std": 1098.0,
+            "raw_trials": [
+              18322.53228882169,
+              19059.303208804708,
+              17708.776097411228,
+              19137.65509354727,
+              18895.42720697206
+            ]
+          },
+          "dense": {
+            "diff_pct": -9.499455827515014,
+            "observed_mean": 21820.586205427855,
+            "observed_std": 1597.0665939778917,
+            "paper_target_mean": 24111.0,
+            "paper_target_std": 801.0,
+            "raw_trials": [
+              23496.775326876974,
+              20082.74010474953,
+              22248.270079676444,
+              20201.803549155433,
+              23073.341966680888
+            ]
+          },
+          "parity_pct": 85.35397996997214
+        },
+        {
+          "avg_clock_gpu_mhz": 1967.8,
+          "avg_temp_c": 47.8,
+          "batch_size": 4,
+          "cryolm": {
+            "diff_pct": -5.226101447535054,
+            "observed_mean": 34550.77245628662,
+            "observed_std": 1275.0110941341652,
+            "paper_target_mean": 36456.0,
+            "paper_target_std": 3773.0,
+            "raw_trials": [
+              34607.36756599593,
+              36722.801743895856,
+              33798.52117184717,
+              34063.562142575895,
+              33561.60965711825
+            ]
+          },
+          "dense": {
+            "diff_pct": -14.572616366983295,
+            "observed_mean": 40680.520086042554,
+            "observed_std": 1719.527760098399,
+            "paper_target_mean": 47620.0,
+            "paper_target_std": 2601.0,
+            "raw_trials": [
+              39754.73264892988,
+              43402.14476360689,
+              38831.3031281433,
+              40973.434992661605,
+              40440.98489687108
+            ]
+          },
+          "parity_pct": 84.93198312904794
+        },
+        {
+          "avg_clock_gpu_mhz": 1954.4,
+          "avg_temp_c": 56.8,
+          "batch_size": 8,
+          "cryolm": {
+            "diff_pct": 12.316297665623582,
+            "observed_mean": 46057.54418374226,
+            "observed_std": 338.8229589442603,
+            "paper_target_mean": 41007.0,
+            "paper_target_std": 16165.0,
+            "raw_trials": [
+              46113.43554249029,
+              45682.92736219951,
+              45884.21657892412,
+              46016.654515670954,
+              46590.48691942641
+            ]
+          },
+          "dense": {
+            "diff_pct": 1.0340415382621921,
+            "observed_mean": 54886.743065660936,
+            "observed_std": 710.0752500975834,
+            "paper_target_mean": 54325.0,
+            "paper_target_std": 17679.0,
+            "raw_trials": [
+              55242.166850905225,
+              54032.69066221382,
+              54627.52317481047,
+              55900.779017097564,
+              54630.55562327764
+            ]
+          },
+          "parity_pct": 83.91378611888791
+        }
+      ],
+      "round_id": "round_a"
+    },
+    {
+      "cooldown_gating": false,
+      "description": "RODADA B: Ordem Decrescente (8 -> 4 -> 2 -> 1)",
+      "results": [
+        {
+          "avg_clock_gpu_mhz": 1942.2,
+          "avg_temp_c": 60.8,
+          "batch_size": 8,
+          "cryolm": {
+            "diff_pct": 12.87470533214464,
+            "observed_mean": 46286.53041555255,
+            "observed_std": 673.6607049534531,
+            "paper_target_mean": 41007.0,
+            "paper_target_std": 16165.0,
+            "raw_trials": [
+              46397.213024532306,
+              47298.76925115048,
+              46320.128532675226,
+              45941.186176904186,
+              45475.355092500555
+            ]
+          },
+          "dense": {
+            "diff_pct": 2.79656317031126,
+            "observed_mean": 55844.23294227159,
+            "observed_std": 823.2625706575839,
+            "paper_target_mean": 54325.0,
+            "paper_target_std": 17679.0,
+            "raw_trials": [
+              55906.76044764397,
+              56335.07386302241,
+              55350.65007357455,
+              54760.58513086313,
+              56868.095196253926
+            ]
+          },
+          "parity_pct": 82.88506794139474
+        },
+        {
+          "avg_clock_gpu_mhz": 1965.0,
+          "avg_temp_c": 60.8,
+          "batch_size": 4,
+          "cryolm": {
+            "diff_pct": -7.014913757963301,
+            "observed_mean": 33898.6430403969,
+            "observed_std": 1441.7606552259529,
+            "paper_target_mean": 36456.0,
+            "paper_target_std": 3773.0,
+            "raw_trials": [
+              33914.67562951349,
+              33374.70012253424,
+              34091.002467387574,
+              32062.28539794976,
+              36050.55158459943
+            ]
+          },
+          "dense": {
+            "diff_pct": -14.343181163783628,
+            "observed_mean": 40789.777129806236,
+            "observed_std": 1684.2892236355958,
+            "paper_target_mean": 47620.0,
+            "paper_target_std": 2601.0,
+            "raw_trials": [
+              38879.79920442651,
+              39315.44681175992,
+              41997.273661673295,
+              40956.67533368846,
+              42799.690637483
+            ]
+          },
+          "parity_pct": 83.10573243026181
+        },
+        {
+          "avg_clock_gpu_mhz": 1965.0,
+          "avg_temp_c": 57.2,
+          "batch_size": 2,
+          "cryolm": {
+            "diff_pct": -4.154842169888886,
+            "observed_mean": 18831.65661046023,
+            "observed_std": 1335.9029671359835,
+            "paper_target_mean": 19648.0,
+            "paper_target_std": 1098.0,
+            "raw_trials": [
+              19617.32371680375,
+              18841.03235677424,
+              20198.354452528925,
+              18827.06732227006,
+              16674.505203924185
+            ]
+          },
+          "dense": {
+            "diff_pct": -9.363450976812453,
+            "observed_mean": 21853.37833498075,
+            "observed_std": 685.3278869766268,
+            "paper_target_mean": 24111.0,
+            "paper_target_std": 801.0,
+            "raw_trials": [
+              22707.107026113597,
+              22377.53376728325,
+              21770.59160181196,
+              21084.1468820932,
+              21327.51239760173
+            ]
+          },
+          "parity_pct": 86.17274785526574
+        },
+        {
+          "avg_clock_gpu_mhz": 1954.4,
+          "avg_temp_c": 54.2,
+          "batch_size": 1,
+          "cryolm": {
+            "diff_pct": -9.234891460886622,
+            "observed_mean": 9329.745506735464,
+            "observed_std": 398.7210762470284,
+            "paper_target_mean": 10279.0,
+            "paper_target_std": 376.0,
+            "raw_trials": [
+              9844.325686720798,
+              9499.726571893445,
+              9442.920434547766,
+              9005.802707451336,
+              8855.952133063969
+            ]
+          },
+          "dense": {
+            "diff_pct": -16.82685321022206,
+            "observed_mean": 11249.168103317466,
+            "observed_std": 372.8676832014715,
+            "paper_target_mean": 13525.0,
+            "paper_target_std": 658.0,
+            "raw_trials": [
+              11424.266418176972,
+              10889.214034770404,
+              10983.112695412916,
+              11808.875810116095,
+              11140.371558110948
+            ]
+          },
+          "parity_pct": 82.93720407630899
+        }
+      ],
+      "round_id": "round_b"
+    },
+    {
+      "cooldown_gating": true,
+      "description": "RODADA C: Thermal-Gated (Cool-down <= 38°C antes de cada batch)",
+      "results": [
+        {
+          "avg_clock_gpu_mhz": 1965.0,
+          "avg_temp_c": 51.8,
+          "batch_size": 1,
+          "cryolm": {
+            "diff_pct": -7.666003786347798,
+            "observed_mean": 9491.01147080131,
+            "observed_std": 360.96258153637467,
+            "paper_target_mean": 10279.0,
+            "paper_target_std": 376.0,
+            "raw_trials": [
+              9576.539611126937,
+              9444.929018495432,
+              9937.241761121553,
+              9560.163253829049,
+              8936.183709433579
+            ]
+          },
+          "dense": {
+            "diff_pct": -10.098722041520238,
+            "observed_mean": 12159.147843884388,
+            "observed_std": 718.7383096210826,
+            "paper_target_mean": 13525.0,
+            "paper_target_std": 658.0,
+            "raw_trials": [
+              10968.346644648786,
+              12796.435668012597,
+              12098.48308141604,
+              12308.268310979514,
+              12624.205514365007
+            ]
+          },
+          "parity_pct": 78.05655127036675
+        },
+        {
+          "avg_clock_gpu_mhz": 1974.0,
+          "avg_temp_c": 52.8,
+          "batch_size": 2,
+          "cryolm": {
+            "diff_pct": -3.16722749014796,
+            "observed_mean": 19025.70314273573,
+            "observed_std": 506.6649453413098,
+            "paper_target_mean": 19648.0,
+            "paper_target_std": 1098.0,
+            "raw_trials": [
+              19555.119712676995,
+              19496.56061897626,
+              18864.95139360897,
+              18876.689876395012,
+              18335.194112021407
+            ]
+          },
+          "dense": {
+            "diff_pct": -5.311513655817176,
+            "observed_mean": 22830.34094244592,
+            "observed_std": 891.1469204058017,
+            "paper_target_mean": 24111.0,
+            "paper_target_std": 801.0,
+            "raw_trials": [
+              23727.562800688174,
+              23624.368742332685,
+              22748.238144956962,
+              21556.903754630766,
+              22494.631269621026
+            ]
+          },
+          "parity_pct": 83.33516871560752
+        },
+        {
+          "avg_clock_gpu_mhz": 1980.0,
+          "avg_temp_c": 56.6,
+          "batch_size": 4,
+          "cryolm": {
+            "diff_pct": -2.472820260652011,
+            "observed_mean": 35554.5086457767,
+            "observed_std": 558.050157484353,
+            "paper_target_mean": 36456.0,
+            "paper_target_std": 3773.0,
+            "raw_trials": [
+              35410.05593081962,
+              35669.34530004199,
+              36449.62498977746,
+              34987.879399048456,
+              35255.637609196005
+            ]
+          },
+          "dense": {
+            "diff_pct": -11.109710074638276,
+            "observed_mean": 42329.55606245725,
+            "observed_std": 706.3560687093083,
+            "paper_target_mean": 47620.0,
+            "paper_target_std": 2601.0,
+            "raw_trials": [
+              41675.999031225125,
+              41990.879518638336,
+              41919.65104431884,
+              42641.460517594605,
+              43419.79020050936
+            ]
+          },
+          "parity_pct": 83.99452286557418
+        },
+        {
+          "avg_clock_gpu_mhz": 1943.6,
+          "avg_temp_c": 60.0,
+          "batch_size": 8,
+          "cryolm": {
+            "diff_pct": 12.413099260095736,
+            "observed_mean": 46097.23961358746,
+            "observed_std": 442.23707596639326,
+            "paper_target_mean": 41007.0,
+            "paper_target_std": 16165.0,
+            "raw_trials": [
+              45988.62283687134,
+              45408.78099025026,
+              46458.01713620476,
+              46504.04605341821,
+              46126.73105119271
+            ]
+          },
+          "dense": {
+            "diff_pct": 1.982282425348898,
+            "observed_mean": 55401.87492757079,
+            "observed_std": 407.23674745822234,
+            "paper_target_mean": 54325.0,
+            "paper_target_std": 17679.0,
+            "raw_trials": [
+              55069.770653996944,
+              55490.2978874661,
+              55756.88971551188,
+              54891.773302553345,
+              55800.64307832565
+            ]
+          },
+          "parity_pct": 83.20519779132444
+        }
+      ],
+      "round_id": "round_c"
+    }
+  ],
+  "seq_len": 256,
+  "warmup_steps": 10
+}

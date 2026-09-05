@@ -1,0 +1,42 @@
+┌──────────────────────────────────────────────────────────────┐
+│  FASE 3: AUDITORIA DE MEMÓRIA — PROCESSO ISOLADO            │
+│  Modelo: dense                                              │
+│  Contexto L: 8192                                           │
+│  Device: CUDA GPU                                           │
+└──────────────────────────────────────────────────────────────┘
+[BPE] Loaded from cryolm_bpe.tok (vocab=2000, merges=1740)
+[1] Construindo Dense Transformer (d_model=336, 4L, 8H)...
+[TokenEmbedding] vocab=2000 d_state=336
+[LMHead] d_state=336 → vocab=2000
+[SwiGLU] d_state=336 d_hidden=896
+[SwiGLU] d_state=336 d_hidden=896
+[SwiGLU] d_state=336 d_hidden=896
+[SwiGLU] d_state=336 d_hidden=896
+[DenseTransformer] Initialized: vocab=2000 d_model=336 n_layers=4 n_heads=8
+[2] Warm-up (3 forward passes)...
+[3] Resetando estatísticas de memória...
+[4] Executando forward pass com L=8192 tokens...
+  ✅ Dense L=8192 | Allocated: 4992.8 MB | Reserved: 5152.0 MB | nvidia-smi: 6522.0 MB | RAM: 669.0 MB | PPL: 1997.16 | Time: 555.7 ms
+
+__RESULT_JSON_BEGIN__
+{
+  "active_gpu_mb": 0.0,
+  "actual_seq_len": 8192,
+  "device": "cuda:0",
+  "error": "",
+  "forward_time_ms": 555.721189,
+  "max_memory_allocated_mb": 4992.80224609375,
+  "max_memory_reserved_mb": 5152.0,
+  "model": "dense",
+  "nvidia_smi_vram_delta_mb": 5078.0,
+  "nvidia_smi_vram_mb": 6522.0,
+  "persistent_index_mb": 0.0,
+  "process_ram_mb": 669.0078125,
+  "seq_len": 8192,
+  "staging_ram_mb": 0.0,
+  "storage_used_mb": 0.0,
+  "success": true,
+  "val_loss": 7.599481582641602,
+  "val_ppl": 1997.1602641343457
+}
+__RESULT_JSON_END__

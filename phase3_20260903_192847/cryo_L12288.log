@@ -1,0 +1,47 @@
+┌──────────────────────────────────────────────────────────────┐
+│  FASE 3: AUDITORIA DE MEMÓRIA — PROCESSO ISOLADO            │
+│  Modelo: cryo                                               │
+│  Contexto L: 12288                                          │
+│  Device: CUDA GPU                                           │
+└──────────────────────────────────────────────────────────────┘
+[BPE] Loaded from cryolm_bpe.tok (vocab=2000, merges=1740)
+[1] Construindo CryoLM GSA (d_state=256, d_hidden=688, 4L, rounds=2)...
+[TokenEmbedding] vocab=2000 d_state=256
+[SwiGLU] d_state=512 d_hidden=688
+[SwiGLU] d_state=512 d_hidden=688
+[SwiGLU] d_state=512 d_hidden=688
+[SwiGLU] d_state=512 d_hidden=688
+[LMHead] d_state=256 → vocab=2000
+[NodePool] Allocated 12416 nodes contiguously (15520 KB tensor memory)
+[CryoLM] Initialized: vocab=2000 d_state=256 layers=4 max_seq=12416 gsa_rounds=2 device=cuda:0 total_params=7088385
+[2] Warm-up (3 forward passes)...
+[3] Resetando estatísticas de memória...
+[4] Executando forward pass com L=12288 tokens...
+  ✅ CryoLM L=12288 | Allocated: 344.9 MB | Reserved: 600.0 MB | nvidia-smi: 925.0 MB | RAM: 736.1 MB | Active GPU: 344.9 MB | Staging RAM: 0.0 MB | Index: 12.1 MB | PPL: 2382.69 | Time: 149.5 ms
+
+__RESULT_JSON_BEGIN__
+{
+  "active_gpu_mb": 344.8916015625,
+  "actual_seq_len": 12288,
+  "device": "cuda:0",
+  "error": "",
+  "forward_time_ms": 149.480953,
+  "graph_node_count": 0,
+  "hpsm_macro_count": 0,
+  "hpsm_meso_count": 0,
+  "hpsm_micro_count": 0,
+  "max_memory_allocated_mb": 344.8916015625,
+  "max_memory_reserved_mb": 600.0,
+  "model": "cryo",
+  "nvidia_smi_vram_delta_mb": 507.0,
+  "nvidia_smi_vram_mb": 925.0,
+  "persistent_index_mb": 12.125,
+  "process_ram_mb": 736.0703125,
+  "seq_len": 12288,
+  "staging_ram_mb": 0.0,
+  "storage_used_mb": 0.0,
+  "success": true,
+  "val_loss": 7.775987148284912,
+  "val_ppl": 2382.6942120577646
+}
+__RESULT_JSON_END__

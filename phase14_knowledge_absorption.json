@@ -1,0 +1,75 @@
+{
+  "d_model": 576,
+  "experiment": "FASE 14: Cirurgia de Pesos & Absorcao Estendida de Conhecimento",
+  "layers": 30,
+  "levels": [
+    {
+      "calibration_time_sec": 0.0,
+      "calibration_tok_s": 0.0,
+      "calibration_tokens": 0,
+      "kl_divergence": 9.920519924163818,
+      "level": "Nivel A (0 Tokens - Zero Shot)",
+      "student_loss": 13.00977427959442,
+      "student_ppl": 446758.8665443593,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 0.791015625,
+      "top5_agreement_pct": 4.990234375
+    },
+    {
+      "calibration_time_sec": 79.437753768,
+      "calibration_tok_s": 1256.8331210822664,
+      "calibration_tokens": 99840,
+      "kl_divergence": 3.89937824010849,
+      "level": "Nivel B (100k Tokens)",
+      "student_loss": 6.483795607089997,
+      "student_ppl": 654.4502741179244,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 17.158203125,
+      "top5_agreement_pct": 31.3671875
+    },
+    {
+      "calibration_time_sec": 748.003483667,
+      "calibration_tok_s": 1202.9890497149013,
+      "calibration_tokens": 999680,
+      "kl_divergence": 2.6727933168411253,
+      "level": "Nivel C (1M Tokens)",
+      "student_loss": 5.165188729763031,
+      "student_ppl": 175.07049646739446,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 27.91015625,
+      "top5_agreement_pct": 53.232421875
+    },
+    {
+      "calibration_time_sec": 3487.750190817,
+      "calibration_tok_s": 1146.8711292832031,
+      "calibration_tokens": 4999680,
+      "kl_divergence": 2.274654370546341,
+      "level": "Nivel D (5M Tokens)",
+      "student_loss": 4.779172974824905,
+      "student_ppl": 119.0058884695763,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 35.64453125,
+      "top5_agreement_pct": 57.6171875
+    },
+    {
+      "calibration_time_sec": 4344.275146454,
+      "calibration_tok_s": 1150.9252594373957,
+      "calibration_tokens": 9999616,
+      "kl_divergence": 2.2365318506956102,
+      "level": "Nivel E (10M Tokens)",
+      "student_loss": 4.710911190509796,
+      "student_ppl": 111.1533956954386,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 36.15234375,
+      "top5_agreement_pct": 58.59375
+    }
+  ],
+  "model_name": "SmolLM-135M -> CryoLM-135M",
+  "total_params": 135000000,
+  "vocab_size": 49152
+}

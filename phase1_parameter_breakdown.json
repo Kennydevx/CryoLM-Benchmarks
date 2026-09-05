@@ -1,0 +1,1367 @@
+{
+  "comparability_test": {
+    "absolute_difference": 319329,
+    "approved": true,
+    "cryolm_parameters": 7088385,
+    "dense_parameters": 6769056,
+    "parameter_ratio": 1.0471748202408135,
+    "percentage_difference": 4.71748202408135,
+    "threshold_percentage": 5.0
+  },
+  "cryolm_report": {
+    "embedding_parameters": 512000,
+    "final_norm_parameters": 256,
+    "model_name": "CryoLM (4L, d_state=256, d_hidden=688)",
+    "non_trainable_parameters": 0,
+    "output_head_parameters": 512000,
+    "per_layer_parameters": [
+      1516032,
+      1516032,
+      1516032,
+      1516032
+    ],
+    "tensors": [
+      {
+        "bytes_per_parameter": 4,
+        "category": "Auxiliary / Buffer",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "graph_alpha",
+        "numel": 1,
+        "shape": [
+          1
+        ],
+        "total_bytes": 4,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Embedding",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "token_emb.embedding.weight",
+        "numel": 512000,
+        "shape": [
+          2000,
+          256
+        ],
+        "total_bytes": 2048000,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.log_decay",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.norm.weight",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.W_q.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.W_k.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.W_v.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.W_o.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mlp.w1.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mlp.w2.weight",
+        "numel": 352256,
+        "shape": [
+          512,
+          688
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mlp.w3.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.down_proj.weight",
+        "numel": 131072,
+        "shape": [
+          256,
+          512
+        ],
+        "total_bytes": 524288,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mem_proj.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.log_decay",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.norm.weight",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.W_q.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.W_k.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.W_v.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.W_o.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mlp.w1.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mlp.w2.weight",
+        "numel": 352256,
+        "shape": [
+          512,
+          688
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mlp.w3.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.down_proj.weight",
+        "numel": 131072,
+        "shape": [
+          256,
+          512
+        ],
+        "total_bytes": 524288,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mem_proj.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.log_decay",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.norm.weight",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.W_q.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.W_k.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.W_v.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.W_o.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mlp.w1.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mlp.w2.weight",
+        "numel": 352256,
+        "shape": [
+          512,
+          688
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mlp.w3.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.down_proj.weight",
+        "numel": 131072,
+        "shape": [
+          256,
+          512
+        ],
+        "total_bytes": 524288,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mem_proj.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.log_decay",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.norm.weight",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.W_q.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.W_k.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.W_v.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.W_o.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mlp.w1.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mlp.w2.weight",
+        "numel": 352256,
+        "shape": [
+          512,
+          688
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mlp.w3.weight",
+        "numel": 352256,
+        "shape": [
+          688,
+          512
+        ],
+        "total_bytes": 1409024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.down_proj.weight",
+        "numel": 131072,
+        "shape": [
+          256,
+          512
+        ],
+        "total_bytes": 524288,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mem_proj.weight",
+        "numel": 65536,
+        "shape": [
+          256,
+          256
+        ],
+        "total_bytes": 262144,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Final Normalization",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "final_norm.weight",
+        "numel": 256,
+        "shape": [
+          256
+        ],
+        "total_bytes": 1024,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Output LMHead",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "lm_head.projection.weight",
+        "numel": 512000,
+        "shape": [
+          2000,
+          256
+        ],
+        "total_bytes": 2048000,
+        "trainable": true
+      }
+    ],
+    "total_parameter_bytes": 28353540,
+    "total_parameter_megabytes": 27.040042877197266,
+    "total_parameters": 7088385,
+    "trainable_parameters": 7088385
+  },
+  "dense_transformer_report": {
+    "embedding_parameters": 672000,
+    "final_norm_parameters": 672,
+    "model_name": "Dense Transformer Baseline (4L, d_model=336, 8 heads)",
+    "non_trainable_parameters": 0,
+    "output_head_parameters": 672000,
+    "per_layer_parameters": [
+      1356096,
+      1356096,
+      1356096,
+      1356096
+    ],
+    "tensors": [
+      {
+        "bytes_per_parameter": 4,
+        "category": "Embedding",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "token_emb.embedding.weight",
+        "numel": 672000,
+        "shape": [
+          2000,
+          336
+        ],
+        "total_bytes": 2688000,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Output LMHead",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "lm_head.projection.weight",
+        "numel": 672000,
+        "shape": [
+          2000,
+          336
+        ],
+        "total_bytes": 2688000,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Final Normalization",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "final_norm.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Final Normalization",
+        "dtype": "Float32 (Single)",
+        "layer_index": -1,
+        "name": "final_norm.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.attn.q_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.attn.k_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.attn.v_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.attn.out_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mlp.w1.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mlp.w2.weight",
+        "numel": 301056,
+        "shape": [
+          336,
+          896
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.mlp.w3.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.norm1.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.norm1.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.norm2.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 0,
+        "name": "layers.0.norm2.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.attn.q_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.attn.k_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.attn.v_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.attn.out_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mlp.w1.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mlp.w2.weight",
+        "numel": 301056,
+        "shape": [
+          336,
+          896
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.mlp.w3.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.norm1.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.norm1.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.norm2.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 1,
+        "name": "layers.1.norm2.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.attn.q_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.attn.k_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.attn.v_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.attn.out_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mlp.w1.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mlp.w2.weight",
+        "numel": 301056,
+        "shape": [
+          336,
+          896
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.mlp.w3.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.norm1.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.norm1.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.norm2.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 2,
+        "name": "layers.2.norm2.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.attn.q_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.attn.k_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.attn.v_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.attn.out_proj.weight",
+        "numel": 112896,
+        "shape": [
+          336,
+          336
+        ],
+        "total_bytes": 451584,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mlp.w1.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mlp.w2.weight",
+        "numel": 301056,
+        "shape": [
+          336,
+          896
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.mlp.w3.weight",
+        "numel": 301056,
+        "shape": [
+          896,
+          336
+        ],
+        "total_bytes": 1204224,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.norm1.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.norm1.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.norm2.weight",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      },
+      {
+        "bytes_per_parameter": 4,
+        "category": "Layer Block",
+        "dtype": "Float32 (Single)",
+        "layer_index": 3,
+        "name": "layers.3.norm2.bias",
+        "numel": 336,
+        "shape": [
+          336
+        ],
+        "total_bytes": 1344,
+        "trainable": true
+      }
+    ],
+    "total_parameter_bytes": 27076224,
+    "total_parameter_megabytes": 25.8218994140625,
+    "total_parameters": 6769056,
+    "trainable_parameters": 6769056
+  },
+  "protocol_phase": "FASE 1 — Verificação de Paridade de Parâmetros",
+  "vocab_size": 2000
+}

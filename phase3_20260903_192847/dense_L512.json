@@ -1,0 +1,20 @@
+{
+  "active_gpu_mb": 0.0,
+  "actual_seq_len": 512,
+  "device": "cuda:0",
+  "error": "",
+  "forward_time_ms": 46.202931,
+  "max_memory_allocated_mb": 68.71240234375,
+  "max_memory_reserved_mb": 88.0,
+  "model": "dense",
+  "nvidia_smi_vram_delta_mb": 28.0,
+  "nvidia_smi_vram_mb": 1548.0,
+  "persistent_index_mb": 0.0,
+  "process_ram_mb": 668.390625,
+  "seq_len": 512,
+  "staging_ram_mb": 0.0,
+  "storage_used_mb": 0.0,
+  "success": true,
+  "val_loss": 7.6113481521606445,
+  "val_ppl": 2021.0008786441356
+}
