@@ -1,0 +1,140 @@
+{
+  "baseline_chance_pct": 25.0,
+  "context_len": 8192,
+  "data": [
+    {
+      "cryolm": {
+        "accuracy_pct": 42.0,
+        "choice_softmax_pct": 29.009791114263145,
+        "ci95_high": 55.766531117076504,
+        "ci95_low": 29.375026158709396,
+        "correct_count": 21,
+        "latency_ms": 89.34315954,
+        "margin_log_odds": -0.3601025927959941,
+        "p_value_vs_chance": 0.006262907247611028,
+        "total_trials": 50
+      },
+      "dense": {
+        "accuracy_pct": 20.0,
+        "choice_softmax_pct": 24.564622667830086,
+        "ci95_high": 33.03707648451634,
+        "ci95_low": 11.243763299680797,
+        "correct_count": 10,
+        "latency_ms": 603.0311727200001,
+        "margin_log_odds": -0.5472901034654717,
+        "p_value_vs_chance": 0.8363160997499068,
+        "total_trials": 50
+      },
+      "depth_pct": 10
+    },
+    {
+      "cryolm": {
+        "accuracy_pct": 26.0,
+        "choice_softmax_pct": 25.851155611480227,
+        "ci95_high": 39.55312797732601,
+        "ci95_low": 15.8715438500317,
+        "correct_count": 13,
+        "latency_ms": 86.90020394000003,
+        "margin_log_odds": -0.5328127183995788,
+        "p_value_vs_chance": 0.48901382632711193,
+        "total_trials": 50
+      },
+      "dense": {
+        "accuracy_pct": 12.0,
+        "choice_softmax_pct": 20.828007137330975,
+        "ci95_high": 23.804788452068387,
+        "ci95_low": 5.6176086079146605,
+        "correct_count": 6,
+        "latency_ms": 580.8652887199999,
+        "margin_log_odds": -0.7640675849552906,
+        "p_value_vs_chance": 0.9929537746788147,
+        "total_trials": 50
+      },
+      "depth_pct": 30
+    },
+    {
+      "cryolm": {
+        "accuracy_pct": 36.0,
+        "choice_softmax_pct": 28.613235644977614,
+        "ci95_high": 49.85895492700146,
+        "ci95_low": 24.13877030562386,
+        "correct_count": 18,
+        "latency_ms": 92.44949927999998,
+        "margin_log_odds": -0.3307696851912388,
+        "p_value_vs_chance": 0.055123360333705664,
+        "total_trials": 50
+      },
+      "dense": {
+        "accuracy_pct": 34.0,
+        "choice_softmax_pct": 27.6846444836217,
+        "ci95_high": 47.84614546048802,
+        "ci95_low": 22.43696909108378,
+        "correct_count": 17,
+        "latency_ms": 626.9001047400002,
+        "margin_log_odds": -0.4078059777622141,
+        "p_value_vs_chance": 0.09830732478526467,
+        "total_trials": 50
+      },
+      "depth_pct": 50
+    },
+    {
+      "cryolm": {
+        "accuracy_pct": 30.0,
+        "choice_softmax_pct": 25.68443532727312,
+        "ci95_high": 43.7503214989994,
+        "ci95_low": 19.10357169046535,
+        "correct_count": 15,
+        "latency_ms": 88.99225109999999,
+        "margin_log_odds": -0.6039277624756901,
+        "p_value_vs_chance": 0.251918855477239,
+        "total_trials": 50
+      },
+      "dense": {
+        "accuracy_pct": 16.0,
+        "choice_softmax_pct": 23.66132438547374,
+        "ci95_high": 28.514186756240655,
+        "ci95_low": 8.33743166584944,
+        "correct_count": 8,
+        "latency_ms": 608.8958162000002,
+        "margin_log_odds": -0.5895997483714193,
+        "p_value_vs_chance": 0.9547441535098338,
+        "total_trials": 50
+      },
+      "depth_pct": 70
+    },
+    {
+      "cryolm": {
+        "accuracy_pct": 18.0,
+        "choice_softmax_pct": 22.56445206981637,
+        "ci95_high": 30.796024269953705,
+        "ci95_low": 9.770204833189908,
+        "correct_count": 9,
+        "latency_ms": 92.09091416,
+        "margin_log_odds": -0.7831127024603924,
+        "p_value_vs_chance": 0.9084027411689928,
+        "total_trials": 50
+      },
+      "dense": {
+        "accuracy_pct": 20.0,
+        "choice_softmax_pct": 25.028083861010572,
+        "ci95_high": 33.03707648451634,
+        "ci95_low": 11.243763299680797,
+        "correct_count": 10,
+        "latency_ms": 626.0701698600001,
+        "margin_log_odds": -0.48694321755964654,
+        "p_value_vs_chance": 0.8363160997499068,
+        "total_trials": 50
+      },
+      "depth_pct": 90
+    }
+  ],
+  "depths": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "experiment": "FASE DECISIVA AMPLIADA: 50 TRIALS POR PONTO EM 8.192 TOKENS",
+  "trials_per_cell": 50
+}

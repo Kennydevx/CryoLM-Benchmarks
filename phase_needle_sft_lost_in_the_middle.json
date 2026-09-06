@@ -1,0 +1,257 @@
+{
+  "contexts": [
+    512,
+    2048,
+    8192
+  ],
+  "data": [
+    {
+      "context_len": 512,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 15.034378800000002,
+        "prob_pct": 0.007428749404425616
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 7.5201994,
+        "prob_pct": 0.006251158265513368
+      },
+      "depth_pct": 10
+    },
+    {
+      "context_len": 512,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 11.5521592,
+        "prob_pct": 0.0074276204031775706
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 6.3526194,
+        "prob_pct": 0.0063113025316852145
+      },
+      "depth_pct": 30
+    },
+    {
+      "context_len": 512,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 10.430159200000002,
+        "prob_pct": 0.007425348230754025
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 5.3688196,
+        "prob_pct": 0.00628314721325296
+      },
+      "depth_pct": 50
+    },
+    {
+      "context_len": 512,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 12.941458800000001,
+        "prob_pct": 0.007428230874211295
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 6.09334,
+        "prob_pct": 0.006165692393551581
+      },
+      "depth_pct": 70
+    },
+    {
+      "context_len": 512,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 12.473598999999998,
+        "prob_pct": 0.007428753406202304
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 6.8277795999999995,
+        "prob_pct": 0.006152263758849585
+      },
+      "depth_pct": 90
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.4203582,
+        "prob_pct": 0.0077343207703961525
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 35.2043372,
+        "prob_pct": 0.006297461422946071
+      },
+      "depth_pct": 10
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.4362184,
+        "prob_pct": 0.007726913381702616
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 31.994037600000002,
+        "prob_pct": 0.006283077000261983
+      },
+      "depth_pct": 30
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.0148782,
+        "prob_pct": 0.007743779424345121
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 32.9528776,
+        "prob_pct": 0.006333084329526173
+      },
+      "depth_pct": 50
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.3589384,
+        "prob_pct": 0.007721119227426243
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 32.6567176,
+        "prob_pct": 0.006226947662071325
+      },
+      "depth_pct": 70
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.073377999999998,
+        "prob_pct": 0.007741814060864272
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 32.117297799999996,
+        "prob_pct": 0.0062308277301781345
+      },
+      "depth_pct": 90
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 80.084574,
+        "prob_pct": 0.016154762924998067
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 463.24352579999993,
+        "prob_pct": 0.0064151194419537205
+      },
+      "depth_pct": 10
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 78.621335,
+        "prob_pct": 0.012826383972424082
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 453.64494680000007,
+        "prob_pct": 0.006432320969906868
+      },
+      "depth_pct": 30
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 78.6069148,
+        "prob_pct": 0.012283024261705577
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 456.20451059999994,
+        "prob_pct": 0.006401005884981714
+      },
+      "depth_pct": 50
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 80.3660548,
+        "prob_pct": 0.01737954284180887
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 457.8198104,
+        "prob_pct": 0.006467997718573315
+      },
+      "depth_pct": 70
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 80.8616742,
+        "prob_pct": 0.015615362208336592
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 458.97290740000005,
+        "prob_pct": 0.006457111012423411
+      },
+      "depth_pct": 90
+    }
+  ],
+  "depths": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "experiment": "FASE LOST IN THE MIDDLE COM SFT DE AGULHA"
+}
