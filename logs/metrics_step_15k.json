@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00038155863355880936,
+    "loss": 1.134592056274414,
+    "ms_per_step_average": 44.58895665833333,
+    "perplexity": 3.10990461802166,
+    "total_tokens_processed": 15360000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 17,
+        "repeated_3grams": 10,
+        "repeated_4grams": 4,
+        "text": " a <unk> praised the deployment of FITs saying that they were \" highly effective and gained good intelligence and disruption \" . \n Three members of Fitwatch were convicted for <unk> FIT officers in June ",
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1049.012691,
+        "repeated_2grams": 26,
+        "repeated_3grams": 17,
+        "repeated_4grams": 9,
+        "text": " a <unk> complaint with the <unk> over the incident . The journalist George <unk> commented on this case , saying that that \" the police are turning activism into a crime \" and that \" the FITs ",
+        "throughput_tok_s": 95.32773135916237,
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 24,
+        "repeated_3grams": 16,
+        "repeated_4grams": 9,
+        "text": " film officers distinging activist \" activ \" . \n = = = Charlotte Bobcats / Hornets = = = \n \n On June 15 2006 , and the Guardian released video evidence recorded by a FIT at the Charlotte ",
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1108.67669,
+        "repeated_2grams": 20,
+        "repeated_3grams": 10,
+        "repeated_4grams": 4,
+        "text": " film office moen police had not displayed them Aements Aardiinguation ( born . Jordan then owner owner Jerry <unk> , who continued in banking , and James R. Jordan , Jr . , one older sister ",
+        "throughput_tok_s": 90.19762109366619,
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 14,
+        "repeated_3grams": 8,
+        "repeated_4grams": 2,
+        "text": " placed as a franch of the police are turning activism into a crime \" and that \" the FITs ' methods appear to have been lifted from a <unk> training manual \" . He claimed that \" anybody who is ",
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1049.71139,
+        "repeated_2grams": 21,
+        "repeated_3grams": 10,
+        "repeated_4grams": 2,
+        "text": " base , 11 afadantled . Collulations over the playoff \" . On November 15 2006 , Jordan was born in Brooklyn , New York Knicks in the second round of the playoffs . But the 1994 – 95 B",
+        "throughput_tok_s": 95.26428021324986,
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 28,
+        "repeated_3grams": 18,
+        "repeated_4grams": 9,
+        "text": " Operations <unk> <unk> ' American in the 1993 – 94 season , the Bulls , with the Wizards . \n Jordan 's second @-@ time <unk> . Jordan 's brother James retired in 2006 as the Command Serge",
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1056.193691,
+        "repeated_2grams": 16,
+        "repeated_3grams": 5,
+        "repeated_4grams": 0,
+        "text": " <unk> A. Laney High School in Wilmington , where he acing an avokept a determine of the Command > reaments , who continued in banking , and James R. Jordan , Jr . , one older ",
+        "throughput_tok_s": 94.67960361069795,
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 35,
+        "repeated_3grams": 28,
+        "repeated_4grams": 21,
+        "text": " Jordan blow Dre that Signals , Jordan 's second @-@ Star Game , Jordan 's second @-@ American . \n \n = = = Charlotte Bobcats / Hornets = = = \n \n On June 15 2006 , and",
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1052.028691,
+        "repeated_2grams": 22,
+        "repeated_3grams": 14,
+        "repeated_4grams": 6,
+        "text": " but a mot of the 1994 – 95 ) = = = \n \n On June 15 2006 , and the Jordan went on biring \" ( <unk> Lawards . He reported to the Wizards . \n Jordan 's 3 <unk>",
+        "throughput_tok_s": 95.05444181845037,
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1063.1246306,
+    "avg_generation_throughput_tokens_per_sec": 94.06234896802512,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 15000,
+  "step_label": "15k"
+}

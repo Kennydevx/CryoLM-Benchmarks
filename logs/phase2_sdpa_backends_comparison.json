@@ -1,0 +1,61 @@
+{
+  "dataset": "WikiText-2",
+  "protocol_phase": "FASE 2 — Verificação dos Backends de SDPA do Baseline",
+  "results": [
+    {
+      "backend_description": "PyTorch Native SDPA (Flash/MemEfficient/Math dynamically dispatched)",
+      "backend_enforced": "Auto (Flash=True, MemEff=True, Math=True)",
+      "error_message": "",
+      "execution_success": true,
+      "final_train_loss": 3.0828375816345215,
+      "mean_step_latency_ms": 27.2217954005,
+      "name": "A. Baseline Original (SDPA Auto)",
+      "peak_vram_mb": 150.5830078125,
+      "training_throughput_tok_s": 9404.229083115431,
+      "val_loss": 2.9193432717045327,
+      "val_ppl": 18.529114869117503
+    },
+    {
+      "backend_description": "NVIDIA FlashAttention-2 Kernel (Strictly Enforced)",
+      "backend_enforced": "Flash Only (Flash=True, MemEff=False, Math=False)",
+      "error_message": "Invalid backend\nException raised from select_sdp_backend at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:971 (most recent call first):\nframe #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x9d (0x7b12c4c0d05d in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libc10.so)\nframe #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, char const*) + 0x69 (0x7b12c4ba17d3 in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libc10.so)\nframe #2: <unknown function> + 0xe7d967 (0x7b129863a967 in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)\nframe #3: at::native::_fused_sdp_choice_cuda(at::Tensor const&, at::Tensor const&, at::Tensor const&, std::optional<at::Tensor> const&, double, bool, std::optional<double>, bool) + 0xc5 (0x7b129ac6f585 in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)\nframe #4: at::native::scaled_dot_product_attention(at::Tensor const&, at::Tensor const&, at::Tensor const&, std::optional<at::Tensor> const&, double, bool, std::optional<double>, bool) + 0x3c1 (0x7b12b1ae4b71 in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)\nframe #5: <unknown function> + 0x3305b15 (0x7b12b2748b15 in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)\nframe #6: at::_ops::scaled_dot_product_attention::call(at::Tensor const&, at::Tensor const&, at::Tensor const&, std::optional<at::Tensor> const&, double, bool, std::optional<double>, bool) + 0x24d (0x7b12b201d4ad in /mnt/d/htdocs121/colaço/cryox - Copia0.3 imagination/python/venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)\nframe #7: <unknown function> + 0x8d097 (0x63331e33a097 in ./build_cuda/phase2_baseline_verification)\nframe #8: <unknown function> + 0x8da64 (0x63331e33aa64 in ./build_cuda/phase2_baseline_verification)\nframe #9: <unknown function> + 0x8dd57 (0x63331e33ad57 in ./build_cuda/phase2_baseline_verification)\nframe #10: <unknown function> + 0x32701 (0x63331e2df701 in ./build_cuda/phase2_baseline_verification)\nframe #11: <unknown function> + 0x2a601 (0x7b1296c2a601 in /usr/lib/x86_64-linux-gnu/libc.so.6)\nframe #12: __libc_start_main + 0x88 (0x7b1296c2a718 in /usr/lib/x86_64-linux-gnu/libc.so.6)\nframe #13: <unknown function> + 0x35f55 (0x63331e2e2f55 in ./build_cuda/phase2_baseline_verification)\n",
+      "execution_success": false,
+      "final_train_loss": 0.0,
+      "mean_step_latency_ms": 0.0,
+      "name": "B. Baseline SDPA (FlashAttention Only)",
+      "peak_vram_mb": 0.0,
+      "training_throughput_tok_s": 0.0,
+      "val_loss": 0.0,
+      "val_ppl": 0.0
+    },
+    {
+      "backend_description": "Unfused Explicit Reference Math Kernel (Q K^T / sqrt(d) * V)",
+      "backend_enforced": "Math Only (Flash=False, MemEff=False, Math=True)",
+      "error_message": "",
+      "execution_success": true,
+      "final_train_loss": 3.0828375816345215,
+      "mean_step_latency_ms": 22.677474709,
+      "name": "C. Baseline SDPA (Math Backend)",
+      "peak_vram_mb": 151.5107421875,
+      "training_throughput_tok_s": 11288.734891561864,
+      "val_loss": 2.9193432717045327,
+      "val_ppl": 18.529114869117503
+    },
+    {
+      "backend_description": "Fused CUDA Hillis-Steele Recurrence Engine (tau=0.7, decay 85/15)",
+      "backend_enforced": "CryoLM Native GSA Kernel",
+      "error_message": "",
+      "execution_success": true,
+      "final_train_loss": 3.268564224243164,
+      "mean_step_latency_ms": 29.4764419685,
+      "name": "D. CryoLM GSA (Modo 11 Oficial)",
+      "peak_vram_mb": 176.6572265625,
+      "training_throughput_tok_s": 8684.901667357763,
+      "val_loss": 2.997208275816366,
+      "val_ppl": 20.02954184179688
+    }
+  ],
+  "seed": 42,
+  "seq_len": 256,
+  "steps": 2000
+}

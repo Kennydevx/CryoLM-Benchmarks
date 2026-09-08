@@ -1,0 +1,2280 @@
+{
+  "contexts": [
+    2048,
+    4096,
+    8192,
+    16384,
+    32768
+  ],
+  "data": [
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 27.749442,
+        "log_probability": -13.302498697208568,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00024957539466186063
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 42.8301224,
+        "log_probability": -14.870903421095159,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.673862861181988e-05
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 204,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 26.5798202,
+        "log_probability": -13.229115244620775,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0005972377488205893
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 40.8574006,
+        "log_probability": -15.316831504647306,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.1487199382572726e-05
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 409,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 25.6125002,
+        "log_probability": -13.24235930795443,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0005323560125702897
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 40.1082802,
+        "log_probability": -15.312871634909987,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.944505742481397e-05
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 614,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 27.280260199999997,
+        "log_probability": -13.58213217865086,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0002453181821238104
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 42.671660200000005,
+        "log_probability": -15.408694636372255,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.449793126719669e-05
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 819,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 25.8128402,
+        "log_probability": -13.389642865038113,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00028373223244670953
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 38.7842402,
+        "log_probability": -15.258103893217887,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.958839568303119e-05
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 1024,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.0102402,
+        "log_probability": -13.381885818450096,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0002873295665040132
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 38.2128002,
+        "log_probability": -15.323169213621643,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.102423406176058e-05
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 1228,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 25.4122802,
+        "log_probability": -12.65271427383279,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0006205559230920699
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 37.7786402,
+        "log_probability": -15.10909258534743,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.4360336062254646e-05
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 1433,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 26.944980199999996,
+        "log_probability": -12.939721479889343,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00044803133050663746
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 40.26926039999999,
+        "log_probability": -15.445370334279815,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 2.7400722117931764e-05
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 1638,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 27.2240402,
+        "log_probability": -13.313263561278442,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00032533581844518267
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 40.714100200000004,
+        "log_probability": -15.499191256908906,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.272527798969804e-05
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 1843,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 44.681400200000006,
+        "log_probability": -11.72342420804441,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0011502108645800035
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 140.1179408,
+        "log_probability": -15.087967071237069,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 6.1019943018436607e-05
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 409,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 45.6948404,
+        "log_probability": -11.27958572231985,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0014651228593720589
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 141.77196099999998,
+        "log_probability": -14.658150528134078,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 8.89792859481986e-05
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 819,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 45.386840400000004,
+        "log_probability": -10.95368891712198,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.004078225592820672
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 146.9183208,
+        "log_probability": -15.176016265034637,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.583355137948274e-05
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 1228,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 44.2016802,
+        "log_probability": -11.451147276403498,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006910469249987727
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 143.021061,
+        "log_probability": -15.233134032379558,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.833380311846213e-05
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 1638,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 45.7674196,
+        "log_probability": -11.025200051949492,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0019405343482503667
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.80701879999998,
+        "log_probability": -15.260567757255995,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.4899469742176734e-05
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 2048,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 44.735899,
+        "log_probability": -11.72381540226522,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00104074259979825
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 148.025677,
+        "log_probability": -14.988516593939277,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.791991656816208e-05
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 2457,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 44.293158999999996,
+        "log_probability": -11.544521636770293,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0013914054306951584
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.31811699999997,
+        "log_probability": -15.383657376800747,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.366100784774062e-05
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 2867,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 45.0093592,
+        "log_probability": -12.026531302636831,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001061676389326749
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 144.1613372,
+        "log_probability": -14.885492926467952,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 6.687052525933268e-05
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 3276,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 42.7590792,
+        "log_probability": -11.516043501780354,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001898340726711467
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 146.991017,
+        "log_probability": -14.807780220257133,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 8.366696818029595e-05
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 3686,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 78.45151519999999,
+        "log_probability": -10.825790997040205,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.004840314763896458
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 522.4791266,
+        "log_probability": -15.163419707672887,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.26550262488945e-05
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 819,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 79.5469612,
+        "log_probability": -11.04890808109704,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0031814402450436314
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 534.2523343999999,
+        "log_probability": -15.160052658323952,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.3437102164034513e-05
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 1638,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 82.99094099999999,
+        "log_probability": -11.017827780091784,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0023169258838606765
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 542.3870924,
+        "log_probability": -15.080957641538863,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.32294348229334e-05
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 2457,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 81.26522600000001,
+        "log_probability": -11.119331947250329,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0021892216773267137
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 534.0298488,
+        "log_probability": -15.212385144325841,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.348468394255178e-05
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 3276,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 82.9252058,
+        "log_probability": -10.818472803419757,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0035765338589044404
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 541.742648,
+        "log_probability": -14.836899986597013,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 6.928299391972814e-05
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 4096,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 81.77699620000001,
+        "log_probability": -10.68320012106966,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.005152413787072874
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 544.9778412000001,
+        "log_probability": -15.036630856516798,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 5.465851536712307e-05
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 4915,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 81.50155620000001,
+        "log_probability": -10.783633457414272,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0038474898633467087
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 542.0968144000001,
+        "log_probability": -15.18018629291482,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.430143451055301e-05
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 5734,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 79.2021166,
+        "log_probability": -10.78265097879868,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.005980754044685455
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 539.4598966000001,
+        "log_probability": -14.941420679282919,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.986799737594083e-05
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 6553,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 78.726517,
+        "log_probability": -10.937225026901235,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0025553944578859955
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 538.7079980000001,
+        "log_probability": -14.946814236773676,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 5.619607478024591e-05
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 7372,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 149.70723560000002,
+        "log_probability": -9.786712452788862,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006264443363761529
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19677.383815799996,
+        "log_probability": -15.269998971954726,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.783276824265158e-05
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 1638,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 144.52986099999998,
+        "log_probability": -9.612506545950627,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.011775620387197705
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19361.933366200003,
+        "log_probability": -14.854112037778524,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 5.794044028561985e-05
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 3276,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 143.1026426,
+        "log_probability": -10.069651710235243,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.010541935835135519
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18484.5066868,
+        "log_probability": -15.17293992790998,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.619020472773627e-05
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 4915,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 142.85855740000002,
+        "log_probability": -9.059220099860184,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.013764834657195024
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18445.7574524,
+        "log_probability": -15.366096680722261,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.46227444225633e-05
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 6553,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.6554584,
+        "log_probability": -8.99254951987622,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.014663126567029394
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18175.093535,
+        "log_probability": -15.205052152387804,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.1469145557471165e-05
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 8192,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 174.6849752,
+        "log_probability": -9.183305012834278,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.011744353614631109
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 20060.6472802,
+        "log_probability": -15.250035784593706,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.3837160674797815e-05
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 9830,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.5862454,
+        "log_probability": -8.915673527321909,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.01600994415639434
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18165.383479,
+        "log_probability": -15.009831772133833,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 5.7248708102974895e-05
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 11468,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.331064,
+        "log_probability": -9.453926721946974,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.010815756540978327
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18256.687266200002,
+        "log_probability": -15.176942703825798,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 4.404412578651318e-05
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 13107,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 184.2971038,
+        "log_probability": -9.030365915752341,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.014628236531279981
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 20614.283256400002,
+        "log_probability": -15.360211810867748,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 3.592158030585324e-05
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 14745,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 335.320564,
+        "log_probability": -9.601375594208374,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.01215282683915575
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 3276,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 346.821867,
+        "log_probability": -9.600264305342588,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.013598768027804907
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 6553,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 318.48330619999996,
+        "log_probability": -8.929787208178935,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.015800956971361302
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 9830,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 321.7334862,
+        "log_probability": -9.812272676222191,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.012328166012594012
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 13107,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 314.98720879999996,
+        "log_probability": -9.124963545976986,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.01494469412136823
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 16384,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 340.7232008,
+        "log_probability": -9.452319045212729,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.010005862786783837
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 19660,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 342.7836556,
+        "log_probability": -11.403349464589652,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006721220702843311
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 22937,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 334.4110888,
+        "log_probability": -9.825687699927816,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.019948752579352913
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 26214,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 334.536353,
+        "log_probability": -9.99613631255763,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.011256096067882027
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 29491,
+      "task": "Multi-Document QA"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 27.026316,
+        "log_probability": -11.427005835461708,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.002267012937409163
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 39.764514199999994,
+        "log_probability": -11.52134153587671,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0011114021162939025
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 204,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 25.8691168,
+        "log_probability": -10.706316184916849,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0034012043670372805
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 44.437433799999994,
+        "log_probability": -10.707152708987945,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.004752798572553729
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 409,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 26.686356,
+        "log_probability": -12.046259643286003,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0009653619304117457
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 43.0570742,
+        "log_probability": -11.419874839094238,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001954856625161483
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 614,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 26.4700762,
+        "log_probability": -9.68868315473531,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.011496008628455456
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 41.5715542,
+        "log_probability": -11.17377390097559,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0021492308314918773
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 819,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 27.295536200000004,
+        "log_probability": -11.997581859434192,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0013503056925401324
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 44.7720738,
+        "log_probability": -12.769942052121587,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00042725126377263223
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 1024,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 27.4268958,
+        "log_probability": -11.009452920601651,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.005305491076796898
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 38.4062342,
+        "log_probability": -10.264711208357028,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006352630789479008
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 1228,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 26.7675562,
+        "log_probability": -11.980437610940466,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0007541220020357287
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 39.5987946,
+        "log_probability": -10.664582284120968,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.002634266493259929
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 1433,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 26.5182362,
+        "log_probability": -11.046968329781073,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0019403720307309415
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 41.4180542,
+        "log_probability": -10.504739619674691,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0037001427699578926
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 1638,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 2048,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 24.5172966,
+        "log_probability": -10.521126162967123,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.007168689235186321
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 39.9384944,
+        "log_probability": -10.715925940279305,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.003626143261499237
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 1843,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 43.1725138,
+        "log_probability": -13.913112705367201,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00030833650821904257
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 143.5069798,
+        "log_probability": -13.047578471161149,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0005115580304959622
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 409,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 46.4292168,
+        "log_probability": -14.736108374399842,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 8.154845485108808e-05
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 152.9562666,
+        "log_probability": -11.963238500255846,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0019481224950368414
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 819,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 46.16465959999999,
+        "log_probability": -13.155564451657465,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0003108094358594826
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.25613900000002,
+        "log_probability": -11.31529315130152,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.003411648972360126
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 1228,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 48.18106,
+        "log_probability": -13.119319349481131,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0004405617946190432
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 148.334598,
+        "log_probability": -11.194306660324932,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006770606423742721
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 1638,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 48.6266792,
+        "log_probability": -11.718245791062541,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001966587667538988
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 146.395799,
+        "log_probability": -10.043031030649137,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.012098660740775813
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 2048,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 48.206579399999995,
+        "log_probability": -13.191812971179871,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0027975967989135597
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 154.15499839999998,
+        "log_probability": -11.734435198286256,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006339947267406388
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 2457,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 46.363879600000004,
+        "log_probability": -12.78341241773295,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0006946988719391811
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 151.146539,
+        "log_probability": -10.33219555739447,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.007344840032601496
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 2867,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 46.58076,
+        "log_probability": -13.952250948013978,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.000213944890390394
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 146.72287820000003,
+        "log_probability": -11.783687674299284,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0013096308020976721
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 3276,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 4096,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 45.460840000000005,
+        "log_probability": -13.318278616856745,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0003240547812310979
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 144.27641880000002,
+        "log_probability": -11.039339509974418,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0026372985485068057
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 3686,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 80.15977960000001,
+        "log_probability": -11.972026149790794,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.004103832427517773
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 542.1478368,
+        "log_probability": -10.290217686602137,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006082030522520654
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 819,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 82.7881594,
+        "log_probability": -13.321488380310873,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0007794628040969088
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 547.9044969999999,
+        "log_probability": -11.946024278906767,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0013679927963039518
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 1638,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 80.8197596,
+        "log_probability": -11.882439150421373,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0009462242633162533
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 536.2188773999999,
+        "log_probability": -10.834266170531608,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0023725902974547353
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 2457,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 83.5957198,
+        "log_probability": -14.377364535952557,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 9.120459594669228e-05
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 540.3575572,
+        "log_probability": -12.366606360659429,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0007578143879527488
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 3276,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 79.68186,
+        "log_probability": -11.09372689292135,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006177094373924775
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 536.1168382,
+        "log_probability": -10.377263305425586,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.010740569086920004
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 4096,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 82.6409396,
+        "log_probability": -13.14002518401593,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00023571324845761413
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 541.6594588,
+        "log_probability": -10.347780489227333,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006573910823135521
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 4915,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 82.5492208,
+        "log_probability": -11.73901724116684,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001164682757917035
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 545.5829636000001,
+        "log_probability": -11.281166265765979,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001426925127816503
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 5734,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 84.02770100000001,
+        "log_probability": -12.387846850593359,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0005474886847878224
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 546.6180068,
+        "log_probability": -10.700267164344263,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0034764250267471652
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 6553,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 8192,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 82.0106798,
+        "log_probability": -13.177724677646234,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0004267421369519297
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 538.5982024,
+        "log_probability": -11.4821588029836,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.002928886194695224
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 7372,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 172.14538499999998,
+        "log_probability": -12.260252601004291,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00185713607947946
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18373.0882426,
+        "log_probability": -11.09799210820253,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0020090516954951454
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 1638,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 144.23183899999998,
+        "log_probability": -12.835265169381007,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0006349334262267803
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19330.156271,
+        "log_probability": -11.439942826648705,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0017550102711538784
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 3276,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 145.60000139999997,
+        "log_probability": -13.482114903195196,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00026331800455636767
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19521.1754586,
+        "log_probability": -10.698499336321483,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0030142502328089904
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 4915,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 150.5237604,
+        "log_probability": -11.236413448386767,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0035645829916575167
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18558.8415532,
+        "log_probability": -10.278120977100727,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.010806314444380405
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 6553,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 144.64750439999997,
+        "log_probability": -13.350281893727365,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0003266914504251872
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19165.7981042,
+        "log_probability": -11.795491730167878,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.001382745247155981
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 8192,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 142.65084000000002,
+        "log_probability": -13.463253161545037,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00017137000668299152
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18754.2838478,
+        "log_probability": -11.967847230641732,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0007692310236961931
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 9830,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 169.0496132,
+        "log_probability": -12.828145153499998,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0003189567041772534
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19061.198777399997,
+        "log_probability": -10.436484893465188,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.006491996591648786
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 11468,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 172.42566060000001,
+        "log_probability": -11.056098074044142,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0057016047821889515
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 19005.607194000004,
+        "log_probability": -11.008588471909663,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0017894190386869011
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 13107,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 16384,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 142.3499186,
+        "log_probability": -12.474141079894173,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.002135647211645164
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 18508.833883599997,
+        "log_probability": -10.54917883547154,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00688290596826846
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 14745,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 305.6733604,
+        "log_probability": -10.354562010498944,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.009139427747868467
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.1,
+      "depth_pct": 10,
+      "target_pos": 3276,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 316.63559999999995,
+        "log_probability": -12.239985253219466,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0006116551094237366
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.2,
+      "depth_pct": 20,
+      "target_pos": 6553,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 331.49569579999996,
+        "log_probability": -10.717899430368941,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.004791492874574033
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.3,
+      "depth_pct": 30,
+      "target_pos": 9830,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 304.14430439999995,
+        "log_probability": -9.713643722135718,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.011303484698146349
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.4,
+      "depth_pct": 40,
+      "target_pos": 13107,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 315.5240422,
+        "log_probability": -11.207291081409597,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.00581804212743009
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.5,
+      "depth_pct": 50,
+      "target_pos": 16384,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 300.3580832,
+        "log_probability": -11.150628015657542,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0026041408091259655
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.6,
+      "depth_pct": 60,
+      "target_pos": 19660,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 302.6916018,
+        "log_probability": -12.307795457452263,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0006310377375484677
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.7,
+      "depth_pct": 70,
+      "target_pos": 22937,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 319.59241860000003,
+        "log_probability": -11.877205083947498,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0019114871838610272
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.8,
+      "depth_pct": 80,
+      "target_pos": 26214,
+      "task": "Key-Value Retrieval"
+    },
+    {
+      "context_len": 32768,
+      "cryolm": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 315.9571762,
+        "log_probability": -11.66036752450204,
+        "retrieved_tokens_count": 0,
+        "status": "SUCCESS",
+        "token_probability_pct": 0.0013281098381412448
+      },
+      "dense": {
+        "accuracy_pct": 0.0,
+        "exact_matches": 0,
+        "latency_ms": 0.0,
+        "log_probability": -27.63,
+        "retrieved_tokens_count": 0,
+        "status": "CUDA_OOM",
+        "token_probability_pct": 0.0
+      },
+      "depth_fraction": 0.9,
+      "depth_pct": 90,
+      "target_pos": 29491,
+      "task": "Key-Value Retrieval"
+    }
+  ],
+  "date": "2026-09-05",
+  "depths": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "experiment": "FASE CANONICA: LOST IN THE MIDDLE (LIU ET AL., 2024)",
+  "hardware": "NVIDIA GeForce RTX 3060 (12GB)",
+  "tasks": [
+    "Multi-Document QA",
+    "Key-Value Retrieval"
+  ],
+  "trials_per_cell": 5
+}

@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0003475136278773837,
+    "loss": 0.931133508682251,
+    "ms_per_step_average": 44.75719680304,
+    "perplexity": 2.53738369461314,
+    "total_tokens_processed": 25600000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 20,
+        "repeated_3grams": 10,
+        "repeated_4grams": 3,
+        "text": " not been as allowed to Mahé on the Treaty of Mysore Tipu Sultan again declared war on the British East India Company and their allies in Southern India . For the next two years the war continued as British forces and",
+        "tokens_count": 100,
+        "unique_tokens_count": 47,
+        "unique_tokens_ratio": 0.47
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1103.812205,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 6,
+        "text": " it , it , Jimby <unk> 's song \" <unk> Evening \" , winner of the Assembly Eritical influenefit <unk> exhibits 90th show attention was performance in the mouth of their first home matches after",
+        "throughput_tok_s": 90.5951207524472,
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 32,
+        "repeated_3grams": 24,
+        "repeated_4grams": 17,
+        "text": " , in which Fletcher missed the penalty had been extended the open club goal with a 1 – 0 away win over Wybey Pa <unk> <unk> , a 2 – 0 home win over Wycombe , a 2 – 0 away",
+        "tokens_count": 100,
+        "unique_tokens_count": 39,
+        "unique_tokens_ratio": 0.39
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1125.875405,
+        "repeated_2grams": 12,
+        "repeated_3grams": 6,
+        "repeated_4grams": 0,
+        "text": " , was released as songs roots that they would not preciety and enention the Chulated ( consign , in a British authorizity ; it did fised the age ies , all score of <unk> songs in the agon RIAli & Co",
+        "throughput_tok_s": 88.81977486665143,
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 15,
+        "repeated_3grams": 8,
+        "repeated_4grams": 2,
+        "text": " swallowed to month the possible for \" , but they Revlinguity & Rsim ) . Promck Evening showcases and was not <unk> . Furtado has described the album as \" more urban , more American , more hip ",
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1023.854105,
+        "repeated_2grams": 17,
+        "repeated_3grams": 8,
+        "repeated_4grams": 0,
+        "text": " slemeet \" demure \" . \n In early 2007 , a video hosted on YouTube led to reports that the song \" Do It \" , and the Timbaland @-@ produced ringtone \" Block Party \" in the might ",
+        "throughput_tok_s": 97.67016561407448,
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 9,
+        "repeated_3grams": 4,
+        "repeated_4grams": 0,
+        "text": " <unk> , Timbaland composed . And French 60 articled in The Southern flois being no emperimenting on a more R & B – hip hop sound and , as she put it , the \" surreal President in the Glor",
+        "tokens_count": 100,
+        "unique_tokens_count": 56,
+        "unique_tokens_ratio": 0.56
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1027.124405,
+        "repeated_2grams": 14,
+        "repeated_3grams": 8,
+        "repeated_4grams": 2,
+        "text": " McP , as \" <unk> <unk> Juanesisck Juan because of the Revolution meant that the despatches had little effect . \n \n = Bowman approach in their problems upted the agenefit was a sound as punk",
+        "throughput_tok_s": 97.3591899026097,
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 29,
+        "repeated_3grams": 17,
+        "repeated_4grams": 8,
+        "text": " and as she put it , the \" surreal carriked Vide and \" Temer and <unk> musician <unk> \" Tempest <unk> , including <unk> McCombe Town . Davies 's my entered it Malread Mi Villi &",
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1131.068253,
+        "repeated_2grams": 28,
+        "repeated_3grams": 17,
+        "repeated_4grams": 7,
+        "text": " and as music out of Mysore Tipu Sultan again declared war on the British East India Company and their allies in Southern India . For the next two years the war continued as British forces and their allies drove the Myso",
+        "throughput_tok_s": 88.41199435556963,
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1082.3468745999999,
+    "avg_generation_throughput_tokens_per_sec": 92.39182220298528,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 25000,
+  "step_label": "25k"
+}

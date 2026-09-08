@@ -1,0 +1,1174 @@
+{
+  "architecture": {
+    "d_hidden": 688,
+    "d_state": 256,
+    "gsa_rounds": 3,
+    "num_layers": 4,
+    "vocab_size": 2000
+  },
+  "experiment": "Auditoria Forense de Tensores do CryoLM",
+  "profiles": [
+    {
+      "logits_mb": 7.8125,
+      "nodepool_mb": 1.40625,
+      "peak_allocated_mb": 66.8681640625,
+      "rope_freqs_mb": 0.5625,
+      "seq_len": 1024,
+      "static_params_mb": 35.6728515625,
+      "tensor_breakdown": [
+        {
+          "bytes": 8192,
+          "bytes_kb": 8.0,
+          "bytes_mb": 0.0078125,
+          "bytes_per_token": 8.0,
+          "device": "cuda:0",
+          "dtype": "int64",
+          "module": "CryoLM",
+          "name": "token_ids",
+          "numel": 1024,
+          "shape": [
+            1024
+          ]
+        },
+        {
+          "bytes": 1048576,
+          "bytes_kb": 1024.0,
+          "bytes_mb": 1.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "TokenEmbedding",
+          "name": "embeddings",
+          "numel": 262144,
+          "shape": [
+            1024,
+            256
+          ]
+        },
+        {
+          "bytes": 524288,
+          "bytes_kb": 512.0,
+          "bytes_mb": 0.5,
+          "bytes_per_token": 512.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "RoPE",
+          "name": "rope_freqs_buffer",
+          "numel": 131072,
+          "shape": [
+            1024,
+            128
+          ]
+        },
+        {
+          "bytes": 262144,
+          "bytes_kb": 256.0,
+          "bytes_mb": 0.25,
+          "bytes_per_token": 256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_id_block",
+          "numel": 65536,
+          "shape": [
+            1024,
+            64
+          ]
+        },
+        {
+          "bytes": 1048576,
+          "bytes_kb": 1024.0,
+          "bytes_mb": 1.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_state_block",
+          "numel": 262144,
+          "shape": [
+            1024,
+            256
+          ]
+        },
+        {
+          "bytes": 1048576,
+          "bytes_kb": 1024.0,
+          "bytes_mb": 1.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "norm_z",
+          "numel": 262144,
+          "shape": [
+            1024,
+            256
+          ]
+        },
+        {
+          "bytes": 3145728,
+          "bytes_kb": 3072.0,
+          "bytes_mb": 3.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "q_k_v_projected",
+          "numel": 786432,
+          "shape": [
+            3,
+            1024,
+            256
+          ]
+        },
+        {
+          "bytes": 3145728,
+          "bytes_kb": 3072.0,
+          "bytes_mb": 3.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "gate_decay_binput",
+          "numel": 786432,
+          "shape": [
+            3,
+            1024,
+            256
+          ]
+        },
+        {
+          "bytes": 1048576,
+          "bytes_kb": 1024.0,
+          "bytes_mb": 1.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "scan_ctx",
+          "numel": 262144,
+          "shape": [
+            1024,
+            256
+          ]
+        },
+        {
+          "bytes": 2097152,
+          "bytes_kb": 2048.0,
+          "bytes_mb": 2.0,
+          "bytes_per_token": 2048.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "mlp_combined",
+          "numel": 524288,
+          "shape": [
+            1024,
+            512
+          ]
+        },
+        {
+          "bytes": 8454144,
+          "bytes_kb": 8256.0,
+          "bytes_mb": 8.0625,
+          "bytes_per_token": 8256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "SwiGLU",
+          "name": "mlp_intermediates",
+          "numel": 2113536,
+          "shape": [
+            3,
+            1024,
+            688
+          ]
+        },
+        {
+          "bytes": 8192000,
+          "bytes_kb": 8000.0,
+          "bytes_mb": 7.8125,
+          "bytes_per_token": 8000.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "LMHead",
+          "name": "logits_output",
+          "numel": 2048000,
+          "shape": [
+            1024,
+            2000
+          ]
+        }
+      ]
+    },
+    {
+      "logits_mb": 31.25,
+      "nodepool_mb": 5.15625,
+      "peak_allocated_mb": 142.7666015625,
+      "rope_freqs_mb": 2.0625,
+      "seq_len": 4096,
+      "static_params_mb": 42.3603515625,
+      "tensor_breakdown": [
+        {
+          "bytes": 32768,
+          "bytes_kb": 32.0,
+          "bytes_mb": 0.03125,
+          "bytes_per_token": 8.0,
+          "device": "cuda:0",
+          "dtype": "int64",
+          "module": "CryoLM",
+          "name": "token_ids",
+          "numel": 4096,
+          "shape": [
+            4096
+          ]
+        },
+        {
+          "bytes": 4194304,
+          "bytes_kb": 4096.0,
+          "bytes_mb": 4.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "TokenEmbedding",
+          "name": "embeddings",
+          "numel": 1048576,
+          "shape": [
+            4096,
+            256
+          ]
+        },
+        {
+          "bytes": 2097152,
+          "bytes_kb": 2048.0,
+          "bytes_mb": 2.0,
+          "bytes_per_token": 512.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "RoPE",
+          "name": "rope_freqs_buffer",
+          "numel": 524288,
+          "shape": [
+            4096,
+            128
+          ]
+        },
+        {
+          "bytes": 1048576,
+          "bytes_kb": 1024.0,
+          "bytes_mb": 1.0,
+          "bytes_per_token": 256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_id_block",
+          "numel": 262144,
+          "shape": [
+            4096,
+            64
+          ]
+        },
+        {
+          "bytes": 4194304,
+          "bytes_kb": 4096.0,
+          "bytes_mb": 4.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_state_block",
+          "numel": 1048576,
+          "shape": [
+            4096,
+            256
+          ]
+        },
+        {
+          "bytes": 4194304,
+          "bytes_kb": 4096.0,
+          "bytes_mb": 4.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "norm_z",
+          "numel": 1048576,
+          "shape": [
+            4096,
+            256
+          ]
+        },
+        {
+          "bytes": 12582912,
+          "bytes_kb": 12288.0,
+          "bytes_mb": 12.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "q_k_v_projected",
+          "numel": 3145728,
+          "shape": [
+            3,
+            4096,
+            256
+          ]
+        },
+        {
+          "bytes": 12582912,
+          "bytes_kb": 12288.0,
+          "bytes_mb": 12.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "gate_decay_binput",
+          "numel": 3145728,
+          "shape": [
+            3,
+            4096,
+            256
+          ]
+        },
+        {
+          "bytes": 4194304,
+          "bytes_kb": 4096.0,
+          "bytes_mb": 4.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "scan_ctx",
+          "numel": 1048576,
+          "shape": [
+            4096,
+            256
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 2048.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "mlp_combined",
+          "numel": 2097152,
+          "shape": [
+            4096,
+            512
+          ]
+        },
+        {
+          "bytes": 33816576,
+          "bytes_kb": 33024.0,
+          "bytes_mb": 32.25,
+          "bytes_per_token": 8256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "SwiGLU",
+          "name": "mlp_intermediates",
+          "numel": 8454144,
+          "shape": [
+            3,
+            4096,
+            688
+          ]
+        },
+        {
+          "bytes": 32768000,
+          "bytes_kb": 32000.0,
+          "bytes_mb": 31.25,
+          "bytes_per_token": 8000.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "LMHead",
+          "name": "logits_output",
+          "numel": 8192000,
+          "shape": [
+            4096,
+            2000
+          ]
+        }
+      ]
+    },
+    {
+      "logits_mb": 62.5,
+      "nodepool_mb": 10.15625,
+      "peak_allocated_mb": 245.4853515625,
+      "rope_freqs_mb": 4.0625,
+      "seq_len": 8192,
+      "static_params_mb": 51.2978515625,
+      "tensor_breakdown": [
+        {
+          "bytes": 65536,
+          "bytes_kb": 64.0,
+          "bytes_mb": 0.0625,
+          "bytes_per_token": 8.0,
+          "device": "cuda:0",
+          "dtype": "int64",
+          "module": "CryoLM",
+          "name": "token_ids",
+          "numel": 8192,
+          "shape": [
+            8192
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "TokenEmbedding",
+          "name": "embeddings",
+          "numel": 2097152,
+          "shape": [
+            8192,
+            256
+          ]
+        },
+        {
+          "bytes": 4194304,
+          "bytes_kb": 4096.0,
+          "bytes_mb": 4.0,
+          "bytes_per_token": 512.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "RoPE",
+          "name": "rope_freqs_buffer",
+          "numel": 1048576,
+          "shape": [
+            8192,
+            128
+          ]
+        },
+        {
+          "bytes": 2097152,
+          "bytes_kb": 2048.0,
+          "bytes_mb": 2.0,
+          "bytes_per_token": 256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_id_block",
+          "numel": 524288,
+          "shape": [
+            8192,
+            64
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_state_block",
+          "numel": 2097152,
+          "shape": [
+            8192,
+            256
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "norm_z",
+          "numel": 2097152,
+          "shape": [
+            8192,
+            256
+          ]
+        },
+        {
+          "bytes": 25165824,
+          "bytes_kb": 24576.0,
+          "bytes_mb": 24.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "q_k_v_projected",
+          "numel": 6291456,
+          "shape": [
+            3,
+            8192,
+            256
+          ]
+        },
+        {
+          "bytes": 25165824,
+          "bytes_kb": 24576.0,
+          "bytes_mb": 24.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "gate_decay_binput",
+          "numel": 6291456,
+          "shape": [
+            3,
+            8192,
+            256
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "scan_ctx",
+          "numel": 2097152,
+          "shape": [
+            8192,
+            256
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 2048.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "mlp_combined",
+          "numel": 4194304,
+          "shape": [
+            8192,
+            512
+          ]
+        },
+        {
+          "bytes": 67633152,
+          "bytes_kb": 66048.0,
+          "bytes_mb": 64.5,
+          "bytes_per_token": 8256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "SwiGLU",
+          "name": "mlp_intermediates",
+          "numel": 16908288,
+          "shape": [
+            3,
+            8192,
+            688
+          ]
+        },
+        {
+          "bytes": 65536000,
+          "bytes_kb": 64000.0,
+          "bytes_mb": 62.5,
+          "bytes_per_token": 8000.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "LMHead",
+          "name": "logits_output",
+          "numel": 16384000,
+          "shape": [
+            8192,
+            2000
+          ]
+        }
+      ]
+    },
+    {
+      "logits_mb": 125.0,
+      "nodepool_mb": 20.15625,
+      "peak_allocated_mb": 450.1416015625,
+      "rope_freqs_mb": 8.0625,
+      "seq_len": 16384,
+      "static_params_mb": 69.8916015625,
+      "tensor_breakdown": [
+        {
+          "bytes": 131072,
+          "bytes_kb": 128.0,
+          "bytes_mb": 0.125,
+          "bytes_per_token": 8.0,
+          "device": "cuda:0",
+          "dtype": "int64",
+          "module": "CryoLM",
+          "name": "token_ids",
+          "numel": 16384,
+          "shape": [
+            16384
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "TokenEmbedding",
+          "name": "embeddings",
+          "numel": 4194304,
+          "shape": [
+            16384,
+            256
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 512.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "RoPE",
+          "name": "rope_freqs_buffer",
+          "numel": 2097152,
+          "shape": [
+            16384,
+            128
+          ]
+        },
+        {
+          "bytes": 4194304,
+          "bytes_kb": 4096.0,
+          "bytes_mb": 4.0,
+          "bytes_per_token": 256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_id_block",
+          "numel": 1048576,
+          "shape": [
+            16384,
+            64
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_state_block",
+          "numel": 4194304,
+          "shape": [
+            16384,
+            256
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "norm_z",
+          "numel": 4194304,
+          "shape": [
+            16384,
+            256
+          ]
+        },
+        {
+          "bytes": 50331648,
+          "bytes_kb": 49152.0,
+          "bytes_mb": 48.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "q_k_v_projected",
+          "numel": 12582912,
+          "shape": [
+            3,
+            16384,
+            256
+          ]
+        },
+        {
+          "bytes": 50331648,
+          "bytes_kb": 49152.0,
+          "bytes_mb": 48.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "gate_decay_binput",
+          "numel": 12582912,
+          "shape": [
+            3,
+            16384,
+            256
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "scan_ctx",
+          "numel": 4194304,
+          "shape": [
+            16384,
+            256
+          ]
+        },
+        {
+          "bytes": 33554432,
+          "bytes_kb": 32768.0,
+          "bytes_mb": 32.0,
+          "bytes_per_token": 2048.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "mlp_combined",
+          "numel": 8388608,
+          "shape": [
+            16384,
+            512
+          ]
+        },
+        {
+          "bytes": 135266304,
+          "bytes_kb": 132096.0,
+          "bytes_mb": 129.0,
+          "bytes_per_token": 8256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "SwiGLU",
+          "name": "mlp_intermediates",
+          "numel": 33816576,
+          "shape": [
+            3,
+            16384,
+            688
+          ]
+        },
+        {
+          "bytes": 131072000,
+          "bytes_kb": 128000.0,
+          "bytes_mb": 125.0,
+          "bytes_per_token": 8000.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "LMHead",
+          "name": "logits_output",
+          "numel": 32768000,
+          "shape": [
+            16384,
+            2000
+          ]
+        }
+      ]
+    },
+    {
+      "logits_mb": 250.0,
+      "nodepool_mb": 40.15625,
+      "peak_allocated_mb": 852.2978515625,
+      "rope_freqs_mb": 16.0625,
+      "seq_len": 32768,
+      "static_params_mb": 105.9228515625,
+      "tensor_breakdown": [
+        {
+          "bytes": 262144,
+          "bytes_kb": 256.0,
+          "bytes_mb": 0.25,
+          "bytes_per_token": 8.0,
+          "device": "cuda:0",
+          "dtype": "int64",
+          "module": "CryoLM",
+          "name": "token_ids",
+          "numel": 32768,
+          "shape": [
+            32768
+          ]
+        },
+        {
+          "bytes": 33554432,
+          "bytes_kb": 32768.0,
+          "bytes_mb": 32.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "TokenEmbedding",
+          "name": "embeddings",
+          "numel": 8388608,
+          "shape": [
+            32768,
+            256
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 512.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "RoPE",
+          "name": "rope_freqs_buffer",
+          "numel": 4194304,
+          "shape": [
+            32768,
+            128
+          ]
+        },
+        {
+          "bytes": 8388608,
+          "bytes_kb": 8192.0,
+          "bytes_mb": 8.0,
+          "bytes_per_token": 256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_id_block",
+          "numel": 2097152,
+          "shape": [
+            32768,
+            64
+          ]
+        },
+        {
+          "bytes": 33554432,
+          "bytes_kb": 32768.0,
+          "bytes_mb": 32.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_state_block",
+          "numel": 8388608,
+          "shape": [
+            32768,
+            256
+          ]
+        },
+        {
+          "bytes": 33554432,
+          "bytes_kb": 32768.0,
+          "bytes_mb": 32.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "norm_z",
+          "numel": 8388608,
+          "shape": [
+            32768,
+            256
+          ]
+        },
+        {
+          "bytes": 100663296,
+          "bytes_kb": 98304.0,
+          "bytes_mb": 96.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "q_k_v_projected",
+          "numel": 25165824,
+          "shape": [
+            3,
+            32768,
+            256
+          ]
+        },
+        {
+          "bytes": 100663296,
+          "bytes_kb": 98304.0,
+          "bytes_mb": 96.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "gate_decay_binput",
+          "numel": 25165824,
+          "shape": [
+            3,
+            32768,
+            256
+          ]
+        },
+        {
+          "bytes": 33554432,
+          "bytes_kb": 32768.0,
+          "bytes_mb": 32.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "scan_ctx",
+          "numel": 8388608,
+          "shape": [
+            32768,
+            256
+          ]
+        },
+        {
+          "bytes": 67108864,
+          "bytes_kb": 65536.0,
+          "bytes_mb": 64.0,
+          "bytes_per_token": 2048.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "mlp_combined",
+          "numel": 16777216,
+          "shape": [
+            32768,
+            512
+          ]
+        },
+        {
+          "bytes": 270532608,
+          "bytes_kb": 264192.0,
+          "bytes_mb": 258.0,
+          "bytes_per_token": 8256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "SwiGLU",
+          "name": "mlp_intermediates",
+          "numel": 67633152,
+          "shape": [
+            3,
+            32768,
+            688
+          ]
+        },
+        {
+          "bytes": 262144000,
+          "bytes_kb": 256000.0,
+          "bytes_mb": 250.0,
+          "bytes_per_token": 8000.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "LMHead",
+          "name": "logits_output",
+          "numel": 65536000,
+          "shape": [
+            32768,
+            2000
+          ]
+        }
+      ]
+    },
+    {
+      "logits_mb": 500.0,
+      "nodepool_mb": 80.15625,
+      "peak_allocated_mb": 1662.9228515625,
+      "rope_freqs_mb": 32.0625,
+      "seq_len": 65536,
+      "static_params_mb": 178.2978515625,
+      "tensor_breakdown": [
+        {
+          "bytes": 524288,
+          "bytes_kb": 512.0,
+          "bytes_mb": 0.5,
+          "bytes_per_token": 8.0,
+          "device": "cuda:0",
+          "dtype": "int64",
+          "module": "CryoLM",
+          "name": "token_ids",
+          "numel": 65536,
+          "shape": [
+            65536
+          ]
+        },
+        {
+          "bytes": 67108864,
+          "bytes_kb": 65536.0,
+          "bytes_mb": 64.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "TokenEmbedding",
+          "name": "embeddings",
+          "numel": 16777216,
+          "shape": [
+            65536,
+            256
+          ]
+        },
+        {
+          "bytes": 33554432,
+          "bytes_kb": 32768.0,
+          "bytes_mb": 32.0,
+          "bytes_per_token": 512.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "RoPE",
+          "name": "rope_freqs_buffer",
+          "numel": 8388608,
+          "shape": [
+            65536,
+            128
+          ]
+        },
+        {
+          "bytes": 16777216,
+          "bytes_kb": 16384.0,
+          "bytes_mb": 16.0,
+          "bytes_per_token": 256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_id_block",
+          "numel": 4194304,
+          "shape": [
+            65536,
+            64
+          ]
+        },
+        {
+          "bytes": 67108864,
+          "bytes_kb": 65536.0,
+          "bytes_mb": 64.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "NodePool",
+          "name": "z_state_block",
+          "numel": 16777216,
+          "shape": [
+            65536,
+            256
+          ]
+        },
+        {
+          "bytes": 67108864,
+          "bytes_kb": 65536.0,
+          "bytes_mb": 64.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "norm_z",
+          "numel": 16777216,
+          "shape": [
+            65536,
+            256
+          ]
+        },
+        {
+          "bytes": 201326592,
+          "bytes_kb": 196608.0,
+          "bytes_mb": 192.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "q_k_v_projected",
+          "numel": 50331648,
+          "shape": [
+            3,
+            65536,
+            256
+          ]
+        },
+        {
+          "bytes": 201326592,
+          "bytes_kb": 196608.0,
+          "bytes_mb": 192.0,
+          "bytes_per_token": 3072.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "gate_decay_binput",
+          "numel": 50331648,
+          "shape": [
+            3,
+            65536,
+            256
+          ]
+        },
+        {
+          "bytes": 67108864,
+          "bytes_kb": 65536.0,
+          "bytes_mb": 64.0,
+          "bytes_per_token": 1024.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "scan_ctx",
+          "numel": 16777216,
+          "shape": [
+            65536,
+            256
+          ]
+        },
+        {
+          "bytes": 134217728,
+          "bytes_kb": 131072.0,
+          "bytes_mb": 128.0,
+          "bytes_per_token": 2048.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "GSALayer",
+          "name": "mlp_combined",
+          "numel": 33554432,
+          "shape": [
+            65536,
+            512
+          ]
+        },
+        {
+          "bytes": 541065216,
+          "bytes_kb": 528384.0,
+          "bytes_mb": 516.0,
+          "bytes_per_token": 8256.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "SwiGLU",
+          "name": "mlp_intermediates",
+          "numel": 135266304,
+          "shape": [
+            3,
+            65536,
+            688
+          ]
+        },
+        {
+          "bytes": 524288000,
+          "bytes_kb": 512000.0,
+          "bytes_mb": 500.0,
+          "bytes_per_token": 8000.0,
+          "device": "cuda:0",
+          "dtype": "float32",
+          "module": "LMHead",
+          "name": "logits_output",
+          "numel": 131072000,
+          "shape": [
+            65536,
+            2000
+          ]
+        }
+      ]
+    }
+  ],
+  "slope_breakdown": {
+    "concordance_pct": 94.27374301675978,
+    "embeddings_rope_bytes_per_token": 1536.0,
+    "empirical_phase4_kb_per_token": 25.06,
+    "gsa_qkv_gates_bytes_per_token": 3072.0,
+    "lm_head_logits_bytes_per_token": 8000.0,
+    "nodepool_bytes_per_token": 1280.0,
+    "swiglu_mlp_bytes_per_token": 10304.0,
+    "total_theoretical_kb_per_token": 23.625
+  }
+}

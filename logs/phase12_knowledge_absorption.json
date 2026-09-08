@@ -1,0 +1,48 @@
+{
+  "d_model": 576,
+  "experiment": "FASE 12: Cirurgia de Pesos & Absorcao de Conhecimento",
+  "layers": 30,
+  "levels": [
+    {
+      "calibration_tokens": 0,
+      "kl_divergence": 9.920519924163818,
+      "level": "Nivel A (Zero-Shot)",
+      "student_loss": 13.00977427959442,
+      "student_ppl": 446758.8665443593,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 0.791015625,
+      "top5_agreement_pct": 4.990234375,
+      "vram_mb": 3110.5
+    },
+    {
+      "calibration_time_sec": 78.03871854,
+      "calibration_tok_s": 1279.3649340721222,
+      "calibration_tokens": 99840,
+      "kl_divergence": 3.89937824010849,
+      "level": "Nivel B (100k Tokens)",
+      "student_loss": 6.483795607089997,
+      "student_ppl": 654.4502741179244,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 17.158203125,
+      "top5_agreement_pct": 31.3671875
+    },
+    {
+      "calibration_time_sec": 723.304217222,
+      "calibration_tok_s": 1244.0685102819148,
+      "calibration_tokens": 999680,
+      "kl_divergence": 2.681735098361969,
+      "level": "Nivel C (1M Tokens)",
+      "student_loss": 5.179773163795471,
+      "student_ppl": 177.64251066986773,
+      "teacher_loss": 2.9904640436172487,
+      "teacher_ppl": 19.894912456987214,
+      "top1_agreement_pct": 28.232421875,
+      "top5_agreement_pct": 53.173828125
+    }
+  ],
+  "model_name": "SmolLM-135M -> CryoLM-135M",
+  "total_params": 135000000,
+  "vocab_size": 49152
+}

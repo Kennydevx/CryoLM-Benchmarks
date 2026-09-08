@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 2.0000000095664984e-05,
+    "loss": 2.238126754760742,
+    "ms_per_step_average": 43.813584012010004,
+    "perplexity": 9.37575174486565,
+    "total_tokens_processed": 102400000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 48,
+        "repeated_3grams": 38,
+        "repeated_4grams": 28,
+        "text": " the <unk> of the <unk> of Jupiter 's <unk> <unk> , <unk> <unk> , and the Breeders is a nave . The first first work broad in <unk> . In the <unk> <unk> was the wall ",
+        "tokens_count": 100,
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1044.012009,
+        "repeated_2grams": 40,
+        "repeated_3grams": 27,
+        "repeated_4grams": 15,
+        "text": " John who has been released in 18 <unk> in 1870 in 1990 , <unk> the <unk> and <unk> . \n \n = = = <unk> and most reliance @-@ leave who may be <unk> to be exists . It is ",
+        "throughput_tok_s": 95.78433881788806,
+        "tokens_count": 100,
+        "unique_tokens_count": 34,
+        "unique_tokens_ratio": 0.34,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 58,
+        "repeated_3grams": 43,
+        "repeated_4grams": 28,
+        "text": " . The second quarter , the <unk> , and the <unk> <unk> was the wall <unk> . \n \n = = = <unk> and shape , <unk> , and <unk> ( <unk> <unk> – @-@ <unk> / ;",
+        "tokens_count": 100,
+        "unique_tokens_count": 25,
+        "unique_tokens_ratio": 0.25
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1176.905335,
+        "repeated_2grams": 30,
+        "repeated_3grams": 20,
+        "repeated_4grams": 11,
+        "text": " ( Gentetvil 's <unk> ( <unk> ) and <unk> ARevley , with an <unk> <unk> 's de . The parallel of Virginia Breders State , were completed in 1936 . The majority of Bishop Co",
+        "throughput_tok_s": 84.96860114921648,
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 34,
+        "repeated_3grams": 20,
+        "repeated_4grams": 8,
+        "text": " @,@ 000 to the Jupiter 's <unk> , and the <unk> <unk> was the wall <unk> . The chancell is \" the first dark than the habit at the swim to <unk> and sharks that is not shap",
+        "tokens_count": 100,
+        "unique_tokens_count": 38,
+        "unique_tokens_ratio": 0.38
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1057.805212,
+        "repeated_2grams": 32,
+        "repeated_3grams": 21,
+        "repeated_4grams": 10,
+        "text": " ( <unk> <unk> <unk> ( F @-@ asunied . <unk> color , made the lase @-@ @-@ flimen in the church was now shaped from a <unk> in Avenue . The central communities had a more shape at",
+        "throughput_tok_s": 94.5353632838784,
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 62,
+        "repeated_3grams": 50,
+        "repeated_4grams": 38,
+        "text": " 's <unk> , and the <unk> <unk> was the wall <unk> . \n \n = = = <unk> and proble into the first of the church 's new <unk> <unk> , and the <unk> <unk> was the wall ",
+        "tokens_count": 100,
+        "unique_tokens_count": 22,
+        "unique_tokens_ratio": 0.22
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1007.842706,
+        "repeated_2grams": 36,
+        "repeated_3grams": 24,
+        "repeated_4grams": 14,
+        "text": " is dign in the ginoba . In 14th b the <unk> of Jupiter 's bowl , <unkthebyon , <unk> and <unk> . A recognized the church , is a <unk> of <unk> . The permanent",
+        "throughput_tok_s": 99.22183234017471,
+        "tokens_count": 100,
+        "unique_tokens_count": 39,
+        "unique_tokens_ratio": 0.39,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 50,
+        "repeated_3grams": 39,
+        "repeated_4grams": 28,
+        "text": " and the chancel was unangated and the <unk> <unk> was the wall <unk> . The chancell is \" the first first sopher of the cathedral 's <unk> , and the <unk> <unk> was the wall <unk>",
+        "tokens_count": 100,
+        "unique_tokens_count": 30,
+        "unique_tokens_ratio": 0.3
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1066.708589,
+        "repeated_2grams": 20,
+        "repeated_3grams": 11,
+        "repeated_4grams": 2,
+        "text": " and the dating the best loss and parents shark of few husband . At the same location ( known as <unk> <unk> ) and a second down as a probe to a chance @-@ long broad to crew , en sarr",
+        "throughput_tok_s": 93.74631556472823,
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1070.6547702,
+    "avg_generation_throughput_tokens_per_sec": 93.40078873540146,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 100000,
+  "step_label": "100k"
+}

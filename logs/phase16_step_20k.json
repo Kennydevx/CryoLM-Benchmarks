@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00036650196937781476,
+    "loss": 1.0290358066558838,
+    "ms_per_step_average": 45.125460220899996,
+    "perplexity": 2.7983663672782253,
+    "total_tokens_processed": 20480000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 21,
+        "repeated_3grams": 13,
+        "repeated_4grams": 5,
+        "text": " a synthpop song influenced by hip hop music . The song 's socially conscious streak , as well as being called the Coldrum Stones , the monument also had the name of the <unk> Stones , which <unk> believed",
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1186.58531,
+        "repeated_2grams": 16,
+        "repeated_3grams": 9,
+        "repeated_4grams": 4,
+        "text": " a tradition to <unk> bearing that a continuous line of stones ran from Coldrum direct to the well @-@ known monument called Kit 's <unk> [ sic ] House \" , attributing this belief to the variety of meg",
+        "throughput_tok_s": 84.2754407603445,
+        "tokens_count": 100,
+        "unique_tokens_count": 51,
+        "unique_tokens_ratio": 0.51,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 16,
+        "repeated_3grams": 8,
+        "repeated_4grams": 2,
+        "text": " Hot 's up to the sun \" derximum for the Wanting <unk> , but alvocal 's attention had been expresed by Smologist Flabors 's conduct a chorus , was released , she was pelling from",
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1157.72201,
+        "repeated_2grams": 18,
+        "repeated_3grams": 11,
+        "repeated_4grams": 5,
+        "text": " she ferried the 50 . Theme long was cruiser <unk> that this recording his happen . It 's was described them , and proceeded to at the <unk> of Britain 's mainstation urre usual <unk> on 18 11",
+        "throughput_tok_s": 86.3765214241716,
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 22,
+        "repeated_3grams": 12,
+        "repeated_4grams": 4,
+        "text": " lines . In 1857 , the antiquarian J. M. <unk> excavated at the site , the Backing of a continuous line of stonesold in which ordot 's clear protector , two more more stones com <unk> , ",
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1102.261909,
+        "repeated_2grams": 25,
+        "repeated_3grams": 13,
+        "repeated_4grams": 4,
+        "text": " thading oning the end of the <unk> visited III and record can do record the <unk> in the interim . \n Based , and the anal to jazz , she was putsive likely recording them . Descri Wrighting the",
+        "throughput_tok_s": 90.72253988230668,
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 12,
+        "repeated_3grams": 7,
+        "repeated_4grams": 2,
+        "text": " , there is a synineteenth tradition from the construction of evacuation of stones ran from Coldrum direct to the well @-@ known monument called Kit 's <unk> [ sic ] House \" , attributing this belief to the vari",
+        "tokens_count": 100,
+        "unique_tokens_count": 55,
+        "unique_tokens_ratio": 0.55
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 974.803408,
+        "repeated_2grams": 24,
+        "repeated_3grams": 15,
+        "repeated_4grams": 6,
+        "text": " , and the Arch danian U. <unk> Tennant explains the role of the then new sampling technology on the track and construction of the <unk> Stones , which <unk> believed originated with the Old English word for funeral pile",
+        "throughput_tok_s": 102.58478702405193,
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 16,
+        "repeated_3grams": 9,
+        "repeated_4grams": 4,
+        "text": " reinforce , the <unk> on a piano . She helped as temporary these megaliths which were scattered throughout the landscape . \n In 1857 , the antiquarian J. M. <unk> excavated at the site with",
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1044.54581,
+        "repeated_2grams": 26,
+        "repeated_3grams": 16,
+        "repeated_4grams": 7,
+        "text": " where she was pive printing to <unk> published to the Coldrum Stones , the monument also had the name of the <unk> Stones , which <unk> believed originated with the Old English word for funeral pile , ad . In ",
+        "throughput_tok_s": 95.73538952781783,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1093.1836894,
+    "avg_generation_throughput_tokens_per_sec": 91.47593489515523,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 20000,
+  "step_label": "20k"
+}

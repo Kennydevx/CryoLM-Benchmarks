@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00024299909146043093,
+    "loss": 0.953962504863739,
+    "ms_per_step_average": 44.56177932377778,
+    "perplexity": 2.595975872944959,
+    "total_tokens_processed": 46080000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 18,
+        "repeated_3grams": 11,
+        "repeated_4grams": 4,
+        "text": "sion . It was written by over ftr some <unk> <unk> of Ship @-@ gritic , and felt a private secretary to the president of the Title <unk> and Trust Company . The bank , which held many assets ",
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1061.45037,
+        "repeated_2grams": 14,
+        "repeated_3grams": 7,
+        "repeated_4grams": 1,
+        "text": "teenth @-@ freThere . Birg is dancers , as well as some images from her music videos and some <unk> images with special effects . The show also featured a small staircase and platforms on both side , usual",
+        "throughput_tok_s": 94.21071660656165,
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 18,
+        "repeated_3grams": 10,
+        "repeated_4grams": 3,
+        "text": " ) , Dangerously in Love released in 2003 . However , the set list also contained a special sharvie and sound everything her debut solo album and others ater shorer for a special effects . The show also featured a small",
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1049.285158,
+        "repeated_2grams": 20,
+        "repeated_3grams": 9,
+        "repeated_4grams": 2,
+        "text": " , was known for the American TAnce of the Co . The stage was simple and featured a small staircase and platforms on both side of the stairs for her band . Beyoncé later toured Ornette Coleman – t",
+        "throughput_tok_s": 95.30297768683393,
+        "tokens_count": 100,
+        "unique_tokens_count": 47,
+        "unique_tokens_ratio": 0.47,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 26,
+        "repeated_3grams": 17,
+        "repeated_4grams": 8,
+        "text": " techniodes and music like Ronness . \n \n = = Early life = = \n \n Denardo Coleman , Ornette Coleman 's son . Tacuma was still in high school when Coleman enlisted him , and first recorded ",
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1168.582451,
+        "repeated_2grams": 8,
+        "repeated_3grams": 3,
+        "repeated_4grams": 0,
+        "text": " otle aster and American tourist , and <unk> remoby . The Coaning accompany was a conventional structures of harmolodics and encouraged him not to change . Although Coleman 's theory initially challenged his knowledge and",
+        "throughput_tok_s": 85.57376496149351,
+        "tokens_count": 100,
+        "unique_tokens_count": 60,
+        "unique_tokens_ratio": 0.6,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 20,
+        "repeated_3grams": 11,
+        "repeated_4grams": 5,
+        "text": " also featured Prime Time in 1975 for the album Body Meta , which was released in 1978 . Tacuma had played in an ensemble for jazz <unk> Charles <unk> , but <unk> dismissed him as he felt au",
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1029.434946,
+        "repeated_2grams": 20,
+        "repeated_3grams": 11,
+        "repeated_4grams": 5,
+        "text": " also featured Prime Time in 1975 for the album Body Meta , which was released in 1978 . Tacuma had played in an ensemble for jazz <unk> Charles <unk> , but <unk> dismissed him as he felt au",
+        "throughput_tok_s": 97.14066963489307,
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 21,
+        "repeated_3grams": 10,
+        "repeated_4grams": 2,
+        "text": " and he felt players over the first with Yue Fei and <unk> arts \" . In the novel , Zhou 's most acting , commenting : \" Matthew Moron , and compassion as some <unk> images with special effect",
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1111.67885,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 5,
+        "text": " and pursued Beyfore to the Name for The <unk> , Allied as singing the original her new children , Nebraska , to John Alden Hobbs and <unk> Bush Hobbs . Her family moved to \n Gl \" ",
+        "throughput_tok_s": 89.95403663567045,
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1084.0863550000001,
+    "avg_generation_throughput_tokens_per_sec": 92.24357408317346,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 45000,
+  "step_label": "45k"
+}

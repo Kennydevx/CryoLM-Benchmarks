@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 5.700222597731516e-05,
+    "loss": 1.8144948482513428,
+    "ms_per_step_average": 44.138187268775,
+    "perplexity": 6.137974785478004,
+    "total_tokens_processed": 81920000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 31,
+        "repeated_3grams": 21,
+        "repeated_4grams": 12,
+        "text": " concentrated reliefly of the Sea . \n \n = = = = Later = = = \n \n On 25 March , though Marlborough claimed that Juewins provided the <unk> <unk> , and the ' diverw was the four",
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1078.1999,
+        "repeated_2grams": 29,
+        "repeated_3grams": 19,
+        "repeated_4grams": 13,
+        "text": " more than 5 , including ( \" O\" F 's command . On 25 April , the Grand Fleet caused Slbe decks . On 21 April , the Grand Fleet formed the British between November 2 , 1995 : \" Herrage flood",
+        "throughput_tok_s": 92.74717981331662,
+        "tokens_count": 100,
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 33,
+        "repeated_3grams": 21,
+        "repeated_4grams": 11,
+        "text": " . \n \n = = = = = \n \n In an attempt to support the reader is units with a second of the 766th Regiment 's assignment of the village due to the sea , harsha 's coure , the n",
+        "tokens_count": 100,
+        "unique_tokens_count": 40,
+        "unique_tokens_ratio": 0.4
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1073.7553,
+        "repeated_2grams": 14,
+        "repeated_3grams": 9,
+        "repeated_4grams": 5,
+        "text": " . \n The 766th Under \" . During the morning of August 1916 May 19 , the Battlehle 's High <unk> . The 766th Regiment was ordered to patrol than their contemporary organization and flavily at ",
+        "throughput_tok_s": 93.13108861953928,
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 15,
+        "repeated_3grams": 9,
+        "repeated_4grams": 5,
+        "text": " the other Grand Fleet disrupt in the fretite of a long feelfth Regiment . The village also recurved Meri @-@ 40 minus ( where ft front souode from the Grand Fleet formed North Korea , and the batt",
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1020.6703,
+        "repeated_2grams": 31,
+        "repeated_3grams": 21,
+        "repeated_4grams": 13,
+        "text": " the North Sea boundred depth and only minimin pressure about 4 persuasure and the North Sea . \n \n = = = Season 5 = = = \n \n On 25 March , Marlborough , ROK Marise , which conclud",
+        "throughput_tok_s": 97.97483085380264,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 5,
+        "text": " ' MohDS KM Wight \" . On October 19 , the 766th \n Panza ( \" . <unk> conducted the fleet on 12 June 1950 . The 766th Unit was used in the turret . \n The ship",
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1101.5558,
+        "repeated_2grams": 28,
+        "repeated_3grams": 18,
+        "repeated_4grams": 9,
+        "text": " II <unk> , the <unk> @-@ <unk> 's \" Ode to a Nightingale \" at the war on 11 November 19 , the North Algth ! Jerchallws . The turret of the ode . \n \n = = = =",
+        "throughput_tok_s": 90.78069399661823,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 31,
+        "repeated_3grams": 19,
+        "repeated_4grams": 9,
+        "text": " and in analy August . \n Following the end of the village was more attempts to <unk> . \n <unk> of the KPA 's 12th Division . Upon the <unk> 's ' \" . Where that that Brown deploys",
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1078.670403,
+        "repeated_2grams": 19,
+        "repeated_3grams": 10,
+        "repeated_4grams": 2,
+        "text": " and investigated John <unk> . \n <unk> of the North Sea with the coast , where she had to be spring capital contains her 60s . In August , \" Ode to a Nightingale \" is degree of \" ",
+        "throughput_tok_s": 92.7067246138207,
+        "tokens_count": 100,
+        "unique_tokens_count": 47,
+        "unique_tokens_ratio": 0.47,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1070.5703406,
+    "avg_generation_throughput_tokens_per_sec": 93.40815470747593,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 80000,
+  "step_label": "80k"
+}

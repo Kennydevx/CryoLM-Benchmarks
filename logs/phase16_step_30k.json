@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00032507063840039115,
+    "loss": 1.040789246559143,
+    "ms_per_step_average": 44.6828264322,
+    "perplexity": 2.831450845551043,
+    "total_tokens_processed": 30720000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 21,
+        "repeated_3grams": 10,
+        "repeated_4grams": 1,
+        "text": " tebate . Further , and has the same three motifs : the rash promise of the husbandman ; the wolf <unk> the moon for cheese ; and him moisting dry and cheese having declaring it has intenv",
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 965.936785,
+        "repeated_2grams": 16,
+        "repeated_3grams": 8,
+        "repeated_4grams": 3,
+        "text": " tearup dleged the chot of the rays are typically <unk> ( divided into small areas by cracks and crevices ) on the upper surface , and are dark grey to black . The spore case is <unk> (",
+        "throughput_tok_s": 103.52644350323608,
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 25,
+        "repeated_3grams": 13,
+        "repeated_4grams": 4,
+        "text": " , Cer ies with the husbandman ; the wolf <unk> the moon for cheese ; and him moisting in the man for Stargla , Shorts Program skeletons the tale is <unk> <unk> . A probable",
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1000.47954,
+        "repeated_2grams": 14,
+        "repeated_3grams": 6,
+        "repeated_4grams": 0,
+        "text": " , the frequive mycelial layer tears away , and the tale is pattern to aw and his revisory pick with the rays are typically <unk> ( divided into small areas by cracks and crevices ) on the up",
+        "throughput_tok_s": 99.952068984839,
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 17,
+        "repeated_3grams": 10,
+        "repeated_4grams": 4,
+        "text": " published as a different layers of tissue ; the innermost , fibrous layer is hygroscopic , and <unk> or <unk> the rays are typically <unk> ( divided into small areas by cracks and crevices ) on",
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1034.522909,
+        "repeated_2grams": 17,
+        "repeated_3grams": 12,
+        "repeated_4grams": 7,
+        "text": " published . Anderson was also had a thirty hor @-@ described among the Sundance Feature Film Program , Anderson already had a deal with Rysher Entertainment to direct his first feature . In 1996 , Anderson made his first",
+        "throughput_tok_s": 96.66291498238827,
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 17,
+        "repeated_3grams": 8,
+        "repeated_4grams": 0,
+        "text": " pro some ging the top of the film , 2004 and college that may be described the layer , the exoperidium is thick , and the rays are typically <unk> ( divided into small areas by cracks and crevices ) ",
+        "tokens_count": 100,
+        "unique_tokens_count": 49,
+        "unique_tokens_ratio": 0.49
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1043.216309,
+        "repeated_2grams": 15,
+        "repeated_3grams": 7,
+        "repeated_4grams": 2,
+        "text": " between Ama crimult species roots from the most earthstar \" specimens from the type locality in Booga produces and suprepreed savance , DNathan was described by Somera Somitset , Kolling Korea , Japan , ",
+        "throughput_tok_s": 95.85739710670111,
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 16,
+        "repeated_3grams": 6,
+        "repeated_4grams": 0,
+        "text": " Riches 's AL course of the fields have earned pitchers imens lit into closing the layer , the exoperidium is thick , and the rays are typically <unk> ( divided into small areas by cracks and cre",
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1153.825699,
+        "repeated_2grams": 27,
+        "repeated_3grams": 23,
+        "repeated_4grams": 19,
+        "text": " style . The spore case is <unk> closing <unk> ( divided into small areas by cracks and crevices ) on the upper surface , and are dark grey to black . The spore case is <unk> <unk> ",
+        "throughput_tok_s": 86.6682030801257,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1039.5962484,
+    "avg_generation_throughput_tokens_per_sec": 96.19118975650971,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 30000,
+  "step_label": "30k"
+}

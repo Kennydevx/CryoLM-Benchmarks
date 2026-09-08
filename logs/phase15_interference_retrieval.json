@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "cryo": {
+        "acc_a_pct": 30.0,
+        "acc_b_pct": 30.0,
+        "acc_relational_pct": 0.0,
+        "cross_talk_ratio": 2.001601728802092,
+        "latency_ms": 10.3169693,
+        "oom": false,
+        "softmax_a_pct": 27.278042623213956,
+        "softmax_b_pct": 27.494504873718615
+      },
+      "dense": {
+        "acc_a_pct": 10.0,
+        "acc_b_pct": 40.0,
+        "acc_relational_pct": 100.0,
+        "cross_talk_ratio": 7.337987755475893,
+        "latency_ms": 4.6282598,
+        "oom": false,
+        "softmax_a_pct": 17.16883481496196,
+        "softmax_b_pct": 32.85563172393582
+      },
+      "distance_tokens": 100
+    },
+    {
+      "cryo": {
+        "acc_a_pct": 40.0,
+        "acc_b_pct": 10.0,
+        "acc_relational_pct": 0.0,
+        "cross_talk_ratio": 2.5441696553667605,
+        "latency_ms": 20.039368900000003,
+        "oom": false,
+        "softmax_a_pct": 30.546328204612298,
+        "softmax_b_pct": 20.871083798983612
+      },
+      "dense": {
+        "acc_a_pct": 40.0,
+        "acc_b_pct": 10.0,
+        "acc_relational_pct": 100.0,
+        "cross_talk_ratio": 7.424725758394729,
+        "latency_ms": 17.8671291,
+        "oom": false,
+        "softmax_a_pct": 27.50997629202425,
+        "softmax_b_pct": 15.491480209303385
+      },
+      "distance_tokens": 1024
+    },
+    {
+      "cryo": {
+        "acc_a_pct": 20.0,
+        "acc_b_pct": 20.0,
+        "acc_relational_pct": 0.0,
+        "cross_talk_ratio": 2.814041331303962,
+        "latency_ms": 49.8136562,
+        "oom": false,
+        "softmax_a_pct": 22.654458093378643,
+        "softmax_b_pct": 29.902034471300148
+      },
+      "dense": {
+        "acc_a_pct": 20.0,
+        "acc_b_pct": 20.0,
+        "acc_relational_pct": 100.0,
+        "cross_talk_ratio": 2.5460223773923767,
+        "latency_ms": 170.8607664,
+        "oom": false,
+        "softmax_a_pct": 22.305107553309075,
+        "softmax_b_pct": 27.22878925294492
+      },
+      "distance_tokens": 4096
+    },
+    {
+      "cryo": {
+        "acc_a_pct": 20.0,
+        "acc_b_pct": 40.0,
+        "acc_relational_pct": 0.0,
+        "cross_talk_ratio": 1.8052373308062744,
+        "latency_ms": 88.0823692,
+        "oom": false,
+        "softmax_a_pct": 24.914639939486882,
+        "softmax_b_pct": 30.125142973440138
+      },
+      "dense": {
+        "acc_a_pct": 30.0,
+        "acc_b_pct": 40.0,
+        "acc_relational_pct": 100.0,
+        "cross_talk_ratio": 22.961977249554373,
+        "latency_ms": 609.895082,
+        "oom": false,
+        "softmax_a_pct": 21.229979511272568,
+        "softmax_b_pct": 34.419722970452185
+      },
+      "distance_tokens": 8192
+    }
+  ],
+  "date": "2026-09-06",
+  "distances": [
+    100,
+    1024,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536
+  ],
+  "experiment": "FASE 15 — TESTE DE INTERFERENCIA & RETRIEVAL SELETIVO",
+  "hardware": "NVIDIA GeForce RTX 3060 (12GB)",
+  "trials_per_distance": 10
+}

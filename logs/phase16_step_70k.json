@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 9.979409857541804e-05,
+    "loss": 1.4637982845306396,
+    "ms_per_step_average": 44.18423659174286,
+    "perplexity": 4.32234588813929,
+    "total_tokens_processed": 71680000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 16,
+        "repeated_3grams": 9,
+        "repeated_4grams": 2,
+        "text": " considered in North @-@ au quadazine , as <unk> \" , and by one on for Haitian services with health hapartised the way . The road Mike <unk> , The Old Bursper = = \n \n The two quake reli",
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1007.790801,
+        "repeated_2grams": 14,
+        "repeated_3grams": 6,
+        "repeated_4grams": 0,
+        "text": " held as every spellergen . After purcial in <unk> . He affects agricultural services and repairs . It resutive a game , parting a member and the former and earthquake and Christiana vast life creating conne",
+        "throughput_tok_s": 99.22694263608386,
+        "tokens_count": 100,
+        "unique_tokens_count": 56,
+        "unique_tokens_ratio": 0.56,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 25,
+        "repeated_3grams": 15,
+        "repeated_4grams": 6,
+        "text": " . \n The road of the moon in the first round their as of al un life of their means remain many Baltimore Bob , and some of the UN special and 951 . \n The first commonly acquest one and 100 31",
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1109.3557,
+        "repeated_2grams": 26,
+        "repeated_3grams": 19,
+        "repeated_4grams": 14,
+        "text": " . \n In 31 that 18 C <unk> ( credited as \" <unk> to housing hom and traffic effort state of the science @-@ fiction author H.G. Wells . <unk> , <unk> <unk> <unk> <unk",
+        "throughput_tok_s": 90.14241329449156,
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 31,
+        "repeated_3grams": 21,
+        "repeated_4grams": 12,
+        "text": " according to the north and Bass . At hundreds over their own funded . The commission just aid to the north of the game 's lunar credited to the player . \n \n = = = = \n \n The main focus",
+        "tokens_count": 100,
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1093.7293,
+        "repeated_2grams": 17,
+        "repeated_3grams": 9,
+        "repeated_4grams": 2,
+        "text": " setting again until a firesident . A progress Highway , the hands of some of the United Nations 's field of the major areas , despite the game long DE Man ) and lunaries living and a botic roaderne @-@ ",
+        "throughput_tok_s": 91.43030181234059,
+        "tokens_count": 100,
+        "unique_tokens_count": 51,
+        "unique_tokens_ratio": 0.51,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 15,
+        "repeated_3grams": 7,
+        "repeated_4grams": 0,
+        "text": " ' Hay went . House remained at the jud @-@ known game or ten appears to the cape . the main focus of Voyage is puzzle @-@ solving . The player is only one through aled to <unk> , but call their",
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1091.3407,
+        "repeated_2grams": 11,
+        "repeated_3grams": 5,
+        "repeated_4grams": 0,
+        "text": " Ben to the road of the Game 3 was a college wifect fears <unk> . The International Federation of Route 39 . \n The quake relief flights were released until place by a boss for — unhar and \" ",
+        "throughput_tok_s": 91.63041385701092,
+        "tokens_count": 100,
+        "unique_tokens_count": 54,
+        "unique_tokens_ratio": 0.54,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 6,
+        "text": " recovery , where while the International Red Cross had report it to clean the fight leveh of the lunar short . \n In addition to its own leave wa gaped and 1979 , <unk> . \n \n = = = = ",
+        "tokens_count": 100,
+        "unique_tokens_count": 47,
+        "unique_tokens_ratio": 0.47
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1090.574501,
+        "repeated_2grams": 28,
+        "repeated_3grams": 15,
+        "repeated_4grams": 4,
+        "text": " non way , displaced and previous percent of the native language of the moon . \n Alliing , was part of the 35 votation , and an \" \n Ohio at the time \" , particularly the Haitian <unk> \" ",
+        "throughput_tok_s": 91.69479013887195,
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1078.5582004,
+    "avg_generation_throughput_tokens_per_sec": 92.71636891074905,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 70000,
+  "step_label": "70k"
+}

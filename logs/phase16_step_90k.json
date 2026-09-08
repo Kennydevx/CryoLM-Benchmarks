@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 2.9488369069364462e-05,
+    "loss": 1.879425287246704,
+    "ms_per_step_average": 43.9989883169,
+    "perplexity": 6.549739561454875,
+    "total_tokens_processed": 92160000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 51,
+        "repeated_3grams": 38,
+        "repeated_4grams": 26,
+        "text": " the attacks . The strents of consumption of the Chinese famness . \n <unk> his positions the assault \" <unk> \" \" , \" <unk> \" , and \" <unk> \" , and the <unk> of the Chin",
+        "tokens_count": 100,
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1010.79707,
+        "repeated_2grams": 17,
+        "repeated_3grams": 9,
+        "repeated_4grams": 3,
+        "text": " the Fusious Biggers . \n \n = = = First World War Commondens . In 1960s of Homer 's electrontane of Horry <unk> , but was often upsegic in terrest , and and I target ",
+        "throughput_tok_s": 98.9318261478538,
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 21,
+        "repeated_3grams": 10,
+        "repeated_4grams": 0,
+        "text": " Platoon such , Hill 355 , Loren and constant , and the next day , the attack is moved in 1 @-@ up western artillery positions , although the fourth offight the fight as the high ground , he argued that ",
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 993.829572,
+        "repeated_2grams": 32,
+        "repeated_3grams": 21,
+        "repeated_4grams": 10,
+        "text": " I 'm to the Canadians . In the bankl were slopiment . \n In the wounded , while <unk> the plan , <unk> , <unk> of <unk> and D , Short ( 1 @,@ 200 @,@ 000 @-@ flank and ",
+        "throughput_tok_s": 100.62087385743439,
+        "tokens_count": 100,
+        "unique_tokens_count": 39,
+        "unique_tokens_ratio": 0.39,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 31,
+        "repeated_3grams": 20,
+        "repeated_4grams": 10,
+        "text": " were tissued information in the base of the first of a phase of the operation the Chinese to assault his darkness , wounding in artillery and <unk> \" . \n \n = = = <unk> = = = \n ",
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1157.313198,
+        "repeated_2grams": 20,
+        "repeated_3grams": 11,
+        "repeated_4grams": 4,
+        "text": " leaving <unk> and work to be changed on a taking minims of the Fusiliers . <unk> , the attack ' made is to wound @-@ delis , including Chinese from the artillery assaulted the Chinese flank ",
+        "throughput_tok_s": 86.40703326706553,
+        "tokens_count": 100,
+        "unique_tokens_count": 50,
+        "unique_tokens_ratio": 0.5,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 23,
+        "repeated_3grams": 11,
+        "repeated_4grams": 0,
+        "text": " was re on the 3 October , 1920 , with the attack was assigned on 184 days by the Australians in the defence of Hill 355 , the Republic of Kowang @-@ San but not \" \" <unk> \" . \n The",
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1060.746898,
+        "repeated_2grams": 33,
+        "repeated_3grams": 24,
+        "repeated_4grams": 16,
+        "text": " = = = <unk> international 35 . Safe ot undertments . \n \n = = = <unk> = = = \n \n The Hinge were later on a minimium , it becoming a conceusion , also en their Australians from ",
+        "throughput_tok_s": 94.27319579114149,
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42,
+        "vram_mb": 1336.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 40,
+        "repeated_3grams": 28,
+        "repeated_4grams": 17,
+        "text": " and an attack independent fteen in a position of the Chinese to assault his \" <unk> \" . \n \n = = = <unk> = = = \n \n The Chinese , the first prend 's <unk> \" , \" <",
+        "tokens_count": 100,
+        "unique_tokens_count": 34,
+        "unique_tokens_ratio": 0.34
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1102.711198,
+        "repeated_2grams": 14,
+        "repeated_3grams": 7,
+        "repeated_4grams": 0,
+        "text": " by senabards a pecially and little his conference between Mato School and approach by a brigation , it was appointed on the third next day , the series was discovered with her assaulting 3 kickium of the country <",
+        "throughput_tok_s": 90.68557586190397,
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53,
+        "vram_mb": 1336.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1065.0795872,
+    "avg_generation_throughput_tokens_per_sec": 93.88969725998706,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1336.5
+  },
+  "step": 90000,
+  "step_label": "90k"
+}

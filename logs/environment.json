@@ -1,0 +1,121 @@
+{
+  "protocol": "CryoLM Refined Testing Protocol - PHASE 0: Experiment Freeze",
+  "timestamp_iso": "2026-09-03T18:13:56.786696",
+  "hardware": {
+    "gpu": {
+      "model": "NVIDIA GeForce RTX 3060",
+      "vram_capacity_real": "12288 MiB",
+      "driver_version": "596.36",
+      "power_limit_watts": "170.00 W",
+      "clocks_status": {
+        "mode": "Default Dynamic Boost (P-State auto)",
+        "current_graphics_clock": "1807 MHz",
+        "current_memory_clock": "7501 MHz",
+        "pstate": "P0"
+      },
+      "temperature": {
+        "idle_typical_celsius": 45,
+        "current_celsius": "63",
+        "thermal_throttle_limit_celsius": 93
+      }
+    },
+    "cpu": {
+      "model": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz",
+      "architecture": "x86_64",
+      "features": [
+        "AVX",
+        "AVX2",
+        "FMA"
+      ]
+    },
+    "ram": {
+      "total_capacity": "24 GB Physical Host RAM (13 GiB alocados no WSL2)",
+      "type": "DDR4 ECC Server Grade"
+    },
+    "storage": [
+      {
+        "model": "Micron 2200S NVMe 256GB",
+        "type": "NVMe SSD",
+        "capacity_bytes": 256060514304,
+        "firmware": "22001030"
+      },
+      {
+        "model": "Lexar SSD NQ100 480GB",
+        "type": "SATA SSD",
+        "capacity_bytes": 480103981056,
+        "firmware": "SN11873"
+      }
+    ]
+  },
+  "software": {
+    "operating_system": {
+      "host_os": "Microsoft Windows 10 Pro (Build 19045)",
+      "subsystem_kernel": "6.18.33.2-microsoft-standard-WSL2",
+      "subsystem_distro": "Ubuntu 24.04 LTS (WSL2)"
+    },
+    "cuda_version": "13.2 (Driver API) / 12.4 (nvcc Toolkit) / 13.0 (LibTorch Runtime)",
+    "cudnn_version": "9.1.0",
+    "pytorch_libtorch_version": "2.11.0+cu130 (LibTorch Native C++ / CUDA)",
+    "compilers": {
+      "gcc": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "nvcc": "Cuda compilation tools, release 12.4, V12.4.131"
+    }
+  },
+  "experiment_reproducibility": {
+    "git": {
+      "commit_hash": "edef1cd258c805f4ee8eb32b1f3981c12b4e5fdd",
+      "branch": "backup_work_saved",
+      "working_tree_clean": false
+    },
+    "model_checkpoints": {
+      "active_training_checkpoint": {
+        "path": "build_cuda/cryolm_102m_step_60000.pt",
+        "step": 60000,
+        "size_bytes": 427385998,
+        "sha256": "c79d32ffad23386424a874f0c37d8d8a92247377afdc9d0a6a30cd6168e3a419"
+      },
+      "previous_checkpoint": {
+        "path": "build_cuda/cryolm_102m_step_58000.pt",
+        "step": 58000,
+        "size_bytes": 427385998,
+        "sha256": "168de216a886ebc5d2c2fae2a94b1e9acc3055b9358c4c01093d35570ff57a32"
+      }
+    },
+    "datasets": {
+      "wikitext2_train": {
+        "path": "data/wikitext2_train.txt",
+        "size_bytes": 10797148,
+        "sha256": "9e9fa1ad55b1c2c95b08e37dd8e653f638fac2c6de904b79e813611eefbc985f"
+      },
+      "wikitext2_valid": {
+        "path": "data/wikitext2_valid.txt",
+        "size_bytes": 1121681,
+        "sha256": "f0737ed31fc1329026e95cb8b98e19c2a182c39c240ab909dc31abf2f8af58e8"
+      },
+      "master_pretrain_bin": {
+        "path": "build_cuda/data/cryo_pretrain_data.bin",
+        "total_tokens": 4581851067,
+        "size_bytes": 9163702134,
+        "sha256_header_64mb": "2b4e3d04fa0c6dd030dcc5c1a15a8ab49f877bd3b55241eeb01d2da190d5ba95"
+      }
+    },
+    "tokenizers": {
+      "binary_model": {
+        "path": "cryolm_bpe.tok",
+        "vocab_size": 2000,
+        "sha256": "1b66475ecb2976c78195409c48ba722dc4db24719287ffbb59e8139a32e8531a"
+      },
+      "json_vocab": {
+        "path": "cryolm_bpe.json",
+        "vocab_size": 4000,
+        "sha256": "3de517bcab94b530c508e8abd0dd23c739408843700656353d21aad0aca7d8a9"
+      }
+    },
+    "benchmark_seeds": [
+      42,
+      43,
+      44,
+      1337
+    ]
+  }
+}

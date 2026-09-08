@@ -1,0 +1,12 @@
+{
+  "direct_hpsm_accuracy_pct": 0.0,
+  "direct_hpsm_correct": 0,
+  "direct_hpsm_total": 5,
+  "end_to_end_context_length": 256,
+  "needle_accuracy_pct": 0.0,
+  "needle_tokens_correct": 0,
+  "needle_tokens_total": 1,
+  "success": false,
+  "target_token_probability_pct": 0.00015241539585986175,
+  "test_name": "HPSM Needle Write & Read Verification"
+}
