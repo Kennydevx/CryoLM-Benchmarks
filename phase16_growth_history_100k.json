@@ -2068,6 +2068,165 @@
       },
       "step": 80000,
       "step_label": "80k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 2.9488369069364462e-05,
+        "loss": 1.3087832927703857,
+        "ms_per_step_average": 47.8991910106,
+        "perplexity": 3.7016671260143026,
+        "total_tokens_processed": 92160000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 42,
+            "repeated_3grams": 29,
+            "repeated_4grams": 19,
+            "text": " the largest city in the United States. The city is located in the north of the United States, and the most populous city in the United States. The state is the world's most populous country, with a population of over 1.5 million people. It is",
+            "tokens_count": 100,
+            "unique_tokens_count": 31,
+            "unique_tokens_ratio": 0.31
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1063.237604,
+            "repeated_2grams": 38,
+            "repeated_3grams": 26,
+            "repeated_4grams": 15,
+            "text": " named after the island of Great Britain, and from the Indian Ocean to the south, and the Caribbean Sea. The country is bordered by the Mediterranean Sea to the north, and the Pacific Ocean to the east, the Atlantic Ocean to the",
+            "throughput_tok_s": 94.05235445378398,
+            "tokens_count": 100,
+            "unique_tokens_count": 35,
+            "unique_tokens_ratio": 0.35,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 26,
+            "repeated_3grams": 16,
+            "repeated_4grams": 9,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -5*q - 5 = -5 for q, we need to isolate the variable 'n' on one side of the equation. We have -5 to both sides of the equation by",
+            "tokens_count": 100,
+            "unique_tokens_count": 44,
+            "unique_tokens_ratio": 0.44
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1107.329004,
+            "repeated_2grams": 27,
+            "repeated_3grams": 18,
+            "repeated_4grams": 12,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -30*a = -3*q + 12 + 13 + 9 = 0 for the second number of candies that are -1.<|im_end|><|im_start|>userWrite an article",
+            "throughput_tok_s": 90.30739702362209,
+            "tokens_count": 100,
+            "unique_tokens_count": 48,
+            "unique_tokens_ratio": 0.48,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 43,
+            "repeated_3grams": 36,
+            "repeated_4grams": 29,
+            "text": " the hypothesis is not entailed by the premise. The premise states that there are two men in a white shirt and a white dog is standing in a red shirt and a white dog in a red shirt and a white",
+            "tokens_count": 100,
+            "unique_tokens_count": 33,
+            "unique_tokens_ratio": 0.33
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1031.331304,
+            "repeated_2grams": 41,
+            "repeated_3grams": 29,
+            "repeated_4grams": 19,
+            "text": " they may not be on the side of the plane. In the premise, it is not possible to tell if the hypothesis is true if the premise is true. Therefore, the hypothesis is entailed by the premise. Therefore, ",
+            "throughput_tok_s": 96.96205245797523,
+            "tokens_count": 100,
+            "unique_tokens_count": 33,
+            "unique_tokens_ratio": 0.33,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1046.053104,
+            "repeated_2grams": 82,
+            "repeated_3grams": 80,
+            "repeated_4grams": 78,
+            "text": "          if (str1[i] > max):                                                                           ",
+            "throughput_tok_s": 95.59744110276068,
+            "tokens_count": 100,
+            "unique_tokens_count": 13,
+            "unique_tokens_ratio": 0.13,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 35,
+            "repeated_3grams": 24,
+            "repeated_4grams": 14,
+            "text": " the sun is a small town of the Cyrillic land of the North Sea and the Pacific Ocean. It is the world's most populous country in the world. The country is the world's most populous country, with a population of over 1.5 ",
+            "tokens_count": 100,
+            "unique_tokens_count": 37,
+            "unique_tokens_ratio": 0.37
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1164.833904,
+            "repeated_2grams": 26,
+            "repeated_3grams": 12,
+            "repeated_4grams": 3,
+            "text": " a flashlight sits into a snowy area of a fire. The sun is surrounded by the sun and rushes into the plates with its lungs. This process occurs when the lungs die through the bloodstream. The heat in ",
+            "throughput_tok_s": 85.84914952818886,
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1082.5569840000003,
+        "avg_generation_throughput_tokens_per_sec": 92.37389022285406,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 90000,
+      "step_label": "90k"
     }
   ],
   "model": "CryoLM-7M (Modo 11 Fused GSA, Vocab=4000)",
