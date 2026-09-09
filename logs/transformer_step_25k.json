@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0003475136278773837,
+    "loss": 2.108342170715332,
+    "perplexity": 8.23457843714158,
+    "tokens_seen": 25600000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the largest city in the city of the city of the United States. The city is the capital of the county of the county of the county of the county county of the county county of the county county county county county county",
+        "has_math_symbols": false,
+        "latency_ms": 368.9489,
+        "repeated_2grams": 75,
+        "repeated_3grams": 67,
+        "repeated_4grams": 59,
+        "throughput_tok_s": 271.04024432651784,
+        "total_tokens": 100,
+        "unique_tokens": 14,
+        "unique_tokens_ratio": 0.14
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " \"Basicia MÃ¶y HÃ¶y KÃ¶y\" in the south of Europe. The capital of the nation's capital is New York City, where they are on the island of France. The capital is HÃ¶y Guri, Layla, is the county",
+        "has_math_symbols": false,
+        "latency_ms": 411.856801,
+        "repeated_2grams": 33,
+        "repeated_3grams": 20,
+        "repeated_4grams": 9,
+        "throughput_tok_s": 242.80283767852603,
+        "total_tokens": 100,
+        "unique_tokens": 40,
+        "unique_tokens_ratio": 0.4
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistant15 * 15 = <<15*15=24>>24 pieces of tips in the middle of the two days.The number of tips in the first three days is 24 * 24 = <<24*24=24>>24 t",
+        "has_math_symbols": true,
+        "latency_ms": 333.7257,
+        "repeated_2grams": 35,
+        "repeated_3grams": 22,
+        "repeated_4grams": 14,
+        "throughput_tok_s": 299.6472851806139,
+        "total_tokens": 100,
+        "unique_tokens": 31,
+        "unique_tokens_ratio": 0.31
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistant15 * 15 = <<15*15=18>>18.Since 12 + 18 = <<18+13=240>>240 for the number of years he has 240 years left because 240 - 240 = <<240-240=22",
+        "has_math_symbols": true,
+        "latency_ms": 488.991701,
+        "repeated_2grams": 27,
+        "repeated_3grams": 14,
+        "repeated_4grams": 7,
+        "throughput_tok_s": 204.50244819185593,
+        "total_tokens": 100,
+        "unique_tokens": 32,
+        "unique_tokens_ratio": 0.32
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " the hypothesis is true if the premise is true based on the premise. The hypothesis is true if the premise is true based on the premise and the hypothesis. The premise does not provide any information about the hypo",
+        "has_math_symbols": false,
+        "latency_ms": 412.900101,
+        "repeated_2grams": 59,
+        "repeated_3grams": 51,
+        "repeated_4grams": 43,
+        "throughput_tok_s": 242.18933286238163,
+        "total_tokens": 100,
+        "unique_tokens": 22,
+        "unique_tokens_ratio": 0.22
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " it is necessary for junior or access to other materials or objects. The genetic term is used to describe different types of tasks. The ability to form the overall format is called minimal. This format is the primary format in the",
+        "has_math_symbols": false,
+        "latency_ms": 418.433601,
+        "repeated_2grams": 27,
+        "repeated_3grams": 15,
+        "repeated_4grams": 6,
+        "throughput_tok_s": 238.98654353047522,
+        "total_tokens": 100,
+        "unique_tokens": 42,
+        "unique_tokens_ratio": 0.42
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 341.008801,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 293.2475634257897,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "       return 0    return 0     elif n == 0:            return 0      elif n == ':':           elif n == ':         elif n ",
+        "has_math_symbols": true,
+        "latency_ms": 398.5271,
+        "repeated_2grams": 81,
+        "repeated_3grams": 75,
+        "repeated_4grams": 70,
+        "throughput_tok_s": 250.92396476927163,
+        "total_tokens": 100,
+        "unique_tokens": 9,
+        "unique_tokens_ratio": 0.09
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " and the sun of the sun of the sun and the sun of the sun of the sun and the sun of the sun of the sun and the sun of the sun of the sun and the sun of the sun of",
+        "has_math_symbols": false,
+        "latency_ms": 346.749601,
+        "repeated_2grams": 90,
+        "repeated_3grams": 88,
+        "repeated_4grams": 86,
+        "throughput_tok_s": 288.39254525919415,
+        "total_tokens": 100,
+        "unique_tokens": 6,
+        "unique_tokens_ratio": 0.06
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " which is the term that cater to the temperature is waiting to move to the body. The term \"ve\" is not the place of the same size of a surface area.<|im_end|><|im_start|>userAnswer the following question: Information:",
+        "has_math_symbols": false,
+        "latency_ms": 479.88,
+        "repeated_2grams": 26,
+        "repeated_3grams": 14,
+        "repeated_4grams": 3,
+        "throughput_tok_s": 208.385429690756,
+        "total_tokens": 100,
+        "unique_tokens": 43,
+        "unique_tokens_ratio": 0.43
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 439.5378406,
+    "avg_generation_throughput_tokens_per_sec": 227.51169697583487,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 551.331007541,
+  "step": 25000,
+  "timestamp_ms": 1788919669181
+}
