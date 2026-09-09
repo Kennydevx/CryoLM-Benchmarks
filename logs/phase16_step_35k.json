@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0002997368187253474,
+    "loss": 3.0161259174346924,
+    "ms_per_step_average": 48.52190721742858,
+    "perplexity": 20.412060301892403,
+    "total_tokens_processed": 35840000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 72,
+        "repeated_3grams": 66,
+        "repeated_4grams": 60,
+        "text": " a member of the United States and the United States. The city is the capital of the world of the world. The city is the capital of the world of the world. The city is the capital of the world of the world. The capital of the world",
+        "tokens_count": 100,
+        "unique_tokens_count": 14,
+        "unique_tokens_ratio": 0.14
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1258.899308,
+        "repeated_2grams": 32,
+        "repeated_3grams": 19,
+        "repeated_4grams": 9,
+        "text": " currently delighted by a state of the world in the world with multiple military forces in the world. The state was made by a recipe in a state worldwide with a population of 4.2 million inhabitants.  - The United States (Italian German",
+        "throughput_tok_s": 79.43447054464502,
+        "tokens_count": 100,
+        "unique_tokens_count": 39,
+        "unique_tokens_ratio": 0.39,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 50,
+        "repeated_3grams": 36,
+        "repeated_4grams": 24,
+        "text": "<|im_end|><|im_start|>assistantThe total number of cans in the world are in the world of the world in the world. The first part of the world was the first name of the country in the world. The city was a member of the",
+        "tokens_count": 100,
+        "unique_tokens_count": 29,
+        "unique_tokens_ratio": 0.29
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1198.134607,
+        "repeated_2grams": 16,
+        "repeated_3grams": 7,
+        "repeated_4grams": 1,
+        "text": "<|im_end|><|im_start|>assistantAlright, little buddy, let me explain it to you like you're sitting at all the same thing in the world. I am in a place where you should be worried and I will have to make ",
+        "throughput_tok_s": 83.46307619841583,
+        "tokens_count": 100,
+        "unique_tokens_count": 51,
+        "unique_tokens_ratio": 0.51,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 29,
+        "repeated_3grams": 19,
+        "repeated_4grams": 11,
+        "text": " the second question is not the same thing. The first sentence does not provide enough information to confirm whether or not true or not. The hypothesis is not true or not.<|im_end|><|im_start|>userPlease answer the following question:",
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1070.473007,
+        "repeated_2grams": 28,
+        "repeated_3grams": 18,
+        "repeated_4grams": 9,
+        "text": " a child and a quick time that you have a new shop is like a cat or a cat can help you feel the same thing. The governments are not like a friend or a table or a person who is in this case. Here ",
+        "throughput_tok_s": 93.4166479174005,
+        "tokens_count": 100,
+        "unique_tokens_count": 40,
+        "unique_tokens_ratio": 0.4,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1150.648204,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 86.9075358153516,
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 35,
+        "repeated_3grams": 26,
+        "repeated_4grams": 19,
+        "text": " it is not possible to tell if the hypothesis is true or not. The premise does not directly mention the hypothesis that the hypothesis is not true or not.<|im_end|><|im_start|>userPlease answer the following question",
+        "tokens_count": 100,
+        "unique_tokens_count": 39,
+        "unique_tokens_ratio": 0.39
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1017.477201,
+        "repeated_2grams": 23,
+        "repeated_3grams": 15,
+        "repeated_4grams": 7,
+        "text": " you should choose a wide range of information that can lead to a comprehensive step-by-step reasoning process and the tone of the review is not negative. In this case, the review is a person who is not involved in the context of the",
+        "throughput_tok_s": 98.28230047977262,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1139.1264654,
+    "avg_generation_throughput_tokens_per_sec": 87.78656544063823,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 35000,
+  "step_label": "35k"
+}

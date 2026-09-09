@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00032507063840039115,
+    "loss": 1.8313188552856445,
+    "ms_per_step_average": 48.20951895193333,
+    "perplexity": 6.242113676825215,
+    "total_tokens_processed": 30720000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 71,
+        "repeated_3grams": 64,
+        "repeated_4grams": 57,
+        "text": " the largest county county of the North Ocean and the largest county of the North Ocean to the north and the North Ocean to the north. The island of the North Ocean is the largest county county of the North Ocean to the north ",
+        "tokens_count": 100,
+        "unique_tokens_count": 16,
+        "unique_tokens_ratio": 0.16
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1180.514314,
+        "repeated_2grams": 44,
+        "repeated_3grams": 32,
+        "repeated_4grams": 21,
+        "text": " one of the largest most populous county country in the North Revolution of the Darwen, the second largest county in the United Kingdom. The second largest island in the North and Pacific Ocean. It is the largest city of the largest county of the",
+        "throughput_tok_s": 84.70884157360585,
+        "tokens_count": 100,
+        "unique_tokens_count": 33,
+        "unique_tokens_ratio": 0.33,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 68,
+        "repeated_3grams": 62,
+        "repeated_4grams": 57,
+        "text": "<|im_end|><|im_start|>assistantThe total number of students in the first half is the total number of students in the first half of the total number of students in the first half of the total number of students in the first half of the total ",
+        "tokens_count": 100,
+        "unique_tokens_count": 20,
+        "unique_tokens_ratio": 0.2
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1163.750156,
+        "repeated_2grams": 17,
+        "repeated_3grams": 7,
+        "repeated_4grams": 4,
+        "text": "<|im_end|><|im_start|>assistant1 o + 2 = <<5+2+1+5+5=6>>9 bananas of milk does he spend 250 miles = <<5000+550=600>>800 hours to get the first tree of half a ",
+        "throughput_tok_s": 85.92909696675477,
+        "tokens_count": 100,
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 48,
+        "repeated_3grams": 43,
+        "repeated_4grams": 38,
+        "text": " the hypothesis is not possible to tell if the hypothesis is entailed by the premise. The premise doesn't directly answer the question above because it is not possible to tell if the hypothesis is entailed by the premise",
+        "tokens_count": 100,
+        "unique_tokens_count": 31,
+        "unique_tokens_ratio": 0.31
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1089.166382,
+        "repeated_2grams": 19,
+        "repeated_3grams": 9,
+        "repeated_4grams": 0,
+        "text": " you will see the majority of the car in the body. If you get it, you can be able to move the stick and feel the potential for the meal too. The best answer is \"no\" because the hypothesis is not entailed ",
+        "throughput_tok_s": 91.81333692688285,
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1148.538785,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 87.06715115415106,
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 82,
+        "repeated_3grams": 78,
+        "repeated_4grams": 74,
+        "text": " the big bag of the bag is a big way to the bag of the bag of the bag of the bag of the bag of the bag of the bag of the bag of the bag of the bag of the b",
+        "tokens_count": 100,
+        "unique_tokens_count": 10,
+        "unique_tokens_ratio": 0.1
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1065.899679,
+        "repeated_2grams": 23,
+        "repeated_3grams": 13,
+        "repeated_4grams": 4,
+        "text": " it is like a similar way to the gumbo to the air where they had to be destroyed. If you have a new job, you need to find a nice and hair in the baby happy. You can find a pack for the first do",
+        "throughput_tok_s": 93.81745953223052,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1129.5738632,
+    "avg_generation_throughput_tokens_per_sec": 88.52896057342132,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 30000,
+  "step_label": "30k"
+}

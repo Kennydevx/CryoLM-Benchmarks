@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0002721486107106328,
+    "loss": 2.7793495655059814,
+    "ms_per_step_average": 48.580977518625,
+    "perplexity": 16.108539989751048,
+    "total_tokens_processed": 40960000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 72,
+        "repeated_3grams": 68,
+        "repeated_4grams": 64,
+        "text": " the most widely spoken country in the world. It is the most widely spoken country in the world. It is situated in the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the ",
+        "tokens_count": 100,
+        "unique_tokens_count": 16,
+        "unique_tokens_ratio": 0.16
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1064.915299,
+        "repeated_2grams": 26,
+        "repeated_3grams": 15,
+        "repeated_4grams": 5,
+        "text": " currently on the Slovak Supreme Court and the Independent Place and the Environmentalists in the United States. He is the only economist of a boiling and commercial university in the 1990s. He also became the first of the 50th century",
+        "throughput_tok_s": 93.90418195128211,
+        "tokens_count": 100,
+        "unique_tokens_count": 47,
+        "unique_tokens_ratio": 0.47,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 65,
+        "repeated_3grams": 61,
+        "repeated_4grams": 59,
+        "text": "<|im_end|><|im_start|>assistantThe total number of students in the game is $2. The number of students in the game is $2. The number of students in the game is $2. The number of students in the game is $2. The ",
+        "tokens_count": 100,
+        "unique_tokens_count": 22,
+        "unique_tokens_ratio": 0.22
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1144.048395,
+        "repeated_2grams": 18,
+        "repeated_3grams": 8,
+        "repeated_4grams": 1,
+        "text": " What is the final step of the equation step by step:1. Calculate the total amount of water per j is $2. How much did he do with each other?<|im_end|><|im_start|>assistantTo answer the question, I will follow",
+        "throughput_tok_s": 87.40888972620778,
+        "tokens_count": 100,
+        "unique_tokens_count": 51,
+        "unique_tokens_ratio": 0.51,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 59,
+        "repeated_3grams": 54,
+        "repeated_4grams": 49,
+        "text": " the hypothesis is entailed by the premise. The premise states that the woman is wearing a black and white and white and white and white and white and white and white and white and white and white and white and white and white and ",
+        "tokens_count": 100,
+        "unique_tokens_count": 24,
+        "unique_tokens_ratio": 0.24
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1063.642393,
+        "repeated_2grams": 26,
+        "repeated_3grams": 16,
+        "repeated_4grams": 7,
+        "text": " it is not clear that the woman is wearing a red dog is walking on the wooden in a black jacket.3. The hypothesis is entailed by the premise and the hypothesis \"The menu are in a black skirt.",
+        "throughput_tok_s": 94.01656107176238,
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1124.159694,
+        "repeated_2grams": 24,
+        "repeated_3grams": 16,
+        "repeated_4grams": 11,
+        "text": "    return len(n + 1) * 2 * 2 = $2. Calculate the total cost of the total cost of the bacterial cake is 10/5 = $<<5*1200=1200>>1200 after the cookie tree cats to make",
+        "throughput_tok_s": 88.95533306676268,
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 29,
+        "repeated_3grams": 18,
+        "repeated_4grams": 9,
+        "text": " the dishwasher is not a good thing to be a good thing to do with the other things they are in the same time. It is not possible to tell if the hypothesis is entailed by the premise. The premise states that the",
+        "tokens_count": 100,
+        "unique_tokens_count": 40,
+        "unique_tokens_ratio": 0.4
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1112.696693,
+        "repeated_2grams": 28,
+        "repeated_3grams": 15,
+        "repeated_4grams": 2,
+        "text": " he can do so, he will take the kitchen and could have their options to the crowd of the dishwasher and that he could help them to clean them in the street and the girl in the hospital and make a boyfriend. This",
+        "throughput_tok_s": 89.87175088153155,
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1101.8924948,
+    "avg_generation_throughput_tokens_per_sec": 90.75295500415454,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 40000,
+  "step_label": "40k"
+}

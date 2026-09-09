@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 5.700222597731516e-05,
+    "loss": 2.1905035972595215,
+    "ms_per_step_average": 48.0732922397625,
+    "perplexity": 8.939713996757364,
+    "total_tokens_processed": 81920000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 59,
+        "repeated_3grams": 52,
+        "repeated_4grams": 47,
+        "text": " the largest city in the United States. It is the largest city in the United States, with a population of 8.5 million in the United States. The city is the largest city in the United States, with a population of 8.5 million people.  - The",
+        "tokens_count": 100,
+        "unique_tokens_count": 21,
+        "unique_tokens_ratio": 0.21
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1103.791792,
+        "repeated_2grams": 29,
+        "repeated_3grams": 19,
+        "repeated_4grams": 10,
+        "text": " named after the Sinhalese language of the United States of America, with a population of 8,052,000 in the region and is the oldest metropolitan county in the world. It is the most populous city in the United States, with an ",
+        "throughput_tok_s": 90.59679617548741,
+        "tokens_count": 100,
+        "unique_tokens_count": 40,
+        "unique_tokens_ratio": 0.4,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 58,
+        "repeated_3grams": 50,
+        "repeated_4grams": 44,
+        "text": "<|im_end|><|im_start|>assistantTo solve the equation -4*l + 4*d + 4 = -2*l for d.<|im_end|><|im_start|>assistantTo solve the equation -4*d + 4*d + 4 = -2*d ",
+        "tokens_count": 100,
+        "unique_tokens_count": 26,
+        "unique_tokens_ratio": 0.26
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1038.200892,
+        "repeated_2grams": 50,
+        "repeated_3grams": 41,
+        "repeated_4grams": 36,
+        "text": "<|im_end|><|im_start|>assistantTo solve the equation -42*k + 46 = 41*i for d.<|im_end|><|im_start|>assistantTo solve the equation -4*y + 10 = -6 for d.<|im_end|><",
+        "throughput_tok_s": 96.32047204983522,
+        "tokens_count": 100,
+        "unique_tokens_count": 31,
+        "unique_tokens_ratio": 0.31,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 78,
+        "repeated_3grams": 75,
+        "repeated_4grams": 72,
+        "text": " the answer is \"no\". The answer is \"no.\" The correct answer is \"no.\" The correct answer is \"no\". The answer is \"no.\" The correct answer is \"no\". The answer is \"no.\"",
+        "tokens_count": 100,
+        "unique_tokens_count": 12,
+        "unique_tokens_ratio": 0.12
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1025.131992,
+        "repeated_2grams": 25,
+        "repeated_3grams": 16,
+        "repeated_4grams": 7,
+        "text": " what can be used for the nucleus of a cell being fair in the body. In this case, the answer is \"m and can not cause the perfect energy of the water in the bloodstream.\"    The answer is \"salt down",
+        "throughput_tok_s": 97.54841403876506,
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1139.48629,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 87.75884438241025,
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 34,
+        "repeated_3grams": 25,
+        "repeated_4grams": 18,
+        "text": " the sun is not a good place for the lake. The other options are incorrect because they are not related to the same location. They are not related to the same location as the same thing. They are not paraphrases of each other.",
+        "tokens_count": 100,
+        "unique_tokens_count": 38,
+        "unique_tokens_ratio": 0.38
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1127.112287,
+        "repeated_2grams": 27,
+        "repeated_3grams": 15,
+        "repeated_4grams": 5,
+        "text": " there is no mention of the basket that is not only the correct answer to the question. The answer is \"no.\"<|im_end|><|im_start|>userQ:Question: What is the full name of the person that was considered to",
+        "throughput_tok_s": 88.72230491441711,
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1086.7446506000001,
+    "avg_generation_throughput_tokens_per_sec": 92.0179362693796,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 80000,
+  "step_label": "80k"
+}

@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 9.979409857541804e-05,
+    "loss": 1.4164056777954102,
+    "ms_per_step_average": 48.372858274057144,
+    "perplexity": 4.122276988444543,
+    "total_tokens_processed": 71680000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 75,
+        "repeated_3grams": 72,
+        "repeated_4grams": 69,
+        "text": " the largest city in the United States. The state is the most populous city in the United States. The state is the most populous city in the United States. The state is the most populous city in the United States. The state is the most populous",
+        "tokens_count": 100,
+        "unique_tokens_count": 14,
+        "unique_tokens_ratio": 0.14
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1075.591318,
+        "repeated_2grams": 38,
+        "repeated_3grams": 27,
+        "repeated_4grams": 17,
+        "text": " in the early 20th century and is a major urban area in the world. It is part of the city of the city of Kenneth, which is part of the United States Army (GP) and the Celtic Sea. It is the largest city in",
+        "throughput_tok_s": 92.97211526952842,
+        "tokens_count": 100,
+        "unique_tokens_count": 37,
+        "unique_tokens_ratio": 0.37,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 66,
+        "repeated_3grams": 61,
+        "repeated_4grams": 57,
+        "text": "<|im_end|><|im_start|>assistantTo solve the equation -6*b + 66 + 6 + 6 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 ",
+        "tokens_count": 100,
+        "unique_tokens_count": 22,
+        "unique_tokens_ratio": 0.22
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 977.573453,
+        "repeated_2grams": 39,
+        "repeated_3grams": 31,
+        "repeated_4grams": 27,
+        "text": "<|im_end|><|im_start|>assistantThe correct answer is:(ii) 3. 5; [B]. It's impossible to say; (III) No;<|im_end|><|im_start|>assistant(ii) yes.<|im_end|><|im_start|>user",
+        "throughput_tok_s": 102.29410352042365,
+        "tokens_count": 100,
+        "unique_tokens_count": 38,
+        "unique_tokens_ratio": 0.38,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 43,
+        "repeated_3grams": 28,
+        "repeated_4grams": 13,
+        "text": " the answer is that the person is in the same way. The first question asks about the specific location of the cat in the first sentence, which is the same as the first sentence. The first sentence is about a man in a black sh",
+        "tokens_count": 100,
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1017.663759,
+        "repeated_2grams": 20,
+        "repeated_3grams": 12,
+        "repeated_4grams": 7,
+        "text": " what does the supposed perturbation influence the second effect mentioned. Answer by more, less or no effectA:<|im_end|><|im_start|>assistantThe supposed perturbation of less blood vessels and sediment vapor can be used for the ",
+        "throughput_tok_s": 98.26428338006679,
+        "tokens_count": 100,
+        "unique_tokens_count": 51,
+        "unique_tokens_ratio": 0.51,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1124.068576,
+        "repeated_2grams": 89,
+        "repeated_3grams": 87,
+        "repeated_4grams": 85,
+        "text": "    if num > 0:                                                                                        ",
+        "throughput_tok_s": 88.96254386529529,
+        "tokens_count": 100,
+        "unique_tokens_count": 6,
+        "unique_tokens_ratio": 0.06,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 47,
+        "repeated_3grams": 32,
+        "repeated_4grams": 19,
+        "text": " the sun is not a good way to keep the cat to the cold and the sun and the sun is not eating it. This is because the person is not in the same way, as they are not the same as the same thing. ",
+        "tokens_count": 100,
+        "unique_tokens_count": 29,
+        "unique_tokens_ratio": 0.29
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1171.956283,
+        "repeated_2grams": 26,
+        "repeated_3grams": 13,
+        "repeated_4grams": 5,
+        "text": " he can sleep to the liquid of the neck. However, a neutral and more dangerous tale of the hot tissue in the skin, the body is effectively found in the water. In contrast, the sun can lead to colder",
+        "throughput_tok_s": 85.32741489641384,
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1073.3706778,
+    "avg_generation_throughput_tokens_per_sec": 93.16446039401953,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 70000,
+  "step_label": "70k"
+}

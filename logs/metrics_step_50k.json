@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00021302056168740437,
+    "loss": 2.2180044651031494,
+    "ms_per_step_average": 48.759537282379995,
+    "perplexity": 9.188975636174366,
+    "total_tokens_processed": 51200000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 63,
+        "repeated_3grams": 57,
+        "repeated_4grams": 51,
+        "text": " the second largest city in the United States. The state is the world's oldest cities in the United States. The city is the world's oldest cities in the United States. The city is the world's oldest citizens of the United States. The ",
+        "tokens_count": 100,
+        "unique_tokens_count": 22,
+        "unique_tokens_ratio": 0.22
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1081.794847,
+        "repeated_2grams": 43,
+        "repeated_3grams": 30,
+        "repeated_4grams": 17,
+        "text": " located in the region of Denmark. The city is located in the centre of Tinematography in the United States. The state is the capital of the Indian state of the United States. The city's central and religious religious ideas have been the largest and ",
+        "throughput_tok_s": 92.4389686984708,
+        "tokens_count": 100,
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 31,
+        "repeated_3grams": 20,
+        "repeated_4grams": 11,
+        "text": "<|im_end|><|im_start|>assistantThe total number of people in the game are in the first quarter of the year, so the total number of candies in the game is $1.00 = $<<200*2=100>>100.#### 6000<|im",
+        "tokens_count": 100,
+        "unique_tokens_count": 40,
+        "unique_tokens_ratio": 0.4
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1244.978055,
+        "repeated_2grams": 19,
+        "repeated_3grams": 10,
+        "repeated_4grams": 5,
+        "text": "<|im_end|><|im_start|>assistantFirst find the total amount of money that each candies have at least 15 seconds is $5 + $50 = $<<20+6=9>>4.The cost of the company has $3 * $5 = $<<3*",
+        "throughput_tok_s": 80.3227009491344,
+        "tokens_count": 100,
+        "unique_tokens_count": 45,
+        "unique_tokens_ratio": 0.45,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 42,
+        "repeated_3grams": 31,
+        "repeated_4grams": 21,
+        "text": " the hypothesis is not entailed by the premise. The premise states that the woman is walking on a street in a small dog and a woman in a red shirt and a woman in a dirt and a woman in a ",
+        "tokens_count": 100,
+        "unique_tokens_count": 34,
+        "unique_tokens_ratio": 0.34
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1024.743227,
+        "repeated_2grams": 27,
+        "repeated_3grams": 19,
+        "repeated_4grams": 11,
+        "text": " it is possible that he is still sitting on the grass or rolls. The hypothesis \"A woman is running down on a street in a suit.\"- The hypothesis is not entailed by the premise.- The hypothesis suggests ",
+        "throughput_tok_s": 97.58542175756192,
+        "tokens_count": 100,
+        "unique_tokens_count": 40,
+        "unique_tokens_ratio": 0.4,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1058.827024,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 94.44413273683125,
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 29,
+        "repeated_3grams": 19,
+        "repeated_4grams": 13,
+        "text": " the snake is not a good place for the lake. The other options are not the same.<|im_end|><|im_start|>userWrite a sentence in English.<|im_end|><|im_start|>assistantThe sentiment of this tweet is",
+        "tokens_count": 100,
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1022.051723,
+        "repeated_2grams": 16,
+        "repeated_3grams": 7,
+        "repeated_4grams": 1,
+        "text": " you may not have any information about the food and it is the chance of sleeping and maintaining a balance between the hearing.<|im_end|><|im_start|>userWrite an SQL query to calculate the number of data from ",
+        "throughput_tok_s": 97.84240635735418,
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1086.4789752000001,
+    "avg_generation_throughput_tokens_per_sec": 92.0404373049114,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 50000,
+  "step_label": "50k"
+}

@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00024299909146043093,
+    "loss": 2.5180575847625732,
+    "ms_per_step_average": 48.73340181748889,
+    "perplexity": 12.40447859926926,
+    "total_tokens_processed": 46080000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 73,
+        "repeated_3grams": 68,
+        "repeated_4grams": 63,
+        "text": " the largest city in the world. It is the largest city in the world of the world. It is the largest city in the world of the world of the world. It is the largest country in the world by area and the largest city in the world.",
+        "tokens_count": 100,
+        "unique_tokens_count": 14,
+        "unique_tokens_ratio": 0.14
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1148.825776,
+        "repeated_2grams": 37,
+        "repeated_3grams": 24,
+        "repeated_4grams": 14,
+        "text": " more populated by its urban area in the world.  - Samien is a country in the United States of the United Kingdom. The country's capital is Urban, is the capital of the Russian state of the state of the Republic of the Kingdom ",
+        "throughput_tok_s": 87.04540069442176,
+        "tokens_count": 100,
+        "unique_tokens_count": 35,
+        "unique_tokens_ratio": 0.35,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 31,
+        "repeated_3grams": 17,
+        "repeated_4grams": 5,
+        "text": "<|im_end|><|im_start|>assistantThe total number of people who are in the world are not in the first half of the year. The first sentence is not entailed by the premise. The premise states that the woman is wearing a ",
+        "tokens_count": 100,
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1027.773389,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 6,
+        "text": "<|im_end|><|im_start|>assistantFirst, we can calculate the number of people in the second sentence. We will use a pre-top of the side of the equation. To solve for m, we can move down -1471 to move by ",
+        "throughput_tok_s": 97.29771277430885,
+        "tokens_count": 100,
+        "unique_tokens_count": 48,
+        "unique_tokens_ratio": 0.48,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 48,
+        "repeated_3grams": 40,
+        "repeated_4grams": 32,
+        "text": " the most likely to be a source of the bag of the lungs and the lungs and the lungs grow in the bloodstream. This is the first step of the process - The rocks grow in the bloodstream - The rocks grow in",
+        "tokens_count": 100,
+        "unique_tokens_count": 29,
+        "unique_tokens_ratio": 0.29
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1050.474289,
+        "repeated_2grams": 27,
+        "repeated_3grams": 15,
+        "repeated_4grams": 5,
+        "text": " it can be easier to move to the lungs in a heart of the lungs. This option is also a bit of coal like tissue and temperature, as it is the matter of the rocks and gas into a cozy shield ",
+        "throughput_tok_s": 95.19509525092242,
+        "tokens_count": 100,
+        "unique_tokens_count": 42,
+        "unique_tokens_ratio": 0.42,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1062.556988,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 94.11259925759389,
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 43,
+        "repeated_3grams": 31,
+        "repeated_4grams": 20,
+        "text": " the tape of the tape is a small picture of the lung and the lungs and the lungs grow in the bloodstream. This is because the temperature of the bloodstream is the first step of the process - The oxygen grows",
+        "tokens_count": 100,
+        "unique_tokens_count": 33,
+        "unique_tokens_ratio": 0.33
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1034.205989,
+        "repeated_2grams": 16,
+        "repeated_3grams": 9,
+        "repeated_4grams": 3,
+        "text": " it can be easier to give a new page for the past. Then, the price range is not a recommended or extracted version of the question from the following sentence.<|im_end|><|im_start|>assistantThe main idea of the state",
+        "throughput_tok_s": 96.692536171341,
+        "tokens_count": 100,
+        "unique_tokens_count": 52,
+        "unique_tokens_ratio": 0.52,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1064.7672862,
+    "avg_generation_throughput_tokens_per_sec": 93.91723552747897,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 45000,
+  "step_label": "45k"
+}

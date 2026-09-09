@@ -1,0 +1,159 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0003475136278773837,
+    "loss": 2.3430113792419434,
+    "ms_per_step_average": 48.17393183224,
+    "perplexity": 10.412545520935781,
+    "total_tokens_processed": 25600000
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 57,
+        "repeated_3grams": 47,
+        "repeated_4grams": 37,
+        "text": " the most populous city in the world. The area of the Earth's surface is the most populous area of the Earth's surface area of the Earth's surface surface area of the surface of the surface of the blood - The body is not necessary to be",
+        "tokens_count": 100,
+        "unique_tokens_count": 25,
+        "unique_tokens_ratio": 0.25
+      },
+      "prompt": "The capital of France is",
+      "prompt_id": "prompt_1",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1071.50482,
+        "repeated_2grams": 27,
+        "repeated_3grams": 15,
+        "repeated_4grams": 4,
+        "text": " \"Introduction\" in the United States. The paragraph states that there is no way to determine the type of action or the question \"What will be of the third time that the game is held in the gardashion of the time of a",
+        "throughput_tok_s": 93.32669170820901,
+        "tokens_count": 100,
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 46,
+        "repeated_3grams": 35,
+        "repeated_4grams": 26,
+        "text": "<|im_end|><|im_start|>assistantThe first step of the equation is \"The number of people in the world is a big number of people who are in the world of the world of the world and the most important parts of the world and the",
+        "tokens_count": 100,
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32
+      },
+      "prompt": "What is 15 + 27?",
+      "prompt_id": "prompt_2",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1013.483119,
+        "repeated_2grams": 15,
+        "repeated_3grams": 7,
+        "repeated_4grams": 1,
+        "text": "<|im_end|><|im_start|>assistantStep 1: Identify the main subject and key terms in the sentence.- The original phrase \"Bu I don't have to be aware of the number of people who do not have any issues or not ",
+        "throughput_tok_s": 98.66962569506794,
+        "tokens_count": 100,
+        "unique_tokens_count": 53,
+        "unique_tokens_ratio": 0.53,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "has_math_symbols": true,
+        "repeated_2grams": 61,
+        "repeated_3grams": 51,
+        "repeated_4grams": 41,
+        "text": " the water is the surface of the body - The body is not necessary to be used to be used to be used to be used in the process of the process of the process of the process of the body. This process is not to be a result",
+        "tokens_count": 100,
+        "unique_tokens_count": 21,
+        "unique_tokens_ratio": 0.21
+      },
+      "prompt": "If all humans are mortal, and Socrates is human, then",
+      "prompt_id": "prompt_3",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": true,
+        "latency_ms": 1164.248003,
+        "repeated_2grams": 18,
+        "repeated_3grams": 8,
+        "repeated_4grams": 0,
+        "text": " maintain a slide in a big bag in the class. This is a margin of the task and uses a solution of 2 hours. The first dog is 4 - 1 = <<9-4=12>>12 packs on the frog.So,",
+        "throughput_tok_s": 85.89235261071778,
+        "tokens_count": 100,
+        "unique_tokens_count": 46,
+        "unique_tokens_ratio": 0.46,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt": "def fibonacci(n):",
+      "prompt_id": "prompt_4",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1074.882295,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 93.03344232681773,
+        "tokens_count": 100,
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "has_math_symbols": false,
+        "repeated_2grams": 59,
+        "repeated_3grams": 51,
+        "repeated_4grams": 43,
+        "text": " it is important to note that the process of water is not necessary to be used to be used to be used to be used in the process of the process of the process of energy and environment in the process of energy and energy in ",
+        "tokens_count": 100,
+        "unique_tokens_count": 23,
+        "unique_tokens_ratio": 0.23
+      },
+      "prompt": "Once upon a time, in a deep magical forest,",
+      "prompt_id": "prompt_5",
+      "sampling_topp_09_temp_07": {
+        "has_math_symbols": false,
+        "latency_ms": 1125.158694,
+        "repeated_2grams": 24,
+        "repeated_3grams": 14,
+        "repeated_4grams": 5,
+        "text": " there is no effect on their own glasses and their own hunters. There are no negative information about the product or negative opinion. The person is set to the movie and your gardner and stimulate your eyes and consistency of",
+        "throughput_tok_s": 88.876351872192,
+        "tokens_count": 100,
+        "unique_tokens_count": 47,
+        "unique_tokens_ratio": 0.47,
+        "vram_mb": 1320.5
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 1089.8553862,
+    "avg_generation_throughput_tokens_per_sec": 91.75529273536932,
+    "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+    "vram_used_mb": 1320.5
+  },
+  "step": 25000,
+  "step_label": "25k"
+}

@@ -637,6 +637,1437 @@
       },
       "step": 20000,
       "step_label": "20k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.0003475136278773837,
+        "loss": 2.3430113792419434,
+        "ms_per_step_average": 48.17393183224,
+        "perplexity": 10.412545520935781,
+        "total_tokens_processed": 25600000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 57,
+            "repeated_3grams": 47,
+            "repeated_4grams": 37,
+            "text": " the most populous city in the world. The area of the Earth's surface is the most populous area of the Earth's surface area of the Earth's surface surface area of the surface of the surface of the blood - The body is not necessary to be",
+            "tokens_count": 100,
+            "unique_tokens_count": 25,
+            "unique_tokens_ratio": 0.25
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1071.50482,
+            "repeated_2grams": 27,
+            "repeated_3grams": 15,
+            "repeated_4grams": 4,
+            "text": " \"Introduction\" in the United States. The paragraph states that there is no way to determine the type of action or the question \"What will be of the third time that the game is held in the gardashion of the time of a",
+            "throughput_tok_s": 93.32669170820901,
+            "tokens_count": 100,
+            "unique_tokens_count": 44,
+            "unique_tokens_ratio": 0.44,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 46,
+            "repeated_3grams": 35,
+            "repeated_4grams": 26,
+            "text": "<|im_end|><|im_start|>assistantThe first step of the equation is \"The number of people in the world is a big number of people who are in the world of the world of the world and the most important parts of the world and the",
+            "tokens_count": 100,
+            "unique_tokens_count": 32,
+            "unique_tokens_ratio": 0.32
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1013.483119,
+            "repeated_2grams": 15,
+            "repeated_3grams": 7,
+            "repeated_4grams": 1,
+            "text": "<|im_end|><|im_start|>assistantStep 1: Identify the main subject and key terms in the sentence.- The original phrase \"Bu I don't have to be aware of the number of people who do not have any issues or not ",
+            "throughput_tok_s": 98.66962569506794,
+            "tokens_count": 100,
+            "unique_tokens_count": 53,
+            "unique_tokens_ratio": 0.53,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 61,
+            "repeated_3grams": 51,
+            "repeated_4grams": 41,
+            "text": " the water is the surface of the body - The body is not necessary to be used to be used to be used to be used in the process of the process of the process of the process of the body. This process is not to be a result",
+            "tokens_count": 100,
+            "unique_tokens_count": 21,
+            "unique_tokens_ratio": 0.21
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1164.248003,
+            "repeated_2grams": 18,
+            "repeated_3grams": 8,
+            "repeated_4grams": 0,
+            "text": " maintain a slide in a big bag in the class. This is a margin of the task and uses a solution of 2 hours. The first dog is 4 - 1 = <<9-4=12>>12 packs on the frog.So,",
+            "throughput_tok_s": 85.89235261071778,
+            "tokens_count": 100,
+            "unique_tokens_count": 46,
+            "unique_tokens_ratio": 0.46,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1074.882295,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 93.03344232681773,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 59,
+            "repeated_3grams": 51,
+            "repeated_4grams": 43,
+            "text": " it is important to note that the process of water is not necessary to be used to be used to be used to be used in the process of the process of the process of energy and environment in the process of energy and energy in ",
+            "tokens_count": 100,
+            "unique_tokens_count": 23,
+            "unique_tokens_ratio": 0.23
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1125.158694,
+            "repeated_2grams": 24,
+            "repeated_3grams": 14,
+            "repeated_4grams": 5,
+            "text": " there is no effect on their own glasses and their own hunters. There are no negative information about the product or negative opinion. The person is set to the movie and your gardner and stimulate your eyes and consistency of",
+            "throughput_tok_s": 88.876351872192,
+            "tokens_count": 100,
+            "unique_tokens_count": 47,
+            "unique_tokens_ratio": 0.47,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1089.8553862,
+        "avg_generation_throughput_tokens_per_sec": 91.75529273536932,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 25000,
+      "step_label": "25k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.00032507063840039115,
+        "loss": 1.8313188552856445,
+        "ms_per_step_average": 48.20951895193333,
+        "perplexity": 6.242113676825215,
+        "total_tokens_processed": 30720000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 71,
+            "repeated_3grams": 64,
+            "repeated_4grams": 57,
+            "text": " the largest county county of the North Ocean and the largest county of the North Ocean to the north and the North Ocean to the north. The island of the North Ocean is the largest county county of the North Ocean to the north ",
+            "tokens_count": 100,
+            "unique_tokens_count": 16,
+            "unique_tokens_ratio": 0.16
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1180.514314,
+            "repeated_2grams": 44,
+            "repeated_3grams": 32,
+            "repeated_4grams": 21,
+            "text": " one of the largest most populous county country in the North Revolution of the Darwen, the second largest county in the United Kingdom. The second largest island in the North and Pacific Ocean. It is the largest city of the largest county of the",
+            "throughput_tok_s": 84.70884157360585,
+            "tokens_count": 100,
+            "unique_tokens_count": 33,
+            "unique_tokens_ratio": 0.33,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 68,
+            "repeated_3grams": 62,
+            "repeated_4grams": 57,
+            "text": "<|im_end|><|im_start|>assistantThe total number of students in the first half is the total number of students in the first half of the total number of students in the first half of the total number of students in the first half of the total ",
+            "tokens_count": 100,
+            "unique_tokens_count": 20,
+            "unique_tokens_ratio": 0.2
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1163.750156,
+            "repeated_2grams": 17,
+            "repeated_3grams": 7,
+            "repeated_4grams": 4,
+            "text": "<|im_end|><|im_start|>assistant1 o + 2 = <<5+2+1+5+5=6>>9 bananas of milk does he spend 250 miles = <<5000+550=600>>800 hours to get the first tree of half a ",
+            "throughput_tok_s": 85.92909696675477,
+            "tokens_count": 100,
+            "unique_tokens_count": 41,
+            "unique_tokens_ratio": 0.41,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 48,
+            "repeated_3grams": 43,
+            "repeated_4grams": 38,
+            "text": " the hypothesis is not possible to tell if the hypothesis is entailed by the premise. The premise doesn't directly answer the question above because it is not possible to tell if the hypothesis is entailed by the premise",
+            "tokens_count": 100,
+            "unique_tokens_count": 31,
+            "unique_tokens_ratio": 0.31
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1089.166382,
+            "repeated_2grams": 19,
+            "repeated_3grams": 9,
+            "repeated_4grams": 0,
+            "text": " you will see the majority of the car in the body. If you get it, you can be able to move the stick and feel the potential for the meal too. The best answer is \"no\" because the hypothesis is not entailed ",
+            "throughput_tok_s": 91.81333692688285,
+            "tokens_count": 100,
+            "unique_tokens_count": 46,
+            "unique_tokens_ratio": 0.46,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1148.538785,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 87.06715115415106,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 82,
+            "repeated_3grams": 78,
+            "repeated_4grams": 74,
+            "text": " the big bag of the bag is a big way to the bag of the bag of the bag of the bag of the bag of the bag of the bag of the bag of the bag of the bag of the b",
+            "tokens_count": 100,
+            "unique_tokens_count": 10,
+            "unique_tokens_ratio": 0.1
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1065.899679,
+            "repeated_2grams": 23,
+            "repeated_3grams": 13,
+            "repeated_4grams": 4,
+            "text": " it is like a similar way to the gumbo to the air where they had to be destroyed. If you have a new job, you need to find a nice and hair in the baby happy. You can find a pack for the first do",
+            "throughput_tok_s": 93.81745953223052,
+            "tokens_count": 100,
+            "unique_tokens_count": 44,
+            "unique_tokens_ratio": 0.44,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1129.5738632,
+        "avg_generation_throughput_tokens_per_sec": 88.52896057342132,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 30000,
+      "step_label": "30k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.0002997368187253474,
+        "loss": 3.0161259174346924,
+        "ms_per_step_average": 48.52190721742858,
+        "perplexity": 20.412060301892403,
+        "total_tokens_processed": 35840000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 72,
+            "repeated_3grams": 66,
+            "repeated_4grams": 60,
+            "text": " a member of the United States and the United States. The city is the capital of the world of the world. The city is the capital of the world of the world. The city is the capital of the world of the world. The capital of the world",
+            "tokens_count": 100,
+            "unique_tokens_count": 14,
+            "unique_tokens_ratio": 0.14
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1258.899308,
+            "repeated_2grams": 32,
+            "repeated_3grams": 19,
+            "repeated_4grams": 9,
+            "text": " currently delighted by a state of the world in the world with multiple military forces in the world. The state was made by a recipe in a state worldwide with a population of 4.2 million inhabitants.  - The United States (Italian German",
+            "throughput_tok_s": 79.43447054464502,
+            "tokens_count": 100,
+            "unique_tokens_count": 39,
+            "unique_tokens_ratio": 0.39,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 50,
+            "repeated_3grams": 36,
+            "repeated_4grams": 24,
+            "text": "<|im_end|><|im_start|>assistantThe total number of cans in the world are in the world of the world in the world. The first part of the world was the first name of the country in the world. The city was a member of the",
+            "tokens_count": 100,
+            "unique_tokens_count": 29,
+            "unique_tokens_ratio": 0.29
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1198.134607,
+            "repeated_2grams": 16,
+            "repeated_3grams": 7,
+            "repeated_4grams": 1,
+            "text": "<|im_end|><|im_start|>assistantAlright, little buddy, let me explain it to you like you're sitting at all the same thing in the world. I am in a place where you should be worried and I will have to make ",
+            "throughput_tok_s": 83.46307619841583,
+            "tokens_count": 100,
+            "unique_tokens_count": 51,
+            "unique_tokens_ratio": 0.51,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 29,
+            "repeated_3grams": 19,
+            "repeated_4grams": 11,
+            "text": " the second question is not the same thing. The first sentence does not provide enough information to confirm whether or not true or not. The hypothesis is not true or not.<|im_end|><|im_start|>userPlease answer the following question:",
+            "tokens_count": 100,
+            "unique_tokens_count": 42,
+            "unique_tokens_ratio": 0.42
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1070.473007,
+            "repeated_2grams": 28,
+            "repeated_3grams": 18,
+            "repeated_4grams": 9,
+            "text": " a child and a quick time that you have a new shop is like a cat or a cat can help you feel the same thing. The governments are not like a friend or a table or a person who is in this case. Here ",
+            "throughput_tok_s": 93.4166479174005,
+            "tokens_count": 100,
+            "unique_tokens_count": 40,
+            "unique_tokens_ratio": 0.4,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1150.648204,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 86.9075358153516,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 35,
+            "repeated_3grams": 26,
+            "repeated_4grams": 19,
+            "text": " it is not possible to tell if the hypothesis is true or not. The premise does not directly mention the hypothesis that the hypothesis is not true or not.<|im_end|><|im_start|>userPlease answer the following question",
+            "tokens_count": 100,
+            "unique_tokens_count": 39,
+            "unique_tokens_ratio": 0.39
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1017.477201,
+            "repeated_2grams": 23,
+            "repeated_3grams": 15,
+            "repeated_4grams": 7,
+            "text": " you should choose a wide range of information that can lead to a comprehensive step-by-step reasoning process and the tone of the review is not negative. In this case, the review is a person who is not involved in the context of the",
+            "throughput_tok_s": 98.28230047977262,
+            "tokens_count": 100,
+            "unique_tokens_count": 44,
+            "unique_tokens_ratio": 0.44,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1139.1264654,
+        "avg_generation_throughput_tokens_per_sec": 87.78656544063823,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 35000,
+      "step_label": "35k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.0002721486107106328,
+        "loss": 2.7793495655059814,
+        "ms_per_step_average": 48.580977518625,
+        "perplexity": 16.108539989751048,
+        "total_tokens_processed": 40960000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 72,
+            "repeated_3grams": 68,
+            "repeated_4grams": 64,
+            "text": " the most widely spoken country in the world. It is the most widely spoken country in the world. It is situated in the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the Kingdom of the ",
+            "tokens_count": 100,
+            "unique_tokens_count": 16,
+            "unique_tokens_ratio": 0.16
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1064.915299,
+            "repeated_2grams": 26,
+            "repeated_3grams": 15,
+            "repeated_4grams": 5,
+            "text": " currently on the Slovak Supreme Court and the Independent Place and the Environmentalists in the United States. He is the only economist of a boiling and commercial university in the 1990s. He also became the first of the 50th century",
+            "throughput_tok_s": 93.90418195128211,
+            "tokens_count": 100,
+            "unique_tokens_count": 47,
+            "unique_tokens_ratio": 0.47,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 65,
+            "repeated_3grams": 61,
+            "repeated_4grams": 59,
+            "text": "<|im_end|><|im_start|>assistantThe total number of students in the game is $2. The number of students in the game is $2. The number of students in the game is $2. The number of students in the game is $2. The ",
+            "tokens_count": 100,
+            "unique_tokens_count": 22,
+            "unique_tokens_ratio": 0.22
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1144.048395,
+            "repeated_2grams": 18,
+            "repeated_3grams": 8,
+            "repeated_4grams": 1,
+            "text": " What is the final step of the equation step by step:1. Calculate the total amount of water per j is $2. How much did he do with each other?<|im_end|><|im_start|>assistantTo answer the question, I will follow",
+            "throughput_tok_s": 87.40888972620778,
+            "tokens_count": 100,
+            "unique_tokens_count": 51,
+            "unique_tokens_ratio": 0.51,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 59,
+            "repeated_3grams": 54,
+            "repeated_4grams": 49,
+            "text": " the hypothesis is entailed by the premise. The premise states that the woman is wearing a black and white and white and white and white and white and white and white and white and white and white and white and white and white and ",
+            "tokens_count": 100,
+            "unique_tokens_count": 24,
+            "unique_tokens_ratio": 0.24
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1063.642393,
+            "repeated_2grams": 26,
+            "repeated_3grams": 16,
+            "repeated_4grams": 7,
+            "text": " it is not clear that the woman is wearing a red dog is walking on the wooden in a black jacket.3. The hypothesis is entailed by the premise and the hypothesis \"The menu are in a black skirt.",
+            "throughput_tok_s": 94.01656107176238,
+            "tokens_count": 100,
+            "unique_tokens_count": 45,
+            "unique_tokens_ratio": 0.45,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1124.159694,
+            "repeated_2grams": 24,
+            "repeated_3grams": 16,
+            "repeated_4grams": 11,
+            "text": "    return len(n + 1) * 2 * 2 = $2. Calculate the total cost of the total cost of the bacterial cake is 10/5 = $<<5*1200=1200>>1200 after the cookie tree cats to make",
+            "throughput_tok_s": 88.95533306676268,
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 29,
+            "repeated_3grams": 18,
+            "repeated_4grams": 9,
+            "text": " the dishwasher is not a good thing to be a good thing to do with the other things they are in the same time. It is not possible to tell if the hypothesis is entailed by the premise. The premise states that the",
+            "tokens_count": 100,
+            "unique_tokens_count": 40,
+            "unique_tokens_ratio": 0.4
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1112.696693,
+            "repeated_2grams": 28,
+            "repeated_3grams": 15,
+            "repeated_4grams": 2,
+            "text": " he can do so, he will take the kitchen and could have their options to the crowd of the dishwasher and that he could help them to clean them in the street and the girl in the hospital and make a boyfriend. This",
+            "throughput_tok_s": 89.87175088153155,
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1101.8924948,
+        "avg_generation_throughput_tokens_per_sec": 90.75295500415454,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 40000,
+      "step_label": "40k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.00024299909146043093,
+        "loss": 2.5180575847625732,
+        "ms_per_step_average": 48.73340181748889,
+        "perplexity": 12.40447859926926,
+        "total_tokens_processed": 46080000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 73,
+            "repeated_3grams": 68,
+            "repeated_4grams": 63,
+            "text": " the largest city in the world. It is the largest city in the world of the world. It is the largest city in the world of the world of the world. It is the largest country in the world by area and the largest city in the world.",
+            "tokens_count": 100,
+            "unique_tokens_count": 14,
+            "unique_tokens_ratio": 0.14
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1148.825776,
+            "repeated_2grams": 37,
+            "repeated_3grams": 24,
+            "repeated_4grams": 14,
+            "text": " more populated by its urban area in the world.  - Samien is a country in the United States of the United Kingdom. The country's capital is Urban, is the capital of the Russian state of the state of the Republic of the Kingdom ",
+            "throughput_tok_s": 87.04540069442176,
+            "tokens_count": 100,
+            "unique_tokens_count": 35,
+            "unique_tokens_ratio": 0.35,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 31,
+            "repeated_3grams": 17,
+            "repeated_4grams": 5,
+            "text": "<|im_end|><|im_start|>assistantThe total number of people who are in the world are not in the first half of the year. The first sentence is not entailed by the premise. The premise states that the woman is wearing a ",
+            "tokens_count": 100,
+            "unique_tokens_count": 41,
+            "unique_tokens_ratio": 0.41
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1027.773389,
+            "repeated_2grams": 22,
+            "repeated_3grams": 13,
+            "repeated_4grams": 6,
+            "text": "<|im_end|><|im_start|>assistantFirst, we can calculate the number of people in the second sentence. We will use a pre-top of the side of the equation. To solve for m, we can move down -1471 to move by ",
+            "throughput_tok_s": 97.29771277430885,
+            "tokens_count": 100,
+            "unique_tokens_count": 48,
+            "unique_tokens_ratio": 0.48,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 48,
+            "repeated_3grams": 40,
+            "repeated_4grams": 32,
+            "text": " the most likely to be a source of the bag of the lungs and the lungs and the lungs grow in the bloodstream. This is the first step of the process - The rocks grow in the bloodstream - The rocks grow in",
+            "tokens_count": 100,
+            "unique_tokens_count": 29,
+            "unique_tokens_ratio": 0.29
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1050.474289,
+            "repeated_2grams": 27,
+            "repeated_3grams": 15,
+            "repeated_4grams": 5,
+            "text": " it can be easier to move to the lungs in a heart of the lungs. This option is also a bit of coal like tissue and temperature, as it is the matter of the rocks and gas into a cozy shield ",
+            "throughput_tok_s": 95.19509525092242,
+            "tokens_count": 100,
+            "unique_tokens_count": 42,
+            "unique_tokens_ratio": 0.42,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1062.556988,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 94.11259925759389,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 43,
+            "repeated_3grams": 31,
+            "repeated_4grams": 20,
+            "text": " the tape of the tape is a small picture of the lung and the lungs and the lungs grow in the bloodstream. This is because the temperature of the bloodstream is the first step of the process - The oxygen grows",
+            "tokens_count": 100,
+            "unique_tokens_count": 33,
+            "unique_tokens_ratio": 0.33
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1034.205989,
+            "repeated_2grams": 16,
+            "repeated_3grams": 9,
+            "repeated_4grams": 3,
+            "text": " it can be easier to give a new page for the past. Then, the price range is not a recommended or extracted version of the question from the following sentence.<|im_end|><|im_start|>assistantThe main idea of the state",
+            "throughput_tok_s": 96.692536171341,
+            "tokens_count": 100,
+            "unique_tokens_count": 52,
+            "unique_tokens_ratio": 0.52,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1064.7672862,
+        "avg_generation_throughput_tokens_per_sec": 93.91723552747897,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 45000,
+      "step_label": "45k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.00021302056168740437,
+        "loss": 2.2180044651031494,
+        "ms_per_step_average": 48.759537282379995,
+        "perplexity": 9.188975636174366,
+        "total_tokens_processed": 51200000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 63,
+            "repeated_3grams": 57,
+            "repeated_4grams": 51,
+            "text": " the second largest city in the United States. The state is the world's oldest cities in the United States. The city is the world's oldest cities in the United States. The city is the world's oldest citizens of the United States. The ",
+            "tokens_count": 100,
+            "unique_tokens_count": 22,
+            "unique_tokens_ratio": 0.22
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1081.794847,
+            "repeated_2grams": 43,
+            "repeated_3grams": 30,
+            "repeated_4grams": 17,
+            "text": " located in the region of Denmark. The city is located in the centre of Tinematography in the United States. The state is the capital of the Indian state of the United States. The city's central and religious religious ideas have been the largest and ",
+            "throughput_tok_s": 92.4389686984708,
+            "tokens_count": 100,
+            "unique_tokens_count": 32,
+            "unique_tokens_ratio": 0.32,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 31,
+            "repeated_3grams": 20,
+            "repeated_4grams": 11,
+            "text": "<|im_end|><|im_start|>assistantThe total number of people in the game are in the first quarter of the year, so the total number of candies in the game is $1.00 = $<<200*2=100>>100.#### 6000<|im",
+            "tokens_count": 100,
+            "unique_tokens_count": 40,
+            "unique_tokens_ratio": 0.4
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1244.978055,
+            "repeated_2grams": 19,
+            "repeated_3grams": 10,
+            "repeated_4grams": 5,
+            "text": "<|im_end|><|im_start|>assistantFirst find the total amount of money that each candies have at least 15 seconds is $5 + $50 = $<<20+6=9>>4.The cost of the company has $3 * $5 = $<<3*",
+            "throughput_tok_s": 80.3227009491344,
+            "tokens_count": 100,
+            "unique_tokens_count": 45,
+            "unique_tokens_ratio": 0.45,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 42,
+            "repeated_3grams": 31,
+            "repeated_4grams": 21,
+            "text": " the hypothesis is not entailed by the premise. The premise states that the woman is walking on a street in a small dog and a woman in a red shirt and a woman in a dirt and a woman in a ",
+            "tokens_count": 100,
+            "unique_tokens_count": 34,
+            "unique_tokens_ratio": 0.34
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1024.743227,
+            "repeated_2grams": 27,
+            "repeated_3grams": 19,
+            "repeated_4grams": 11,
+            "text": " it is possible that he is still sitting on the grass or rolls. The hypothesis \"A woman is running down on a street in a suit.\"- The hypothesis is not entailed by the premise.- The hypothesis suggests ",
+            "throughput_tok_s": 97.58542175756192,
+            "tokens_count": 100,
+            "unique_tokens_count": 40,
+            "unique_tokens_ratio": 0.4,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1058.827024,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 94.44413273683125,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 29,
+            "repeated_3grams": 19,
+            "repeated_4grams": 13,
+            "text": " the snake is not a good place for the lake. The other options are not the same.<|im_end|><|im_start|>userWrite a sentence in English.<|im_end|><|im_start|>assistantThe sentiment of this tweet is",
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1022.051723,
+            "repeated_2grams": 16,
+            "repeated_3grams": 7,
+            "repeated_4grams": 1,
+            "text": " you may not have any information about the food and it is the chance of sleeping and maintaining a balance between the hearing.<|im_end|><|im_start|>userWrite an SQL query to calculate the number of data from ",
+            "throughput_tok_s": 97.84240635735418,
+            "tokens_count": 100,
+            "unique_tokens_count": 53,
+            "unique_tokens_ratio": 0.53,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1086.4789752000001,
+        "avg_generation_throughput_tokens_per_sec": 92.0404373049114,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 50000,
+      "step_label": "50k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.0001535908861264828,
+        "loss": 2.9163684844970703,
+        "ms_per_step_average": 48.54870888506667,
+        "perplexity": 18.47407659939737,
+        "total_tokens_processed": 61440000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 33,
+            "repeated_3grams": 26,
+            "repeated_4grams": 19,
+            "text": " the most populous city in the world, with a population of over 1.5 million people and the most populous urban area in the world.  - The United States of America (EU) is a country in the world with a population of over 5,000 ",
+            "tokens_count": 100,
+            "unique_tokens_count": 35,
+            "unique_tokens_ratio": 0.35
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1014.488497,
+            "repeated_2grams": 35,
+            "repeated_3grams": 26,
+            "repeated_4grams": 17,
+            "text": " in the northern part of the Atlantic Ocean.  - A small town is the country in the southwest of the United States of the United States.  - Tamil Electric Mughal is an Indian film director of the United States Senate and is ",
+            "throughput_tok_s": 98.57184216057207,
+            "tokens_count": 100,
+            "unique_tokens_count": 38,
+            "unique_tokens_ratio": 0.38,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 37,
+            "repeated_3grams": 28,
+            "repeated_4grams": 22,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -4*o - 4 = -4*o - 4 - 4 is - 1 = -3.<|im_end|><|im_start|>userWrite a sentence about this data: The Big B",
+            "tokens_count": 100,
+            "unique_tokens_count": 41,
+            "unique_tokens_ratio": 0.41
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1129.026498,
+            "repeated_2grams": 26,
+            "repeated_3grams": 18,
+            "repeated_4grams": 12,
+            "text": "<|im_end|><|im_start|>assistantFirst, we get the total number of the baskets left: 0 = <<4*2=20>>20 apples in the store.#### 12<|im_end|><|im_start|>userQuestion: Read the following art",
+            "throughput_tok_s": 88.57188044491761,
+            "tokens_count": 100,
+            "unique_tokens_count": 46,
+            "unique_tokens_ratio": 0.46,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 20,
+            "repeated_3grams": 11,
+            "repeated_4grams": 6,
+            "text": " the answer is that: The answer is (i). no.<|im_end|><|im_start|>userWrite a sentence about the following things:big customer rating of 5 out of 5, familyFriendly = no. Can you generate a",
+            "tokens_count": 100,
+            "unique_tokens_count": 51,
+            "unique_tokens_ratio": 0.51
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1001.323198,
+            "repeated_2grams": 27,
+            "repeated_3grams": 18,
+            "repeated_4grams": 9,
+            "text": " it will be used for the amount of water in the atmosphere in the next minute. This is because the given options are not the same as the most suitable choice from the provided answers. This is because the answer is (ii)",
+            "throughput_tok_s": 99.86785505392835,
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 998.145298,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 100.18581483113894,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 83,
+            "repeated_3grams": 80,
+            "repeated_4grams": 77,
+            "text": " the big tip is a big tip of the big tip of the big tip of the big tip of the big tip of the big tip of the bag of the bag of the bag of the bag of the",
+            "tokens_count": 100,
+            "unique_tokens_count": 10,
+            "unique_tokens_ratio": 0.1
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1132.075197,
+            "repeated_2grams": 29,
+            "repeated_3grams": 17,
+            "repeated_4grams": 8,
+            "text": " there was a lot of money in the big town of Wa Tunnel, where he is in the middle of the night of the summer. In the afternoon, the woman and his friends were killed in the forest. He was a young man who hel",
+            "throughput_tok_s": 88.33335476742188,
+            "tokens_count": 100,
+            "unique_tokens_count": 40,
+            "unique_tokens_ratio": 0.4,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1055.0117376,
+        "avg_generation_throughput_tokens_per_sec": 94.78567530204509,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 60000,
+      "step_label": "60k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 9.979409857541804e-05,
+        "loss": 1.4164056777954102,
+        "ms_per_step_average": 48.372858274057144,
+        "perplexity": 4.122276988444543,
+        "total_tokens_processed": 71680000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 75,
+            "repeated_3grams": 72,
+            "repeated_4grams": 69,
+            "text": " the largest city in the United States. The state is the most populous city in the United States. The state is the most populous city in the United States. The state is the most populous city in the United States. The state is the most populous",
+            "tokens_count": 100,
+            "unique_tokens_count": 14,
+            "unique_tokens_ratio": 0.14
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1075.591318,
+            "repeated_2grams": 38,
+            "repeated_3grams": 27,
+            "repeated_4grams": 17,
+            "text": " in the early 20th century and is a major urban area in the world. It is part of the city of the city of Kenneth, which is part of the United States Army (GP) and the Celtic Sea. It is the largest city in",
+            "throughput_tok_s": 92.97211526952842,
+            "tokens_count": 100,
+            "unique_tokens_count": 37,
+            "unique_tokens_ratio": 0.37,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 66,
+            "repeated_3grams": 61,
+            "repeated_4grams": 57,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -6*b + 66 + 6 + 6 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 ",
+            "tokens_count": 100,
+            "unique_tokens_count": 22,
+            "unique_tokens_ratio": 0.22
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 977.573453,
+            "repeated_2grams": 39,
+            "repeated_3grams": 31,
+            "repeated_4grams": 27,
+            "text": "<|im_end|><|im_start|>assistantThe correct answer is:(ii) 3. 5; [B]. It's impossible to say; (III) No;<|im_end|><|im_start|>assistant(ii) yes.<|im_end|><|im_start|>user",
+            "throughput_tok_s": 102.29410352042365,
+            "tokens_count": 100,
+            "unique_tokens_count": 38,
+            "unique_tokens_ratio": 0.38,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 43,
+            "repeated_3grams": 28,
+            "repeated_4grams": 13,
+            "text": " the answer is that the person is in the same way. The first question asks about the specific location of the cat in the first sentence, which is the same as the first sentence. The first sentence is about a man in a black sh",
+            "tokens_count": 100,
+            "unique_tokens_count": 32,
+            "unique_tokens_ratio": 0.32
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1017.663759,
+            "repeated_2grams": 20,
+            "repeated_3grams": 12,
+            "repeated_4grams": 7,
+            "text": " what does the supposed perturbation influence the second effect mentioned. Answer by more, less or no effectA:<|im_end|><|im_start|>assistantThe supposed perturbation of less blood vessels and sediment vapor can be used for the ",
+            "throughput_tok_s": 98.26428338006679,
+            "tokens_count": 100,
+            "unique_tokens_count": 51,
+            "unique_tokens_ratio": 0.51,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1124.068576,
+            "repeated_2grams": 89,
+            "repeated_3grams": 87,
+            "repeated_4grams": 85,
+            "text": "    if num > 0:                                                                                        ",
+            "throughput_tok_s": 88.96254386529529,
+            "tokens_count": 100,
+            "unique_tokens_count": 6,
+            "unique_tokens_ratio": 0.06,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 47,
+            "repeated_3grams": 32,
+            "repeated_4grams": 19,
+            "text": " the sun is not a good way to keep the cat to the cold and the sun and the sun is not eating it. This is because the person is not in the same way, as they are not the same as the same thing. ",
+            "tokens_count": 100,
+            "unique_tokens_count": 29,
+            "unique_tokens_ratio": 0.29
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1171.956283,
+            "repeated_2grams": 26,
+            "repeated_3grams": 13,
+            "repeated_4grams": 5,
+            "text": " he can sleep to the liquid of the neck. However, a neutral and more dangerous tale of the hot tissue in the skin, the body is effectively found in the water. In contrast, the sun can lead to colder",
+            "throughput_tok_s": 85.32741489641384,
+            "tokens_count": 100,
+            "unique_tokens_count": 45,
+            "unique_tokens_ratio": 0.45,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1073.3706778,
+        "avg_generation_throughput_tokens_per_sec": 93.16446039401953,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 70000,
+      "step_label": "70k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 5.700222597731516e-05,
+        "loss": 2.1905035972595215,
+        "ms_per_step_average": 48.0732922397625,
+        "perplexity": 8.939713996757364,
+        "total_tokens_processed": 81920000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 59,
+            "repeated_3grams": 52,
+            "repeated_4grams": 47,
+            "text": " the largest city in the United States. It is the largest city in the United States, with a population of 8.5 million in the United States. The city is the largest city in the United States, with a population of 8.5 million people.  - The",
+            "tokens_count": 100,
+            "unique_tokens_count": 21,
+            "unique_tokens_ratio": 0.21
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1103.791792,
+            "repeated_2grams": 29,
+            "repeated_3grams": 19,
+            "repeated_4grams": 10,
+            "text": " named after the Sinhalese language of the United States of America, with a population of 8,052,000 in the region and is the oldest metropolitan county in the world. It is the most populous city in the United States, with an ",
+            "throughput_tok_s": 90.59679617548741,
+            "tokens_count": 100,
+            "unique_tokens_count": 40,
+            "unique_tokens_ratio": 0.4,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 58,
+            "repeated_3grams": 50,
+            "repeated_4grams": 44,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -4*l + 4*d + 4 = -2*l for d.<|im_end|><|im_start|>assistantTo solve the equation -4*d + 4*d + 4 = -2*d ",
+            "tokens_count": 100,
+            "unique_tokens_count": 26,
+            "unique_tokens_ratio": 0.26
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1038.200892,
+            "repeated_2grams": 50,
+            "repeated_3grams": 41,
+            "repeated_4grams": 36,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -42*k + 46 = 41*i for d.<|im_end|><|im_start|>assistantTo solve the equation -4*y + 10 = -6 for d.<|im_end|><",
+            "throughput_tok_s": 96.32047204983522,
+            "tokens_count": 100,
+            "unique_tokens_count": 31,
+            "unique_tokens_ratio": 0.31,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 78,
+            "repeated_3grams": 75,
+            "repeated_4grams": 72,
+            "text": " the answer is \"no\". The answer is \"no.\" The correct answer is \"no.\" The correct answer is \"no\". The answer is \"no.\" The correct answer is \"no\". The answer is \"no.\"",
+            "tokens_count": 100,
+            "unique_tokens_count": 12,
+            "unique_tokens_ratio": 0.12
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1025.131992,
+            "repeated_2grams": 25,
+            "repeated_3grams": 16,
+            "repeated_4grams": 7,
+            "text": " what can be used for the nucleus of a cell being fair in the body. In this case, the answer is \"m and can not cause the perfect energy of the water in the bloodstream.\"    The answer is \"salt down",
+            "throughput_tok_s": 97.54841403876506,
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1139.48629,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "throughput_tok_s": 87.75884438241025,
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 34,
+            "repeated_3grams": 25,
+            "repeated_4grams": 18,
+            "text": " the sun is not a good place for the lake. The other options are incorrect because they are not related to the same location. They are not related to the same location as the same thing. They are not paraphrases of each other.",
+            "tokens_count": 100,
+            "unique_tokens_count": 38,
+            "unique_tokens_ratio": 0.38
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1127.112287,
+            "repeated_2grams": 27,
+            "repeated_3grams": 15,
+            "repeated_4grams": 5,
+            "text": " there is no mention of the basket that is not only the correct answer to the question. The answer is \"no.\"<|im_end|><|im_start|>userQ:Question: What is the full name of the person that was considered to",
+            "throughput_tok_s": 88.72230491441711,
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1086.7446506000001,
+        "avg_generation_throughput_tokens_per_sec": 92.0179362693796,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 80000,
+      "step_label": "80k"
     }
   ],
   "model": "CryoLM-7M (Modo 11 Fused GSA, Vocab=4000)",
