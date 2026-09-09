@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00036650196937781476,
+    "loss": 2.07041072845459,
+    "perplexity": 7.92807873674347,
+    "tokens_seen": 20480000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the first name of the city of the city of the city of the United States. The city is the third most populous city in the United States. The city is the third most populous city in the United States. The city is the third most populous",
+        "has_math_symbols": false,
+        "latency_ms": 338.279701,
+        "repeated_2grams": 71,
+        "repeated_3grams": 65,
+        "repeated_4grams": 59,
+        "throughput_tok_s": 295.61336286033907,
+        "total_tokens": 100,
+        "unique_tokens": 16,
+        "unique_tokens_ratio": 0.16
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " one of the most important countries in the United States. Hope is a city in the United States in the European Union. The country has a population of about 1,744 in the United States. It is the only part of the United States in the United ",
+        "has_math_symbols": true,
+        "latency_ms": 412.859301,
+        "repeated_2grams": 45,
+        "repeated_3grams": 35,
+        "repeated_4grams": 26,
+        "throughput_tok_s": 242.21326674193057,
+        "total_tokens": 100,
+        "unique_tokens": 30,
+        "unique_tokens_ratio": 0.3
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo solve the equation 7 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 * 14 ",
+        "has_math_symbols": true,
+        "latency_ms": 370.565305,
+        "repeated_2grams": 72,
+        "repeated_3grams": 69,
+        "repeated_4grams": 67,
+        "throughput_tok_s": 269.8579674100898,
+        "total_tokens": 100,
+        "unique_tokens": 19,
+        "unique_tokens_ratio": 0.19
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "      What is the first step of the process?     It's a step-by-step by stepping the process of eating and at least 7 of the second steps in the process.                        ",
+        "has_math_symbols": true,
+        "latency_ms": 450.216204,
+        "repeated_2grams": 50,
+        "repeated_3grams": 37,
+        "repeated_4grams": 29,
+        "throughput_tok_s": 222.11550608693773,
+        "total_tokens": 100,
+        "unique_tokens": 25,
+        "unique_tokens_ratio": 0.25
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " it is not possible to tell if the hypothesis is true or not.<|im_end|><|im_start|>userWrite a JavaScript function to find the sum of the elements in a given list.list = [1, 2, 3, 4,",
+        "has_math_symbols": true,
+        "latency_ms": 386.118604,
+        "repeated_2grams": 17,
+        "repeated_3grams": 7,
+        "repeated_4grams": 1,
+        "throughput_tok_s": 258.987779827361,
+        "total_tokens": 100,
+        "unique_tokens": 49,
+        "unique_tokens_ratio": 0.49
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " can be a questionable answer?<|im_end|><|im_start|>assistantNo, the two sentences are not paraphrases of each other. They have a value of a two sentences in the sentence. They have a similar meaning of the sentence.",
+        "has_math_symbols": false,
+        "latency_ms": 455.186605,
+        "repeated_2grams": 32,
+        "repeated_3grams": 21,
+        "repeated_4grams": 12,
+        "throughput_tok_s": 219.69012027495845,
+        "total_tokens": 100,
+        "unique_tokens": 44,
+        "unique_tokens_ratio": 0.44
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 353.822804,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 282.62734586208296,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                                     is actually a tree in the oil.    The correct answer is \"no \" because it is not a t",
+        "has_math_symbols": false,
+        "latency_ms": 473.771806,
+        "repeated_2grams": 62,
+        "repeated_3grams": 56,
+        "repeated_4grams": 51,
+        "throughput_tok_s": 211.072078864904,
+        "total_tokens": 100,
+        "unique_tokens": 22,
+        "unique_tokens_ratio": 0.22
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the sunlight of the sunlight and the sunlight of the sunlight. The sunlight of sunlight and the sunlight of sunlight and the sunlight of sunlight and the sunlight of sunlight. The sunlight of sunlight and",
+        "has_math_symbols": false,
+        "latency_ms": 333.827304,
+        "repeated_2grams": 85,
+        "repeated_3grams": 81,
+        "repeated_4grams": 77,
+        "throughput_tok_s": 299.55608424408564,
+        "total_tokens": 100,
+        "unique_tokens": 9,
+        "unique_tokens_ratio": 0.09
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " enabled by a mass of a war, wedding a budget and a thick and none of the land budget and sitting a low budget to a budget and sight of the sketch of a few dining budget budget",
+        "has_math_symbols": false,
+        "latency_ms": 480.577606,
+        "repeated_2grams": 46,
+        "repeated_3grams": 33,
+        "repeated_4grams": 20,
+        "throughput_tok_s": 208.08293759738777,
+        "total_tokens": 100,
+        "unique_tokens": 34,
+        "unique_tokens_ratio": 0.34
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 454.52230440000005,
+    "avg_generation_throughput_tokens_per_sec": 220.0112052410865,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 438.710777893,
+  "step": 20000,
+  "timestamp_ms": 1788919556561
+}
