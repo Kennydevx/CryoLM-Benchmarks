@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 5.700222597731516e-05,
+    "loss": 2.0304200649261475,
+    "perplexity": 7.6172854412680895,
+    "tokens_seen": 81920000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " Bulgaria.  - The Bulgaria (also known as the Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian Bulgarian",
+        "has_math_symbols": true,
+        "latency_ms": 317.699601,
+        "repeated_2grams": 76,
+        "repeated_3grams": 73,
+        "repeated_4grams": 70,
+        "throughput_tok_s": 314.7627497335132,
+        "total_tokens": 100,
+        "unique_tokens": 14,
+        "unique_tokens_ratio": 0.14
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " TÃ¤mÃ¤ and is a part of the United Kingdom. It is the second most populous country in the European Union. It is the largest sovereign state by area, and the second largest in the European Union. It is the second most densely ",
+        "has_math_symbols": false,
+        "latency_ms": 401.228302,
+        "repeated_2grams": 41,
+        "repeated_3grams": 32,
+        "repeated_4grams": 24,
+        "throughput_tok_s": 249.2346614172796,
+        "total_tokens": 100,
+        "unique_tokens": 35,
+        "unique_tokens_ratio": 0.35
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of ",
+        "has_math_symbols": false,
+        "latency_ms": 363.763101,
+        "repeated_2grams": 74,
+        "repeated_3grams": 70,
+        "repeated_4grams": 67,
+        "throughput_tok_s": 274.90418826179956,
+        "total_tokens": 100,
+        "unique_tokens": 17,
+        "unique_tokens_ratio": 0.17
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo determine the number of characters in the given text, we need to first identify the characters in the given text and check if the given text is correctly given the text and check if the given text",
+        "has_math_symbols": false,
+        "latency_ms": 388.151901,
+        "repeated_2grams": 41,
+        "repeated_3grams": 32,
+        "repeated_4grams": 24,
+        "throughput_tok_s": 257.6310968524665,
+        "total_tokens": 100,
+        "unique_tokens": 36,
+        "unique_tokens_ratio": 0.36
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " the answer is present within the text.  Question: What is the name of the person who is the person who is the person who is the person who is the person who is the person who is the person who is the person who is the",
+        "has_math_symbols": false,
+        "latency_ms": 338.846401,
+        "repeated_2grams": 67,
+        "repeated_3grams": 62,
+        "repeated_4grams": 57,
+        "throughput_tok_s": 295.1189674875726,
+        "total_tokens": 100,
+        "unique_tokens": 20,
+        "unique_tokens_ratio": 0.2
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " what is the question?Answer:<|im_end|><|im_start|>assistantWhat is the name of the person who is Mortal in the human body called the man?<|im_end|><|im_start|>userRead the following article and answer the",
+        "has_math_symbols": false,
+        "latency_ms": 422.592202,
+        "repeated_2grams": 32,
+        "repeated_3grams": 22,
+        "repeated_4grams": 14,
+        "throughput_tok_s": 236.63474982910358,
+        "total_tokens": 100,
+        "unique_tokens": 43,
+        "unique_tokens_ratio": 0.43
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 328.392501,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 304.51365270365903,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                            to determine if it is in normal                             (          ",
+        "has_math_symbols": false,
+        "latency_ms": 451.380101,
+        "repeated_2grams": 79,
+        "repeated_3grams": 76,
+        "repeated_4grams": 73,
+        "throughput_tok_s": 221.54277465589914,
+        "total_tokens": 100,
+        "unique_tokens": 12,
+        "unique_tokens_ratio": 0.12
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the sun and the sun of the sun and the sun of the sun and the sun of the sun. The sun of the sun and the sun of the sun are the sun of the sun and the sun of the ",
+        "has_math_symbols": false,
+        "latency_ms": 377.981001,
+        "repeated_2grams": 84,
+        "repeated_3grams": 80,
+        "repeated_4grams": 76,
+        "throughput_tok_s": 264.5635620188222,
+        "total_tokens": 100,
+        "unique_tokens": 9,
+        "unique_tokens_ratio": 0.09
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " a beautiful rock band named \"Michelle\" was the first album of the 1980s and the 1970s, which helped to create a re-recorded music chart. The band was originally released on May 10, 1976, in the United States and Australia.  - ",
+        "has_math_symbols": true,
+        "latency_ms": 407.325702,
+        "repeated_2grams": 18,
+        "repeated_3grams": 7,
+        "repeated_4grams": 0,
+        "throughput_tok_s": 245.5037811485807,
+        "total_tokens": 100,
+        "unique_tokens": 45,
+        "unique_tokens_ratio": 0.45
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 414.1356416,
+    "avg_generation_throughput_tokens_per_sec": 241.46678033712135,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 1820.96664683,
+  "step": 80000,
+  "timestamp_ms": 1788920938817
+}

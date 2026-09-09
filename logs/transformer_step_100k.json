@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 2.0000000095664984e-05,
+    "loss": 2.254819869995117,
+    "perplexity": 9.533575872401922,
+    "tokens_seen": 102400000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " Burma, which is also known as the \"Burma\" and \"Burma\".  - The Burma is a city in the Burma region of the Burma region of the Burma region. It is the capital of the Burma region of the",
+        "has_math_symbols": true,
+        "latency_ms": 303.372894,
+        "repeated_2grams": 53,
+        "repeated_3grams": 42,
+        "repeated_4grams": 32,
+        "throughput_tok_s": 329.6273397451257,
+        "total_tokens": 100,
+        "unique_tokens": 23,
+        "unique_tokens_ratio": 0.23
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " also the most populous city in the United States. The city is the most populous city in the European Union. Other major urban centres include the island of Great Britain, the country is comprising  an area of , with more than 1,000 people. ",
+        "has_math_symbols": true,
+        "latency_ms": 402.395991,
+        "repeated_2grams": 29,
+        "repeated_3grams": 18,
+        "repeated_4grams": 11,
+        "throughput_tok_s": 248.5114221726926,
+        "total_tokens": 100,
+        "unique_tokens": 38,
+        "unique_tokens_ratio": 0.38
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of ",
+        "has_math_symbols": false,
+        "latency_ms": 297.029297,
+        "repeated_2grams": 74,
+        "repeated_3grams": 70,
+        "repeated_4grams": 67,
+        "throughput_tok_s": 336.6671268120734,
+        "total_tokens": 100,
+        "unique_tokens": 17,
+        "unique_tokens_ratio": 0.17
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " What is the answer? What is the answer? What is the answer? (If it cannot be answered, return \"unanswerable\")<|im_end|><|im_start|>assistantThe answer is \"unanswerable\". The question is ",
+        "has_math_symbols": false,
+        "latency_ms": 432.549594,
+        "repeated_2grams": 47,
+        "repeated_3grams": 37,
+        "repeated_4grams": 29,
+        "throughput_tok_s": 231.18736299172204,
+        "total_tokens": 100,
+        "unique_tokens": 33,
+        "unique_tokens_ratio": 0.33
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " it is a common sense of humans and humans that are not the same.  - The \"\"\"\"\"\"\"\"\" is a \"\"\" or \"\"\" is a \"\" in the \"\" in the \"\" in the \"\" in the \"\" in the ",
+        "has_math_symbols": true,
+        "latency_ms": 387.499196,
+        "repeated_2grams": 59,
+        "repeated_3grams": 52,
+        "repeated_4grams": 44,
+        "throughput_tok_s": 258.06505157239087,
+        "total_tokens": 100,
+        "unique_tokens": 21,
+        "unique_tokens_ratio": 0.21
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " this is a very bad example of a bad condition that is not the only most valuable for all humans to others. The other choices are incorrect because they do not provide any information about the same data, as the user is not related ",
+        "has_math_symbols": false,
+        "latency_ms": 444.621996,
+        "repeated_2grams": 16,
+        "repeated_3grams": 9,
+        "repeated_4grams": 2,
+        "throughput_tok_s": 224.9101504190989,
+        "total_tokens": 100,
+        "unique_tokens": 48,
+        "unique_tokens_ratio": 0.48
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 342.157697,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 292.26289771292215,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                           a series of american ladies who are in the Top Islands to live in the world . The investigation is expected to be the first ",
+        "has_math_symbols": false,
+        "latency_ms": 445.906896,
+        "repeated_2grams": 49,
+        "repeated_3grams": 45,
+        "repeated_4grams": 41,
+        "throughput_tok_s": 224.26206209647853,
+        "total_tokens": 100,
+        "unique_tokens": 29,
+        "unique_tokens_ratio": 0.29
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the sun is a very dangerous and unique way to the world. It is a very dangerous way to the world of people who are in the world of people who are in the world. It is a very important way to learn and learn",
+        "has_math_symbols": false,
+        "latency_ms": 400.616396,
+        "repeated_2grams": 54,
+        "repeated_3grams": 47,
+        "repeated_4grams": 40,
+        "throughput_tok_s": 249.61534524912454,
+        "total_tokens": 100,
+        "unique_tokens": 25,
+        "unique_tokens_ratio": 0.25
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " they are happy with little friends. They are in a very different way to work together to make a better sense for them. It is important to be that they are not taking care of each other.<|im_end|><|im_start|>userGiven the",
+        "has_math_symbols": false,
+        "latency_ms": 438.593596,
+        "repeated_2grams": 17,
+        "repeated_3grams": 9,
+        "repeated_4grams": 3,
+        "throughput_tok_s": 228.00150506529513,
+        "total_tokens": 100,
+        "unique_tokens": 48,
+        "unique_tokens_ratio": 0.48
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 432.8136146,
+    "avg_generation_throughput_tokens_per_sec": 231.04633640607295,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 2273.510738077,
+  "step": 100000,
+  "timestamp_ms": 1788921391361
+}

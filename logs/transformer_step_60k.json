@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0001535908861264828,
+    "loss": 2.8335142135620117,
+    "perplexity": 17.005115551116603,
+    "tokens_seen": 61440000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " \"The Empire\" (\"The Empire\") and \"The Empire\" (\"The Empire\") are the main ideas of the Empire and the Empire of the Empire of the Empire of the Empire of the Empire.  - ",
+        "has_math_symbols": true,
+        "latency_ms": 360.829302,
+        "repeated_2grams": 68,
+        "repeated_3grams": 61,
+        "repeated_4grams": 54,
+        "throughput_tok_s": 277.139354940747,
+        "total_tokens": 100,
+        "unique_tokens": 17,
+        "unique_tokens_ratio": 0.17
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " \"The Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big ",
+        "has_math_symbols": false,
+        "latency_ms": 427.899301,
+        "repeated_2grams": 93,
+        "repeated_3grams": 92,
+        "repeated_4grams": 91,
+        "throughput_tok_s": 233.69984425377692,
+        "total_tokens": 100,
+        "unique_tokens": 5,
+        "unique_tokens_ratio": 0.05
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of people in the first letter of the first letter of the second letter of the second letter of the second letter of the second letter of the second letter of the second let",
+        "has_math_symbols": false,
+        "latency_ms": 318.917001,
+        "repeated_2grams": 65,
+        "repeated_3grams": 59,
+        "repeated_4grams": 54,
+        "throughput_tok_s": 313.561207732541,
+        "total_tokens": 100,
+        "unique_tokens": 22,
+        "unique_tokens_ratio": 0.22
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of bags that the number of bags they have to find the number of bags that they have to find the number of bags (the number of bags to find the number",
+        "has_math_symbols": false,
+        "latency_ms": 432.480402,
+        "repeated_2grams": 62,
+        "repeated_3grams": 54,
+        "repeated_4grams": 47,
+        "throughput_tok_s": 231.22435036952263,
+        "total_tokens": 100,
+        "unique_tokens": 24,
+        "unique_tokens_ratio": 0.24
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " you can use the \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mortal\" to \"mort",
+        "has_math_symbols": false,
+        "latency_ms": 329.834701,
+        "repeated_2grams": 83,
+        "repeated_3grams": 82,
+        "repeated_4grams": 81,
+        "throughput_tok_s": 303.18216881613074,
+        "total_tokens": 100,
+        "unique_tokens": 10,
+        "unique_tokens_ratio": 0.1
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the answer is that:Answer:<|im_end|><|im_start|>assistantYes, the answer is \"mortal.\"<|im_end|><|im_start|>userPlease answer the following question: Given the following passage  \"On August 29, ",
+        "has_math_symbols": true,
+        "latency_ms": 403.467702,
+        "repeated_2grams": 37,
+        "repeated_3grams": 28,
+        "repeated_4grams": 22,
+        "throughput_tok_s": 247.85131375893877,
+        "total_tokens": 100,
+        "unique_tokens": 41,
+        "unique_tokens_ratio": 0.41
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 323.918701,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 308.7194400671544,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                                                                                   the",
+        "has_math_symbols": false,
+        "latency_ms": 396.458802,
+        "repeated_2grams": 97,
+        "repeated_3grams": 96,
+        "repeated_4grams": 95,
+        "throughput_tok_s": 252.23301764403757,
+        "total_tokens": 100,
+        "unique_tokens": 2,
+        "unique_tokens_ratio": 0.02
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " it is a very important and unlikely place to be a place where people are in a place called the \"sunny forest\". It is a place where people are in a place called the \"sunny forest\". It is a place where people are in ",
+        "has_math_symbols": false,
+        "latency_ms": 328.465801,
+        "repeated_2grams": 55,
+        "repeated_3grams": 51,
+        "repeated_4grams": 47,
+        "throughput_tok_s": 304.4456978338515,
+        "total_tokens": 100,
+        "unique_tokens": 24,
+        "unique_tokens_ratio": 0.24
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the sun and the body of the world. As a result, it is revealed that a sun is that a sun is about to the local water and in the sea. The cold and sun is about to find the sun on the water of ",
+        "has_math_symbols": false,
+        "latency_ms": 387.800302,
+        "repeated_2grams": 49,
+        "repeated_3grams": 33,
+        "repeated_4grams": 18,
+        "throughput_tok_s": 257.8646779908903,
+        "total_tokens": 100,
+        "unique_tokens": 28,
+        "unique_tokens_ratio": 0.28
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 409.6213018,
+    "avg_generation_throughput_tokens_per_sec": 244.1279287980623,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 1347.78250129,
+  "step": 60000,
+  "timestamp_ms": 1788920465632
+}

@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 9.979409857541804e-05,
+    "loss": 1.2463505268096924,
+    "perplexity": 3.4776282595001584,
+    "tokens_seen": 71680000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the most populous city in France. It is the second most populous city in France and the second most populous city in France. The country is also the second most populous city in France and the second most populous city in France. The country is also",
+        "has_math_symbols": false,
+        "latency_ms": 361.276507,
+        "repeated_2grams": 70,
+        "repeated_3grams": 65,
+        "repeated_4grams": 60,
+        "throughput_tok_s": 276.79629885261267,
+        "total_tokens": 100,
+        "unique_tokens": 16,
+        "unique_tokens_ratio": 0.16
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " a branch of the European Union. It is bordered by France to the east by the Ghine of the Ethiopia to the east, and the Ghine of France to the northwest, and the Ghine of Lima to the northwest. The",
+        "has_math_symbols": false,
+        "latency_ms": 429.906609,
+        "repeated_2grams": 49,
+        "repeated_3grams": 37,
+        "repeated_4grams": 28,
+        "throughput_tok_s": 232.60865943096027,
+        "total_tokens": 100,
+        "unique_tokens": 31,
+        "unique_tokens_ratio": 0.31
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of people in the first two sentences, we need to find the total number of people in the second sentence. We need to find the total number of people in the second sentence to find",
+        "has_math_symbols": false,
+        "latency_ms": 378.312607,
+        "repeated_2grams": 50,
+        "repeated_3grams": 43,
+        "repeated_4grams": 38,
+        "throughput_tok_s": 264.33166156685866,
+        "total_tokens": 100,
+        "unique_tokens": 30,
+        "unique_tokens_ratio": 0.3
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe sentence \"The man in the sleep\" is not explicitly stated in the text provided. Therefore, the sentence \"The man in the sleep\" is not a logical logical logic. To determine ",
+        "has_math_symbols": false,
+        "latency_ms": 466.25281,
+        "repeated_2grams": 37,
+        "repeated_3grams": 29,
+        "repeated_4grams": 24,
+        "throughput_tok_s": 214.47591919070686,
+        "total_tokens": 100,
+        "unique_tokens": 40,
+        "unique_tokens_ratio": 0.4
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " Socrates are more than 100 species of species of species than those in the world.  - The genus of species of species are the most common species of species of species of species of species of species of species of species of species of species of species ",
+        "has_math_symbols": true,
+        "latency_ms": 366.921407,
+        "repeated_2grams": 62,
+        "repeated_3grams": 56,
+        "repeated_4grams": 50,
+        "throughput_tok_s": 272.53792799284673,
+        "total_tokens": 100,
+        "unique_tokens": 21,
+        "unique_tokens_ratio": 0.21
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " this is a form of content that is often referred to as a \"neuro-cooking\" ( ) or \"neuro-cooking\" ( \"s quantum)                                     ",
+        "has_math_symbols": true,
+        "latency_ms": 420.521409,
+        "repeated_2grams": 53,
+        "repeated_3grams": 47,
+        "repeated_4grams": 43,
+        "throughput_tok_s": 237.8000212588463,
+        "total_tokens": 100,
+        "unique_tokens": 28,
+        "unique_tokens_ratio": 0.28
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 333.510107,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 299.84098802738833,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                   = n                                                   = n        ",
+        "has_math_symbols": true,
+        "latency_ms": 413.404908,
+        "repeated_2grams": 94,
+        "repeated_3grams": 92,
+        "repeated_4grams": 90,
+        "throughput_tok_s": 241.893596483378,
+        "total_tokens": 100,
+        "unique_tokens": 3,
+        "unique_tokens_ratio": 0.03
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " it is important to note that the Earth's surface is not a direct or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or indirect or",
+        "has_math_symbols": false,
+        "latency_ms": 322.253406,
+        "repeated_2grams": 69,
+        "repeated_3grams": 67,
+        "repeated_4grams": 65,
+        "throughput_tok_s": 310.3147961762738,
+        "total_tokens": 100,
+        "unique_tokens": 17,
+        "unique_tokens_ratio": 0.17
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the only one in the world is in the world of families. In fact, people can be able to figure out how people can enjoy their life. They are dying at a car with a big basket that is important for people who are unh",
+        "has_math_symbols": false,
+        "latency_ms": 387.410908,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 6,
+        "throughput_tok_s": 258.12386263527713,
+        "total_tokens": 100,
+        "unique_tokens": 44,
+        "unique_tokens_ratio": 0.44
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 423.49932879999994,
+    "avg_generation_throughput_tokens_per_sec": 236.12788309099207,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 1585.475478799,
+  "step": 70000,
+  "timestamp_ms": 1788920703325
+}

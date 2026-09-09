@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00024299909146043093,
+    "loss": 2.2342216968536377,
+    "perplexity": 9.339210286072113,
+    "tokens_seen": 46080000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " \"the capital of the city of the city of the city of the city of the city of the city of the city of the city of the city of the city of the city of the city of the city of the city of the city of the ",
+        "has_math_symbols": false,
+        "latency_ms": 360.366997,
+        "repeated_2grams": 89,
+        "repeated_3grams": 87,
+        "repeated_4grams": 86,
+        "throughput_tok_s": 277.4948894668065,
+        "total_tokens": 100,
+        "unique_tokens": 6,
+        "unique_tokens_ratio": 0.06
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " \"Jahi se\".  - The Empire ( \" \") is a form of constitutional monarchy (\"Buy mÃ¡ln\") ( \", \"Empire\" \"Empire\"), and \"Found (\"Empire (\"Empire\") ( \"Gut",
+        "has_math_symbols": true,
+        "latency_ms": 436.913897,
+        "repeated_2grams": 38,
+        "repeated_3grams": 24,
+        "repeated_4grams": 15,
+        "throughput_tok_s": 228.87804825306344,
+        "total_tokens": 100,
+        "unique_tokens": 37,
+        "unique_tokens_ratio": 0.37
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe total number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the ",
+        "has_math_symbols": false,
+        "latency_ms": 397.248697,
+        "repeated_2grams": 76,
+        "repeated_3grams": 73,
+        "repeated_4grams": 71,
+        "throughput_tok_s": 251.73147389832724,
+        "total_tokens": 100,
+        "unique_tokens": 16,
+        "unique_tokens_ratio": 0.16
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe given sentence states that a car was 9 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 + 27 +",
+        "has_math_symbols": true,
+        "latency_ms": 451.868697,
+        "repeated_2grams": 65,
+        "repeated_3grams": 62,
+        "repeated_4grams": 60,
+        "throughput_tok_s": 221.30322517118285,
+        "total_tokens": 100,
+        "unique_tokens": 22,
+        "unique_tokens_ratio": 0.22
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " Socrates are mortal to the same mortality of mortality and mortality. The mortality of mortality is the most common mortality of mortality in the mortality of mortality in the mortality of mortality. The mortality ",
+        "has_math_symbols": false,
+        "latency_ms": 372.010997,
+        "repeated_2grams": 64,
+        "repeated_3grams": 56,
+        "repeated_4grams": 48,
+        "throughput_tok_s": 268.80925780804273,
+        "total_tokens": 100,
+        "unique_tokens": 21,
+        "unique_tokens_ratio": 0.21
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " Socrates is not so valid, but as some mortal and that does not have a direct effect on the process. Consequently, the effect of mortal and mortal (A) does not have a direct effect on the process of mortality in ",
+        "has_math_symbols": false,
+        "latency_ms": 489.083596,
+        "repeated_2grams": 38,
+        "repeated_3grams": 30,
+        "repeated_4grams": 23,
+        "throughput_tok_s": 204.4640237739644,
+        "total_tokens": 100,
+        "unique_tokens": 37,
+        "unique_tokens_ratio": 0.37
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 373.045097,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 268.06410486075896,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "         return filtracci(n) ********************************************************************************",
+        "has_math_symbols": true,
+        "latency_ms": 481.852696,
+        "repeated_2grams": 85,
+        "repeated_3grams": 83,
+        "repeated_4grams": 81,
+        "throughput_tok_s": 207.53230360674377,
+        "total_tokens": 100,
+        "unique_tokens": 11,
+        "unique_tokens_ratio": 0.11
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the lungs of the lungs and the lungs of the lungs of the lungs. The lungs of the lungs are formed by the lungs of the lungs of the lungs and the lungs of the lungs. The",
+        "has_math_symbols": false,
+        "latency_ms": 374.729597,
+        "repeated_2grams": 79,
+        "repeated_3grams": 75,
+        "repeated_4grams": 71,
+        "throughput_tok_s": 266.85909199747573,
+        "total_tokens": 100,
+        "unique_tokens": 12,
+        "unique_tokens_ratio": 0.12
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the evil dresses into the ground and on the ground and have a small portion of the chocolate surface. This can be described as a natural habitat of the same area, but rather a negative environment. Although some of these factors include the",
+        "has_math_symbols": false,
+        "latency_ms": 468.102696,
+        "repeated_2grams": 22,
+        "repeated_3grams": 13,
+        "repeated_4grams": 6,
+        "throughput_tok_s": 213.62833594959685,
+        "total_tokens": 100,
+        "unique_tokens": 46,
+        "unique_tokens_ratio": 0.46
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 465.5643164,
+    "avg_generation_throughput_tokens_per_sec": 214.79309405251487,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 995.27364374,
+  "step": 45000,
+  "timestamp_ms": 1788920113124
+}

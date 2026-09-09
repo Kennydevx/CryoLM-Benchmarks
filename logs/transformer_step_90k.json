@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 2.9488369069364462e-05,
+    "loss": 1.2938051223754883,
+    "perplexity": 3.6466360860296922,
+    "tokens_seen": 92160000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the largest city and the most populous city in the European Union. The city is the county seat of the county seat of the county seat of the county seat of the county seat of the county seat of the county seat",
+        "has_math_symbols": false,
+        "latency_ms": 326.023396,
+        "repeated_2grams": 67,
+        "repeated_3grams": 61,
+        "repeated_4grams": 55,
+        "throughput_tok_s": 306.72645345980015,
+        "total_tokens": 100,
+        "unique_tokens": 19,
+        "unique_tokens_ratio": 0.19
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " Romance County, while the capital is Romance County, and the largest city is Romance County.  - The city of Pyramid is a city in the northwestern province of Pyramid and New Zealand. The city is located on the east",
+        "has_math_symbols": true,
+        "latency_ms": 385.366095,
+        "repeated_2grams": 43,
+        "repeated_3grams": 31,
+        "repeated_4grams": 20,
+        "throughput_tok_s": 259.49350837416046,
+        "total_tokens": 100,
+        "unique_tokens": 34,
+        "unique_tokens_ratio": 0.34
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of candy candy candy candy candy candy candy candy candy candy candy candy candy candy candy candy candy candy ",
+        "has_math_symbols": false,
+        "latency_ms": 301.754496,
+        "repeated_2grams": 72,
+        "repeated_3grams": 69,
+        "repeated_4grams": 67,
+        "throughput_tok_s": 331.39522799355404,
+        "total_tokens": 100,
+        "unique_tokens": 19,
+        "unique_tokens_ratio": 0.19
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of balls that are left in the same equation, we can follow these steps:Step 1: Isolate the variable term.We have the variable term with the variable term with the vari",
+        "has_math_symbols": true,
+        "latency_ms": 358.413596,
+        "repeated_2grams": 26,
+        "repeated_3grams": 20,
+        "repeated_4grams": 15,
+        "throughput_tok_s": 279.00727292722456,
+        "total_tokens": 100,
+        "unique_tokens": 45,
+        "unique_tokens_ratio": 0.45
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " it is a common characteristic of the humans that are not present in the world.  - The Amazon (or ) is a genre of the genre of the genre of the genre of the genre of the genre of the genre of ",
+        "has_math_symbols": true,
+        "latency_ms": 316.1879,
+        "repeated_2grams": 50,
+        "repeated_3grams": 46,
+        "repeated_4grams": 42,
+        "throughput_tok_s": 316.2676370601152,
+        "total_tokens": 100,
+        "unique_tokens": 29,
+        "unique_tokens_ratio": 0.29
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " they are less likely to be hung out in the blood cells.  What might be the first step of the process?A:<|im_end|><|im_start|>assistantThe first step of the process is the process that produces in the blood cells ",
+        "has_math_symbols": false,
+        "latency_ms": 366.276898,
+        "repeated_2grams": 32,
+        "repeated_3grams": 24,
+        "repeated_4grams": 17,
+        "throughput_tok_s": 273.0174918102533,
+        "total_tokens": 100,
+        "unique_tokens": 41,
+        "unique_tokens_ratio": 0.41
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 320.8033,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 311.71749168415664,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                              the rules of the proposed sort of state and is \"                       a population of 177",
+        "has_math_symbols": true,
+        "latency_ms": 394.925101,
+        "repeated_2grams": 72,
+        "repeated_3grams": 67,
+        "repeated_4grams": 62,
+        "throughput_tok_s": 253.2125705527135,
+        "total_tokens": 100,
+        "unique_tokens": 16,
+        "unique_tokens_ratio": 0.16
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the world of the world is known as the \"Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big Big",
+        "has_math_symbols": false,
+        "latency_ms": 431.861201,
+        "repeated_2grams": 82,
+        "repeated_3grams": 79,
+        "repeated_4grams": 76,
+        "throughput_tok_s": 231.5558789917782,
+        "total_tokens": 100,
+        "unique_tokens": 10,
+        "unique_tokens_ratio": 0.1
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " he had been a hidden force to learn from the big landscape and gate the luck. He had a deep connection to the big landscape and the power of the ocean and he found a super nice tree of water. He ",
+        "has_math_symbols": false,
+        "latency_ms": 429.6682,
+        "repeated_2grams": 34,
+        "repeated_3grams": 22,
+        "repeated_4grams": 10,
+        "throughput_tok_s": 232.7377264596263,
+        "total_tokens": 100,
+        "unique_tokens": 39,
+        "unique_tokens_ratio": 0.39
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 386.929978,
+    "avg_generation_throughput_tokens_per_sec": 258.4446946108683,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 2048.473785933,
+  "step": 90000,
+  "timestamp_ms": 1788921166324
+}

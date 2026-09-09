@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0002721486107106328,
+    "loss": 2.5874276161193848,
+    "perplexity": 13.295526378407386,
+    "tokens_seen": 40960000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " \"The Silesia and the Silesia of France, and the Silesia of France, the Silesia and Silesia and Silesia and Silesia and Silesia and Silesia and Silesia and Silesia and Silesia ",
+        "has_math_symbols": false,
+        "latency_ms": 342.511099,
+        "repeated_2grams": 82,
+        "repeated_3grams": 78,
+        "repeated_4grams": 74,
+        "throughput_tok_s": 291.96134166735425,
+        "total_tokens": 100,
+        "unique_tokens": 12,
+        "unique_tokens_ratio": 0.12
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " Lynch and the Fourteenth most populous city in Germany, and the Fourteenth largest city in Germany. Other major urban centres include Lynch and Tower Lynch and Tower Lynch and Tower Lynch and Tower Lyn",
+        "has_math_symbols": false,
+        "latency_ms": 439.925098,
+        "repeated_2grams": 54,
+        "repeated_3grams": 50,
+        "repeated_4grams": 46,
+        "throughput_tok_s": 227.31142290954267,
+        "total_tokens": 100,
+        "unique_tokens": 29,
+        "unique_tokens_ratio": 0.29
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of cats in the total number of cats, we can calculate the total number of cats in the total number of cats in the total number of cats in the total number of ",
+        "has_math_symbols": false,
+        "latency_ms": 417.471498,
+        "repeated_2grams": 61,
+        "repeated_3grams": 57,
+        "repeated_4grams": 54,
+        "throughput_tok_s": 239.5373108800831,
+        "total_tokens": 100,
+        "unique_tokens": 25,
+        "unique_tokens_ratio": 0.25
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistant15 + 27 + 27 = <<15+27+27=240>>240 + 27 + 27 + 27 = 240 + 240 + 270 + 270 + 270 + 270 + 270 = 240 + 270 ",
+        "has_math_symbols": true,
+        "latency_ms": 444.895498,
+        "repeated_2grams": 65,
+        "repeated_3grams": 55,
+        "repeated_4grams": 48,
+        "throughput_tok_s": 224.7718856440305,
+        "total_tokens": 100,
+        "unique_tokens": 16,
+        "unique_tokens_ratio": 0.16
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " the hypothesis \"A man is in a black shirt and a black shirt is in a black shirt and a black shirt is in a black shirt.\" is true?Options:- yes- no- it is not possible to tell.",
+        "has_math_symbols": true,
+        "latency_ms": 329.020199,
+        "repeated_2grams": 47,
+        "repeated_3grams": 41,
+        "repeated_4grams": 37,
+        "throughput_tok_s": 303.93270779098884,
+        "total_tokens": 100,
+        "unique_tokens": 32,
+        "unique_tokens_ratio": 0.32
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " what is the question?Answer:<|im_end|><|im_start|>assistantWhat can Socrates in the following sentence: \"In the same location is not paraphrases of the same location in the morning for the brain and the brain is high ",
+        "has_math_symbols": false,
+        "latency_ms": 431.007898,
+        "repeated_2grams": 29,
+        "repeated_3grams": 19,
+        "repeated_4grams": 10,
+        "throughput_tok_s": 232.01430986306426,
+        "total_tokens": 100,
+        "unique_tokens": 46,
+        "unique_tokens_ratio": 0.46
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 320.875999,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 311.6468676736399,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "           if n == 1:                                                              for a person             ",
+        "has_math_symbols": true,
+        "latency_ms": 396.348898,
+        "repeated_2grams": 82,
+        "repeated_3grams": 79,
+        "repeated_4grams": 76,
+        "throughput_tok_s": 252.30295960101293,
+        "total_tokens": 100,
+        "unique_tokens": 9,
+        "unique_tokens_ratio": 0.09
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the software and the software are not always the same as the software and the software are not always the same as the software and the software are not always the same as the software and the software",
+        "has_math_symbols": false,
+        "latency_ms": 396.257998,
+        "repeated_2grams": 81,
+        "repeated_3grams": 77,
+        "repeated_4grams": 74,
+        "throughput_tok_s": 252.36083689091873,
+        "total_tokens": 100,
+        "unique_tokens": 11,
+        "unique_tokens_ratio": 0.11
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " a man named Saturday, who has been involved in a tire of being a young woman in the night of a young man in the middle of a young man named Saturday and his mother. He is a young man named Saturday and that",
+        "has_math_symbols": false,
+        "latency_ms": 391.160698,
+        "repeated_2grams": 47,
+        "repeated_3grams": 38,
+        "repeated_4grams": 29,
+        "throughput_tok_s": 255.6494057590622,
+        "total_tokens": 100,
+        "unique_tokens": 30,
+        "unique_tokens_ratio": 0.3
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 420.66761800000006,
+    "avg_generation_throughput_tokens_per_sec": 237.71737048702425,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 876.470562147,
+  "step": 40000,
+  "timestamp_ms": 1788919994320
+}
