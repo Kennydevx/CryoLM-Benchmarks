@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.0003984721776092709,
+    "loss": 3.0785739421844482,
+    "perplexity": 21.727395770281365,
+    "tokens_seen": 5120000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the same meaning of the given sentence. The sentence is true based on the information provided in the text and \"The sentence is true that the same sentence is true. The sentence is true that the same sentence is true. The sentence is true ",
+        "has_math_symbols": false,
+        "latency_ms": 326.434075,
+        "repeated_2grams": 59,
+        "repeated_3grams": 51,
+        "repeated_4grams": 43,
+        "throughput_tok_s": 306.340568153003,
+        "total_tokens": 100,
+        "unique_tokens": 21,
+        "unique_tokens_ratio": 0.21
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the most populous city in the world of the west.    The process of Funny to the west of India is the most populous in the west and most populous in the most populous in the north.            The Nether ",
+        "has_math_symbols": false,
+        "latency_ms": 723.382347,
+        "repeated_2grams": 58,
+        "repeated_3grams": 48,
+        "repeated_4grams": 38,
+        "throughput_tok_s": 138.23948070438607,
+        "total_tokens": 100,
+        "unique_tokens": 23,
+        "unique_tokens_ratio": 0.23
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe first step of the given sentence is \"The sentence is true that the same thing is about the same thing to be a lot of the same thing to be a lot of the same thing. The sentence is",
+        "has_math_symbols": false,
+        "latency_ms": 313.189777,
+        "repeated_2grams": 48,
+        "repeated_3grams": 39,
+        "repeated_4grams": 32,
+        "throughput_tok_s": 319.295223994492,
+        "total_tokens": 100,
+        "unique_tokens": 30,
+        "unique_tokens_ratio": 0.3
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe review does not mention any time of a movie review.<|im_end|><|im_start|>userQuestion: Determine if the story is the assistant to Sayy, and the most likely be able to make ",
+        "has_math_symbols": false,
+        "latency_ms": 430.823068,
+        "repeated_2grams": 25,
+        "repeated_3grams": 17,
+        "repeated_4grams": 12,
+        "throughput_tok_s": 232.11384771996472,
+        "total_tokens": 100,
+        "unique_tokens": 46,
+        "unique_tokens_ratio": 0.46
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " the most likely to be a lot of the same time and the other hand. The review is a positive or negative review of the review is negative or negative emotions or negative emotions or negative emotions or negative emotions or negative",
+        "has_math_symbols": false,
+        "latency_ms": 349.204674,
+        "repeated_2grams": 55,
+        "repeated_3grams": 46,
+        "repeated_4grams": 37,
+        "throughput_tok_s": 286.36501010865624,
+        "total_tokens": 100,
+        "unique_tokens": 25,
+        "unique_tokens_ratio": 0.25
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the impact of the art of the review is expressive or help them.     Constructures of these factors have a negative answer to the review of the review has a negative experience or negative service or positive sentiment. The review provides about",
+        "has_math_symbols": false,
+        "latency_ms": 400.99727,
+        "repeated_2grams": 36,
+        "repeated_3grams": 24,
+        "repeated_4grams": 13,
+        "throughput_tok_s": 249.37825636568547,
+        "total_tokens": 100,
+        "unique_tokens": 38,
+        "unique_tokens_ratio": 0.38
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 299.765177,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 333.5944521668039,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 378.642072,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 264.1016606310986,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " and the other hand of the criminal skills of the criminal skills and the sunlight of the criminal skills of the criminal skills and the smocratic system of the criminal skills of the criminal skills ",
+        "has_math_symbols": false,
+        "latency_ms": 312.416277,
+        "repeated_2grams": 72,
+        "repeated_3grams": 66,
+        "repeated_4grams": 61,
+        "throughput_tok_s": 320.0857553270184,
+        "total_tokens": 100,
+        "unique_tokens": 16,
+        "unique_tokens_ratio": 0.16
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " the director has a few or unlight to the protest of their existence. Sayy Buisa the Columbia Post of the people who have been improved in a blow in the society.  - The state of the cold and replacement of",
+        "has_math_symbols": true,
+        "latency_ms": 460.953566,
+        "repeated_2grams": 22,
+        "repeated_3grams": 11,
+        "repeated_4grams": 3,
+        "throughput_tok_s": 216.94159103218652,
+        "total_tokens": 100,
+        "unique_tokens": 47,
+        "unique_tokens_ratio": 0.47
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 478.9596646,
+    "avg_generation_throughput_tokens_per_sec": 208.78584856099383,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 105.835818994,
+  "step": 5000,
+  "timestamp_ms": 1788919223686
+}
