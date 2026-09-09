@@ -1,158 +1,158 @@
 {
   "category_a_training": {
     "learning_rate": 0.0003984721776092709,
-    "loss": 1.6679110527038574,
-    "ms_per_step_average": 43.981233591999995,
-    "perplexity": 5.301082540913705,
+    "loss": 3.1997623443603516,
+    "ms_per_step_average": 46.31248465,
+    "perplexity": 24.526700595699424,
     "total_tokens_processed": 5120000
   },
   "category_b_generation": [
     {
       "category": "Factual simples",
       "greedy_argmax": {
-        "has_math_symbols": true,
-        "repeated_2grams": 24,
-        "repeated_3grams": 12,
-        "repeated_4grams": 1,
-        "text": " @-@ conception of maat , applied to human society , maintained maat and influence ] that linking of native order to form newly way that they came to be connected with them , in the king of the world and the gods",
+        "has_math_symbols": false,
+        "repeated_2grams": 67,
+        "repeated_3grams": 62,
+        "repeated_4grams": 57,
+        "text": " a lot of the same meaning of the context of the sentence and answer the question \"What is the same meaning of the question \"What is the same meaning of the sentence and the question \"What is the same meaning of the sentence and",
         "tokens_count": 100,
-        "unique_tokens_count": 46,
-        "unique_tokens_ratio": 0.46
+        "unique_tokens_count": 20,
+        "unique_tokens_ratio": 0.2
       },
       "prompt": "The capital of France is",
       "prompt_id": "prompt_1",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1409.687727,
-        "repeated_2grams": 26,
-        "repeated_3grams": 19,
-        "repeated_4grams": 12,
-        "text": " , the gods ' actions in a different orderly way that that did over concept of interact . <unk> and in the gods ' actions to be certifications in the Egyptians called <unk> , a termoer felt made as well",
-        "throughput_tok_s": 70.93769640231818,
+        "latency_ms": 1594.291507,
+        "repeated_2grams": 34,
+        "repeated_3grams": 23,
+        "repeated_4grams": 13,
+        "text": " an answer to this question is:<|im_end|><|im_start|>assistantThe question \"A person was playing and no longer to say the process of the other and behavior of the passage to the job of the context of the context of the",
+        "throughput_tok_s": 62.723786434873105,
         "tokens_count": 100,
-        "unique_tokens_count": 45,
-        "unique_tokens_ratio": 0.45,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Matematico",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 24,
-        "repeated_3grams": 16,
-        "repeated_4grams": 9,
-        "text": " , Slayer 's second to be certified cen . The Egyptians called <unk> , a term usually translated as \" \" \" \" , the divine order , the gods ' actions to form the world in the gods ",
+        "repeated_2grams": 45,
+        "repeated_3grams": 39,
+        "repeated_4grams": 34,
+        "text": "<|im_end|><|im_start|>assistantThe review is not possible to tell. The review is not possible to tell. no.<|im_end|><|im_start|>userWrite a function to determine if the sentence of the sentence of the sentence ",
         "tokens_count": 100,
-        "unique_tokens_count": 47,
-        "unique_tokens_ratio": 0.47
+        "unique_tokens_count": 35,
+        "unique_tokens_ratio": 0.35
       },
       "prompt": "What is 15 + 27?",
       "prompt_id": "prompt_2",
       "sampling_topp_09_temp_07": {
-        "has_math_symbols": false,
-        "latency_ms": 997.866117,
-        "repeated_2grams": 27,
-        "repeated_3grams": 18,
-        "repeated_4grams": 10,
-        "text": " , sirth , Slayer 's back to be certified to both humans , the gods ' actions in his morality was on the world and the gods ' actions in the newly way that , such as an early time , em",
-        "throughput_tok_s": 100.21384461939797,
+        "has_math_symbols": true,
+        "latency_ms": 1053.602071,
+        "repeated_2grams": 45,
+        "repeated_3grams": 30,
+        "repeated_4grams": 20,
+        "text": "<|im_end|><|im_start|>assistantA text of the following sentence is:<|im_end|><|im_start|>assistantStep 1: Determine the context of the sentence and question \"What is the same question of the question. The question is: \"",
+        "throughput_tok_s": 94.9124937701456,
         "tokens_count": 100,
-        "unique_tokens_count": 43,
-        "unique_tokens_ratio": 0.43,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 34,
+        "unique_tokens_ratio": 0.34,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Logica",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 38,
-        "repeated_3grams": 31,
-        "repeated_4grams": 24,
-        "text": " deities ; the Egyptians called <unk> , a term usually translated as \" \" \" \" , the divine order , the gods ' actions to maat , the gods ' actions to form the world in the world in the ",
+        "repeated_2grams": 44,
+        "repeated_3grams": 35,
+        "repeated_4grams": 28,
+        "text": " the same meaning of the sentence of the sentence of the sentence of the sentence and the review is true. The review is not possible to tell. no.<|im_end|><|im_start|>userWrite a function to find the sentence of the",
         "tokens_count": 100,
-        "unique_tokens_count": 39,
-        "unique_tokens_ratio": 0.39
+        "unique_tokens_count": 34,
+        "unique_tokens_ratio": 0.34
       },
       "prompt": "If all humans are mortal, and Socrates is human, then",
       "prompt_id": "prompt_3",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1164.01372,
-        "repeated_2grams": 22,
-        "repeated_3grams": 13,
-        "repeated_4grams": 4,
-        "text": " syncret for their place of in Blood . <unk> was a fundamental power that the gods ' actions in ancient Egypt was on the focus of temples . Egyptians called <unk> , which a term the g",
-        "throughput_tok_s": 85.90964030905066,
+        "latency_ms": 1006.240968,
+        "repeated_2grams": 54,
+        "repeated_3grams": 47,
+        "repeated_4grams": 41,
+        "text": " an identifying two people to do it to determine if the difference of the sentence in the given sentence and recommendations to English                                            ",
+        "throughput_tok_s": 99.37977401055291,
         "tokens_count": 100,
-        "unique_tokens_count": 49,
-        "unique_tokens_ratio": 0.49,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 26,
+        "unique_tokens_ratio": 0.26,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Codigo",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 45,
-        "repeated_3grams": 36,
-        "repeated_4grams": 27,
-        "text": " maat , the gods ' actions to both connected with them , in the king of maat , applied to human society , which this work , the gods ' actions to form the world in the world and the gods ' actions ",
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
         "tokens_count": 100,
-        "unique_tokens_count": 32,
-        "unique_tokens_ratio": 0.32
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
       },
       "prompt": "def fibonacci(n):",
       "prompt_id": "prompt_4",
       "sampling_topp_09_temp_07": {
-        "has_math_symbols": true,
-        "latency_ms": 1243.955521,
-        "repeated_2grams": 34,
-        "repeated_3grams": 23,
-        "repeated_4grams": 12,
-        "text": " \" — is based on contrast on the final July 5 5 , when when Rubin @-@ , became <unk> , Slayer 's year on its way that , Slayer 's year , on several newly empire \" on the world ",
-        "throughput_tok_s": 80.38872637472703,
+        "has_math_symbols": false,
+        "latency_ms": 1187.38998,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 84.21832901099604,
         "tokens_count": 100,
-        "unique_tokens_count": 40,
-        "unique_tokens_ratio": 0.4,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Criativo",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 41,
-        "repeated_3grams": 32,
-        "repeated_4grams": 23,
-        "text": " history they came to be connected with them , in the king of maat , applied to human society , which this connected with them , in the king of the world and the gods ' actions to form the world in the world in",
+        "repeated_2grams": 48,
+        "repeated_3grams": 39,
+        "repeated_4grams": 32,
+        "text": " and the same meaning of the sentence of the sentence of the sentence and the question \"What is the same meaning of the sentence and the review is true. The review is not possible to tell. no.<|im_end|><|im_start|>userW",
         "tokens_count": 100,
-        "unique_tokens_count": 34,
-        "unique_tokens_ratio": 0.34
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32
       },
       "prompt": "Once upon a time, in a deep magical forest,",
       "prompt_id": "prompt_5",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1124.325035,
-        "repeated_2grams": 33,
-        "repeated_3grams": 23,
-        "repeated_4grams": 14,
-        "text": " each aptied to particular maat , an early hostile , causing applied to human society , the gods ' actions in \" the \" , the gods ' actions for a role in the world and the gods around themselves . In ",
-        "throughput_tok_s": 88.94225147268023,
+        "latency_ms": 1143.918051,
+        "repeated_2grams": 32,
+        "repeated_3grams": 19,
+        "repeated_4grams": 8,
+        "text": " it is the same term to give a function to give them the son and not be a higher or more than a lot of their spaces of their early years. They are a lot of people and convey the context of the text and answer ",
+        "throughput_tok_s": 87.41884955183734,
         "tokens_count": 100,
-        "unique_tokens_count": 39,
-        "unique_tokens_ratio": 0.39,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 37,
+        "unique_tokens_ratio": 0.37,
+        "vram_mb": 1320.5
       }
     }
   ],
   "category_c_efficiency": {
-    "avg_generation_latency_ms_per_100_tokens": 1187.9696239999998,
-    "avg_generation_throughput_tokens_per_sec": 84.17723650482834,
+    "avg_generation_latency_ms_per_100_tokens": 1197.0885154,
+    "avg_generation_throughput_tokens_per_sec": 83.53601150921209,
     "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
-    "vram_used_mb": 1336.5
+    "vram_used_mb": 1320.5
   },
   "step": 5000,
   "step_label": "5k"

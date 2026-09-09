@@ -1,9 +1,9 @@
 {
   "category_a_training": {
     "learning_rate": 0.00039230536355048824,
-    "loss": 1.4828883409500122,
-    "ms_per_step_average": 44.50087622,
-    "perplexity": 4.405652347579167,
+    "loss": 2.117743492126465,
+    "ms_per_step_average": 47.0295876563,
+    "perplexity": 8.312359404765099,
     "total_tokens_processed": 10240000
   },
   "category_b_generation": [
@@ -11,148 +11,148 @@
       "category": "Factual simples",
       "greedy_argmax": {
         "has_math_symbols": true,
-        "repeated_2grams": 19,
-        "repeated_3grams": 8,
-        "repeated_4grams": 1,
-        "text": " . \n The second and third storylines are set in 1961 , in the weeks prior to and following Trujillo 's country as they were seen as a threat to the government 's ideas . Mario Vargas Llosa takes ",
+        "repeated_2grams": 56,
+        "repeated_3grams": 46,
+        "repeated_4grams": 36,
+        "text": " a city in the world and the first year of the first year of the year of the first year of the year of the year and he was a total of $2.50 million in the day of the day and he needs to be a cold ",
         "tokens_count": 100,
-        "unique_tokens_count": 49,
-        "unique_tokens_ratio": 0.49
+        "unique_tokens_count": 25,
+        "unique_tokens_ratio": 0.25
       },
       "prompt": "The capital of France is",
       "prompt_id": "prompt_1",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1095.507042,
-        "repeated_2grams": 19,
-        "repeated_3grams": 9,
-        "repeated_4grams": 3,
-        "text": " ( not experience strin higrative to the wreck of the and Trujillo 's country as they were seen as a threat to the government 's ideas . Mario Vargas Llosa takes part in the discourse of proh",
-        "throughput_tok_s": 91.28193262677357,
+        "latency_ms": 1004.226043,
+        "repeated_2grams": 25,
+        "repeated_3grams": 13,
+        "repeated_4grams": 4,
+        "text": " in the island to the southwest and the FLP can be held on the first year of the second year. It was an important period of Griff and Fires P in the northeast of the United States and Ministry Now, a \"The CB",
+        "throughput_tok_s": 99.57917412822961,
         "tokens_count": 100,
-        "unique_tokens_count": 51,
-        "unique_tokens_ratio": 0.51,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Matematico",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 15,
-        "repeated_3grams": 8,
-        "repeated_4grams": 2,
-        "text": " their circle regimes been serve to the requent both discourt and magazines were prohibited , with other wiical fall in the weeks prior to and following Trujillo 's country as they were seen as a threat to the government ",
+        "repeated_2grams": 53,
+        "repeated_3grams": 47,
+        "repeated_4grams": 42,
+        "text": "<|im_end|><|im_start|>assistantThe first sentence is true that the hypothesis is entailed by the premise.The first sentence is true or not entailed by the premise.The first sentence is true or not entailed by the ",
         "tokens_count": 100,
-        "unique_tokens_count": 53,
-        "unique_tokens_ratio": 0.53
+        "unique_tokens_count": 31,
+        "unique_tokens_ratio": 0.31
       },
       "prompt": "What is 15 + 27?",
       "prompt_id": "prompt_2",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": true,
-        "latency_ms": 1178.633066,
-        "repeated_2grams": 8,
-        "repeated_3grams": 3,
-        "repeated_4grams": 0,
-        "text": " their midaddition years , gives away around its Puassassination in February May 18 . Fey 's English first newspaples and father Amb @-@ Zaton was writer to a whim , finds herself compelled to confront her ailings . \n",
-        "throughput_tok_s": 84.844047638487,
+        "latency_ms": 1065.793577,
+        "repeated_2grams": 32,
+        "repeated_3grams": 22,
+        "repeated_4grams": 17,
+        "text": "<|im_end|><|im_start|>assistantIt is not possible to tell- no- noThe answer is:<|im_end|><|im_start|>assistantThe first sentence is about a complete context and their meaning. The sentence is true. Based on the given",
+        "throughput_tok_s": 93.82679925833331,
         "tokens_count": 100,
-        "unique_tokens_count": 56,
-        "unique_tokens_ratio": 0.56,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Logica",
       "greedy_argmax": {
-        "has_math_symbols": true,
-        "repeated_2grams": 32,
-        "repeated_3grams": 26,
-        "repeated_4grams": 20,
-        "text": " . \n \n = = = = = = = = = = \n \n In her treatment of the novel 's actions in The Feast of the Goat demonstrate the discourse of prohibition : foreign newspapers and magazines ",
+        "has_math_symbols": false,
+        "repeated_2grams": 52,
+        "repeated_3grams": 46,
+        "repeated_4grams": 42,
+        "text": " the best answer is:<|im_end|><|im_start|>assistantThe first sentence is not entailed by the premise.The first sentence is true or not entailed by the premise.The first sentence is not entailed by the premise.",
         "tokens_count": 100,
-        "unique_tokens_count": 45,
-        "unique_tokens_ratio": 0.45
+        "unique_tokens_count": 32,
+        "unique_tokens_ratio": 0.32
       },
       "prompt": "If all humans are mortal, and Socrates is human, then",
       "prompt_id": "prompt_3",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": true,
-        "latency_ms": 1116.219162,
-        "repeated_2grams": 19,
-        "repeated_3grams": 12,
-        "repeated_4grams": 6,
-        "text": " @-@ brother 's <unk> split in Michael . In December 1931 , he served is the <unk> of his migrated to America with the subsequent memory and magazingashion and what is and what is not told . The government",
-        "throughput_tok_s": 89.5881412937077,
+        "latency_ms": 1081.412678,
+        "repeated_2grams": 27,
+        "repeated_3grams": 17,
+        "repeated_4grams": 8,
+        "text": " are more difficult to describe the subject of the sentence to describe the passage and the sentence is entailed by the premise. The provided options are the same thing in the first sentence. Here is a step-by-step reasoning:<|im",
+        "throughput_tok_s": 92.47163643849939,
         "tokens_count": 100,
-        "unique_tokens_count": 50,
-        "unique_tokens_ratio": 0.5,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 44,
+        "unique_tokens_ratio": 0.44,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Codigo",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 39,
-        "repeated_3grams": 29,
-        "repeated_4grams": 19,
-        "text": " Pennsylvania . <unk> has his own background story , explaining his motivation for his involvement in the assassination plot . Each has been <unk> by <unk> , <unk> , and <unk> , <unk> and <unk>",
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
         "tokens_count": 100,
-        "unique_tokens_count": 38,
-        "unique_tokens_ratio": 0.38
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
       },
       "prompt": "def fibonacci(n):",
       "prompt_id": "prompt_4",
       "sampling_topp_09_temp_07": {
-        "has_math_symbols": true,
-        "latency_ms": 1081.15876,
-        "repeated_2grams": 15,
-        "repeated_3grams": 8,
-        "repeated_4grams": 2,
-        "text": " Pennsylvania . <unk> known as a cape effects that power gives its <unk> the ability to make prohibition ; the second and third storylines are set in 1961 , in the weeks prior to and following Trujillo ",
-        "throughput_tok_s": 92.49335407502964,
+        "has_math_symbols": false,
+        "latency_ms": 972.40747,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 102.83754813195748,
         "tokens_count": 100,
-        "unique_tokens_count": 53,
-        "unique_tokens_ratio": 0.53,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Criativo",
       "greedy_argmax": {
-        "has_math_symbols": true,
-        "repeated_2grams": 8,
-        "repeated_3grams": 4,
-        "repeated_4grams": 0,
-        "text": " finally prominent irabal by all Vargas Llosa takes part in this discourse by recounting what was prohibited . \n The second and third storylines are set in 1961 , in the weeks prior to and following Trujill",
+        "has_math_symbols": false,
+        "repeated_2grams": 56,
+        "repeated_3grams": 47,
+        "repeated_4grams": 39,
+        "text": " and the hypothesis is not entailed by the first sentence. The sentence is true or negatively or negatively of the sentence. The sentence is true or not entailed by the premise.The first sentence is not entailed by the",
         "tokens_count": 100,
-        "unique_tokens_count": 59,
-        "unique_tokens_ratio": 0.59
+        "unique_tokens_count": 26,
+        "unique_tokens_ratio": 0.26
       },
       "prompt": "Once upon a time, in a deep magical forest,",
       "prompt_id": "prompt_5",
       "sampling_topp_09_temp_07": {
-        "has_math_symbols": true,
-        "latency_ms": 1210.872996,
-        "repeated_2grams": 11,
-        "repeated_3grams": 5,
-        "repeated_4grams": 0,
-        "text": " he required from his tories . Promoted squadron leader in the United States in February 1921 . The Greek to her ailing father 's father had Knight . <unk> , a good discourse of remembering the new manipate",
-        "throughput_tok_s": 82.58504428651078,
+        "has_math_symbols": false,
+        "latency_ms": 1136.553382,
+        "repeated_2grams": 33,
+        "repeated_3grams": 21,
+        "repeated_4grams": 11,
+        "text": " they have a lot to be exposed to the contact of the chemicals of the sentences in the sentence. It is not possible to say that. Yes, the sentence is true. The first sentence is not entailed by the given sentence.",
+        "throughput_tok_s": 87.98530855104173,
         "tokens_count": 100,
-        "unique_tokens_count": 56,
-        "unique_tokens_ratio": 0.56,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 39,
+        "unique_tokens_ratio": 0.39,
+        "vram_mb": 1320.5
       }
     }
   ],
   "category_c_efficiency": {
-    "avg_generation_latency_ms_per_100_tokens": 1136.4782052,
-    "avg_generation_throughput_tokens_per_sec": 87.99112868372322,
+    "avg_generation_latency_ms_per_100_tokens": 1052.07863,
+    "avg_generation_throughput_tokens_per_sec": 95.049929870736,
     "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
-    "vram_used_mb": 1336.5
+    "vram_used_mb": 1320.5
   },
   "step": 10000,
   "step_label": "10k"

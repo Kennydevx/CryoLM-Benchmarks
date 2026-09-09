@@ -1,9 +1,9 @@
 {
   "category_a_training": {
     "learning_rate": 0.00038155863355880936,
-    "loss": 1.134592056274414,
-    "ms_per_step_average": 44.58895665833333,
-    "perplexity": 3.10990461802166,
+    "loss": 2.968118667602539,
+    "ms_per_step_average": 47.8430374824,
+    "perplexity": 19.45528328954747,
     "total_tokens_processed": 15360000
   },
   "category_b_generation": [
@@ -11,148 +11,148 @@
       "category": "Factual simples",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 17,
-        "repeated_3grams": 10,
-        "repeated_4grams": 4,
-        "text": " a <unk> praised the deployment of FITs saying that they were \" highly effective and gained good intelligence and disruption \" . \n Three members of Fitwatch were convicted for <unk> FIT officers in June ",
+        "repeated_2grams": 32,
+        "repeated_3grams": 23,
+        "repeated_4grams": 14,
+        "text": " a sensical and unhealthy and unhealthy and the most popular part of the world. The statement does not provide any information about the information about the other options and the hypothesis is not entailed by the premise. The premise states",
         "tokens_count": 100,
-        "unique_tokens_count": 53,
-        "unique_tokens_ratio": 0.53
+        "unique_tokens_count": 41,
+        "unique_tokens_ratio": 0.41
       },
       "prompt": "The capital of France is",
       "prompt_id": "prompt_1",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1049.012691,
-        "repeated_2grams": 26,
-        "repeated_3grams": 17,
-        "repeated_4grams": 9,
-        "text": " a <unk> complaint with the <unk> over the incident . The journalist George <unk> commented on this case , saying that that \" the police are turning activism into a crime \" and that \" the FITs ",
-        "throughput_tok_s": 95.32773135916237,
+        "latency_ms": 1044.601102,
+        "repeated_2grams": 30,
+        "repeated_3grams": 20,
+        "repeated_4grams": 12,
+        "text": " not partially of the world of the Netherlands. The Nichola Lona is a woman in the world of the other one of the most successful votes, with the second most popular as the Pakistan Buck of the United States to the south",
+        "throughput_tok_s": 95.73032213783745,
         "tokens_count": 100,
-        "unique_tokens_count": 46,
-        "unique_tokens_ratio": 0.46,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Matematico",
       "greedy_argmax": {
-        "has_math_symbols": true,
-        "repeated_2grams": 24,
-        "repeated_3grams": 16,
-        "repeated_4grams": 9,
-        "text": " film officers distinging activist \" activ \" . \n = = = Charlotte Bobcats / Hornets = = = \n \n On June 15 2006 , and the Guardian released video evidence recorded by a FIT at the Charlotte ",
+        "has_math_symbols": false,
+        "repeated_2grams": 43,
+        "repeated_3grams": 35,
+        "repeated_4grams": 29,
+        "text": "<|im_end|><|im_start|>assistantThe first step of the above choices is \"The answer is \"no.\" The answer is:<|im_end|><|im_start|>assistantThe first step of the process is not possible to tell if the premise",
         "tokens_count": 100,
-        "unique_tokens_count": 46,
-        "unique_tokens_ratio": 0.46
+        "unique_tokens_count": 35,
+        "unique_tokens_ratio": 0.35
       },
       "prompt": "What is 15 + 27?",
       "prompt_id": "prompt_2",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1108.67669,
-        "repeated_2grams": 20,
-        "repeated_3grams": 10,
-        "repeated_4grams": 4,
-        "text": " film office moen police had not displayed them Aements Aardiinguation ( born . Jordan then owner owner Jerry <unk> , who continued in banking , and James R. Jordan , Jr . , one older sister ",
-        "throughput_tok_s": 90.19762109366619,
+        "latency_ms": 1167.921502,
+        "repeated_2grams": 46,
+        "repeated_3grams": 40,
+        "repeated_4grams": 35,
+        "text": "<|im_end|><|im_start|>assistantNo, the hypothesis is entailed by the premise?<|im_end|><|im_start|>assistantThe sentiment of this tweet?A:<|im_end|><|im_start|>assistantYes, the hypothesis is ",
+        "throughput_tok_s": 85.62219278329547,
         "tokens_count": 100,
-        "unique_tokens_count": 48,
-        "unique_tokens_ratio": 0.48,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 37,
+        "unique_tokens_ratio": 0.37,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Logica",
       "greedy_argmax": {
         "has_math_symbols": false,
-        "repeated_2grams": 14,
-        "repeated_3grams": 8,
-        "repeated_4grams": 2,
-        "text": " placed as a franch of the police are turning activism into a crime \" and that \" the FITs ' methods appear to have been lifted from a <unk> training manual \" . He claimed that \" anybody who is ",
+        "repeated_2grams": 68,
+        "repeated_3grams": 60,
+        "repeated_4grams": 52,
+        "text": " the most popular and the most popular part of the country of the world. The most popular and most popular in the world of the world of the world. The first statement is the most popular and most popular in the world. The first statement is not ",
         "tokens_count": 100,
-        "unique_tokens_count": 52,
-        "unique_tokens_ratio": 0.52
+        "unique_tokens_count": 17,
+        "unique_tokens_ratio": 0.17
       },
       "prompt": "If all humans are mortal, and Socrates is human, then",
       "prompt_id": "prompt_3",
       "sampling_topp_09_temp_07": {
-        "has_math_symbols": true,
-        "latency_ms": 1049.71139,
-        "repeated_2grams": 21,
-        "repeated_3grams": 10,
-        "repeated_4grams": 2,
-        "text": " base , 11 afadantled . Collulations over the playoff \" . On November 15 2006 , Jordan was born in Brooklyn , New York Knicks in the second round of the playoffs . But the 1994 – 95 B",
-        "throughput_tok_s": 95.26428021324986,
+        "has_math_symbols": false,
+        "latency_ms": 1140.075502,
+        "repeated_2grams": 32,
+        "repeated_3grams": 20,
+        "repeated_4grams": 9,
+        "text": " in the movie is it not true because the hypothesis is not true or not the most logical answer to the question \"What is the most popular way for the above paragraph?<|im_end|><|im_start|>assistantWhat is the ",
+        "throughput_tok_s": 87.71348899662613,
         "tokens_count": 100,
-        "unique_tokens_count": 48,
-        "unique_tokens_ratio": 0.48,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 43,
+        "unique_tokens_ratio": 0.43,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Codigo",
       "greedy_argmax": {
-        "has_math_symbols": true,
-        "repeated_2grams": 28,
-        "repeated_3grams": 18,
-        "repeated_4grams": 9,
-        "text": " Operations <unk> <unk> ' American in the 1993 – 94 season , the Bulls , with the Wizards . \n Jordan 's second @-@ time <unk> . Jordan 's brother James retired in 2006 as the Command Serge",
+        "has_math_symbols": false,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
         "tokens_count": 100,
-        "unique_tokens_count": 45,
-        "unique_tokens_ratio": 0.45
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01
       },
       "prompt": "def fibonacci(n):",
       "prompt_id": "prompt_4",
       "sampling_topp_09_temp_07": {
         "has_math_symbols": false,
-        "latency_ms": 1056.193691,
-        "repeated_2grams": 16,
-        "repeated_3grams": 5,
-        "repeated_4grams": 0,
-        "text": " <unk> A. Laney High School in Wilmington , where he acing an avokept a determine of the Command > reaments , who continued in banking , and James R. Jordan , Jr . , one older ",
-        "throughput_tok_s": 94.67960361069795,
+        "latency_ms": 1076.483901,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "text": "                                                                                                    ",
+        "throughput_tok_s": 92.8950260260325,
         "tokens_count": 100,
-        "unique_tokens_count": 52,
-        "unique_tokens_ratio": 0.52,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 1,
+        "unique_tokens_ratio": 0.01,
+        "vram_mb": 1320.5
       }
     },
     {
       "category": "Criativo",
       "greedy_argmax": {
-        "has_math_symbols": true,
-        "repeated_2grams": 35,
-        "repeated_3grams": 28,
-        "repeated_4grams": 21,
-        "text": " Jordan blow Dre that Signals , Jordan 's second @-@ Star Game , Jordan 's second @-@ American . \n \n = = = Charlotte Bobcats / Hornets = = = \n \n On June 15 2006 , and",
+        "has_math_symbols": false,
+        "repeated_2grams": 53,
+        "repeated_3grams": 43,
+        "repeated_4grams": 34,
+        "text": " the most popular and most popular in the world of the world. The first statement is the most popular and most popular in the world. The first statement is not true because the premise does not provide any information about the information about the state of the",
         "tokens_count": 100,
-        "unique_tokens_count": 42,
-        "unique_tokens_ratio": 0.42
+        "unique_tokens_count": 25,
+        "unique_tokens_ratio": 0.25
       },
       "prompt": "Once upon a time, in a deep magical forest,",
       "prompt_id": "prompt_5",
       "sampling_topp_09_temp_07": {
-        "has_math_symbols": true,
-        "latency_ms": 1052.028691,
-        "repeated_2grams": 22,
-        "repeated_3grams": 14,
-        "repeated_4grams": 6,
-        "text": " but a mot of the 1994 – 95 ) = = = \n \n On June 15 2006 , and the Jordan went on biring \" ( <unk> Lawards . He reported to the Wizards . \n Jordan 's 3 <unk>",
-        "throughput_tok_s": 95.05444181845037,
+        "has_math_symbols": false,
+        "latency_ms": 1072.751901,
+        "repeated_2grams": 54,
+        "repeated_3grams": 45,
+        "repeated_4grams": 37,
+        "text": " they had to be present in the United States and the public was appointed to the south of the world. The United States of the original state of the Baltic Sea.                                   ",
+        "throughput_tok_s": 93.21819882750316,
         "tokens_count": 100,
-        "unique_tokens_count": 46,
-        "unique_tokens_ratio": 0.46,
-        "vram_mb": 1336.5
+        "unique_tokens_count": 24,
+        "unique_tokens_ratio": 0.24,
+        "vram_mb": 1320.5
       }
     }
   ],
   "category_c_efficiency": {
-    "avg_generation_latency_ms_per_100_tokens": 1063.1246306,
-    "avg_generation_throughput_tokens_per_sec": 94.06234896802512,
+    "avg_generation_latency_ms_per_100_tokens": 1100.3667815999997,
+    "avg_generation_throughput_tokens_per_sec": 90.87878848413978,
     "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
-    "vram_used_mb": 1336.5
+    "vram_used_mb": 1320.5
   },
   "step": 15000,
   "step_label": "15k"
