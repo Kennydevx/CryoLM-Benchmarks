@@ -821,6 +821,498 @@
       "elapsed_seconds_total": 551.331007541,
       "step": 25000,
       "timestamp_ms": 1788919669181
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.00032507063840039115,
+        "loss": 1.7775611877441406,
+        "perplexity": 5.915412232570213,
+        "tokens_seen": 30720000,
+        "vram_allocated_mb": 1334.5
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "generated_text": " the largest country in the United Kingdom and the most populous country in the United Kingdom. The country is the most populous country in the United Kingdom and the most populous country in the United Kingdom. The country is the most populous country in the United Kingdom",
+            "has_math_symbols": false,
+            "latency_ms": 327.7869,
+            "repeated_2grams": 74,
+            "repeated_3grams": 69,
+            "repeated_4grams": 64,
+            "throughput_tok_s": 305.0762553354024,
+            "total_tokens": 100,
+            "unique_tokens": 14,
+            "unique_tokens_ratio": 0.14
+          },
+          "prompt_id": "prompt_1",
+          "prompt_text": "The capital of France is",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " Let Estabil Sunday from 1909 to 179.  - Sunday is a country in the United Kingdom and is a county town in Germany and was a county county county county county. It is the largest county county county count",
+            "has_math_symbols": true,
+            "latency_ms": 469.7682,
+            "repeated_2grams": 43,
+            "repeated_3grams": 33,
+            "repeated_4grams": 24,
+            "throughput_tok_s": 212.8709435845168,
+            "total_tokens": 100,
+            "unique_tokens": 32,
+            "unique_tokens_ratio": 0.32
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "generated_text": "<|im_end|><|im_start|>assistantThe first step of the process is 15 + 27 = <<15+27=16>>16 years old.The second step of the process is 16 + 16 = <<16+16=16>>16 years old.The second step of the ",
+            "has_math_symbols": true,
+            "latency_ms": 327.8092,
+            "repeated_2grams": 43,
+            "repeated_3grams": 34,
+            "repeated_4grams": 28,
+            "throughput_tok_s": 305.0555017979971,
+            "total_tokens": 100,
+            "unique_tokens": 26,
+            "unique_tokens_ratio": 0.26
+          },
+          "prompt_id": "prompt_2",
+          "prompt_text": "What is 15 + 27?",
+          "sampling_topp_09_temp_07": {
+            "generated_text": "<|im_end|><|im_start|>assistant1. The number of universal finest players have played 1 lead balloon 5 players and the number of universal players scored in the same match.2. The number of universal points were twice the number of ",
+            "has_math_symbols": true,
+            "latency_ms": 435.9374,
+            "repeated_2grams": 35,
+            "repeated_3grams": 27,
+            "repeated_4grams": 20,
+            "throughput_tok_s": 229.39073362368083,
+            "total_tokens": 100,
+            "unique_tokens": 39,
+            "unique_tokens_ratio": 0.39
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "generated_text": " the answer is present within the context. The question is unanswerable from the context of \"What is a human or a human or a human or a human or a human or a human or a human or a human or a human or ",
+            "has_math_symbols": false,
+            "latency_ms": 307.8722,
+            "repeated_2grams": 60,
+            "repeated_3grams": 54,
+            "repeated_4grams": 48,
+            "throughput_tok_s": 324.8100997751664,
+            "total_tokens": 100,
+            "unique_tokens": 23,
+            "unique_tokens_ratio": 0.23
+          },
+          "prompt_id": "prompt_3",
+          "prompt_text": "If all humans are mortal, and Socrates is human, then",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " they will be perfect from the physical relationship between cells and photos.   - A group of animals is mortal or mortal mortal mortal mortal mortal mortal mortal mortal mortal mortal mortal mortal m",
+            "has_math_symbols": true,
+            "latency_ms": 384.941,
+            "repeated_2grams": 50,
+            "repeated_3grams": 47,
+            "repeated_4grams": 45,
+            "throughput_tok_s": 259.780070192575,
+            "total_tokens": 100,
+            "unique_tokens": 28,
+            "unique_tokens_ratio": 0.28
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "generated_text": "                                                                                                    ",
+            "has_math_symbols": false,
+            "latency_ms": 313.3527,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "throughput_tok_s": 319.12921126896305,
+            "total_tokens": 100,
+            "unique_tokens": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt_id": "prompt_4",
+          "prompt_text": "def fibonacci(n):",
+          "sampling_topp_09_temp_07": {
+            "generated_text": "    print(false(n)<|im_end|><|im_start|>userGenerate a question about the following movie plot: The old bloody is the fifth most perfect to the young children of the cold family and he has become aware of the survival ",
+            "has_math_symbols": false,
+            "latency_ms": 423.3837,
+            "repeated_2grams": 17,
+            "repeated_3grams": 9,
+            "repeated_4grams": 3,
+            "throughput_tok_s": 236.192371128128,
+            "total_tokens": 100,
+            "unique_tokens": 50,
+            "unique_tokens_ratio": 0.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "generated_text": " the safety of the world is the most common and intimate world. The world is the most common and intimate world, which is the most common and intimate world. The world is the most common and intimate world, which is the most common",
+            "has_math_symbols": false,
+            "latency_ms": 336.7038,
+            "repeated_2grams": 69,
+            "repeated_3grams": 64,
+            "repeated_4grams": 60,
+            "throughput_tok_s": 296.9969450894228,
+            "total_tokens": 100,
+            "unique_tokens": 18,
+            "unique_tokens_ratio": 0.18
+          },
+          "prompt_id": "prompt_5",
+          "prompt_text": "Once upon a time, in a deep magical forest,",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " which are called the dangers of the farther area, which are rare from the excess of the dark eye. The other options of the marine taps are exchanged with the smallest and well being about the hepatitis and the chef ",
+            "has_math_symbols": false,
+            "latency_ms": 418.2294,
+            "repeated_2grams": 27,
+            "repeated_3grams": 16,
+            "repeated_4grams": 6,
+            "throughput_tok_s": 239.10322899346627,
+            "total_tokens": 100,
+            "unique_tokens": 45,
+            "unique_tokens_ratio": 0.45
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 426.45194000000004,
+        "avg_generation_throughput_tokens_per_sec": 234.4930122723794,
+        "peak_vram_mb": 1226.5
+      },
+      "elapsed_seconds_total": 660.244547082,
+      "step": 30000,
+      "timestamp_ms": 1788919778094
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.0002997368187253474,
+        "loss": 2.8062753677368164,
+        "perplexity": 16.54816745233709,
+        "tokens_seen": 35840000,
+        "vram_allocated_mb": 1334.5
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "generated_text": " Pakistan and the capital of the United States. The capital of the city is Pakistan. The city is located on the south of the United States of America. The city is located on the south of the United States. The city is located on the",
+            "has_math_symbols": false,
+            "latency_ms": 349.918599,
+            "repeated_2grams": 65,
+            "repeated_3grams": 56,
+            "repeated_4grams": 47,
+            "throughput_tok_s": 285.7807509683131,
+            "total_tokens": 100,
+            "unique_tokens": 19,
+            "unique_tokens_ratio": 0.19
+          },
+          "prompt_id": "prompt_1",
+          "prompt_text": "The capital of France is",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " Daisy and has a population of 68,679 in its metropolitan area with about 65,700 inhabitants. The capital of Paris is Sahuran and is located in the southern region of the southern part of the western part of the country",
+            "has_math_symbols": true,
+            "latency_ms": 390.1951,
+            "repeated_2grams": 27,
+            "repeated_3grams": 16,
+            "repeated_4grams": 8,
+            "throughput_tok_s": 256.28204967207427,
+            "total_tokens": 100,
+            "unique_tokens": 42,
+            "unique_tokens_ratio": 0.42
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "generated_text": "<|im_end|><|im_start|>assistantTo find out if the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number of times the number ",
+            "has_math_symbols": false,
+            "latency_ms": 357.5531,
+            "repeated_2grams": 72,
+            "repeated_3grams": 69,
+            "repeated_4grams": 67,
+            "throughput_tok_s": 279.67873862651453,
+            "total_tokens": 100,
+            "unique_tokens": 18,
+            "unique_tokens_ratio": 0.18
+          },
+          "prompt_id": "prompt_2",
+          "prompt_text": "What is 15 + 27?",
+          "sampling_topp_09_temp_07": {
+            "generated_text": "<|im_end|><|im_start|>assistantThe correct answer is not incorrect because the given information talks about a person who has worked for a class of students who have made the same class of students. The first class of students was born in the",
+            "has_math_symbols": false,
+            "latency_ms": 435.390499,
+            "repeated_2grams": 26,
+            "repeated_3grams": 15,
+            "repeated_4grams": 8,
+            "throughput_tok_s": 229.67887500916737,
+            "total_tokens": 100,
+            "unique_tokens": 42,
+            "unique_tokens_ratio": 0.42
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "generated_text": " the correct answer is \"no.\"<|im_end|><|im_start|>userPlease answer the following question: Question: What is the name of the person who is the name of the person who is the name of the person who is the",
+            "has_math_symbols": false,
+            "latency_ms": 358.292099,
+            "repeated_2grams": 48,
+            "repeated_3grams": 39,
+            "repeated_4grams": 32,
+            "throughput_tok_s": 279.101884409681,
+            "total_tokens": 100,
+            "unique_tokens": 34,
+            "unique_tokens_ratio": 0.34
+          },
+          "prompt_id": "prompt_3",
+          "prompt_text": "If all humans are mortal, and Socrates is human, then",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " a statement would cause the dog to dog in the house. This could involve an animal or infrastructure and a group of animals, which could cause animals to savoid animals from animals. The perturbation hypothesis may not ",
+            "has_math_symbols": false,
+            "latency_ms": 469.251599,
+            "repeated_2grams": 23,
+            "repeated_3grams": 11,
+            "repeated_4grams": 2,
+            "throughput_tok_s": 213.1052940748743,
+            "total_tokens": 100,
+            "unique_tokens": 46,
+            "unique_tokens_ratio": 0.46
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "generated_text": "                                                                                                    ",
+            "has_math_symbols": false,
+            "latency_ms": 376.847899,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "throughput_tok_s": 265.35904874449096,
+            "total_tokens": 100,
+            "unique_tokens": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt_id": "prompt_4",
+          "prompt_text": "def fibonacci(n):",
+          "sampling_topp_09_temp_07": {
+            "generated_text": "                                          a local person who was a charm and had made a sovereign with them to come out of the world.    \"The only step of the",
+            "has_math_symbols": false,
+            "latency_ms": 525.739,
+            "repeated_2grams": 50,
+            "repeated_3grams": 45,
+            "repeated_4grams": 40,
+            "throughput_tok_s": 190.208449439741,
+            "total_tokens": 100,
+            "unique_tokens": 28,
+            "unique_tokens_ratio": 0.28
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "generated_text": " the man is a dangerous and hot wheel in the world. The man is a dangerous and hot wheel in the world of wheel and wheel in the world. The man is a dangerous and hot wheel in the world of w",
+            "has_math_symbols": false,
+            "latency_ms": 357.8654,
+            "repeated_2grams": 69,
+            "repeated_3grams": 64,
+            "repeated_4grams": 59,
+            "throughput_tok_s": 279.43467013016624,
+            "total_tokens": 100,
+            "unique_tokens": 18,
+            "unique_tokens_ratio": 0.18
+          },
+          "prompt_id": "prompt_5",
+          "prompt_text": "Once upon a time, in a deep magical forest,",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " they can stay at a dinner with a few fresh water. It can lead to a toy water and can lead to a heat or a nice ride near a dinner. This can lead to a more effective and increased energy when he can",
+            "has_math_symbols": false,
+            "latency_ms": 445.752099,
+            "repeated_2grams": 36,
+            "repeated_3grams": 22,
+            "repeated_4grams": 14,
+            "throughput_tok_s": 224.3399419191518,
+            "total_tokens": 100,
+            "unique_tokens": 35,
+            "unique_tokens_ratio": 0.35
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 453.2656594,
+        "avg_generation_throughput_tokens_per_sec": 220.62116978456453,
+        "peak_vram_mb": 1226.5
+      },
+      "elapsed_seconds_total": 769.741371691,
+      "step": 35000,
+      "timestamp_ms": 1788919887591
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 0.0002721486107106328,
+        "loss": 2.5874276161193848,
+        "perplexity": 13.295526378407386,
+        "tokens_seen": 40960000,
+        "vram_allocated_mb": 1334.5
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "generated_text": " \"The Silesia and the Silesia of France, and the Silesia of France, the Silesia and Silesia and Silesia and Silesia and Silesia and Silesia and Silesia and Silesia and Silesia ",
+            "has_math_symbols": false,
+            "latency_ms": 342.511099,
+            "repeated_2grams": 82,
+            "repeated_3grams": 78,
+            "repeated_4grams": 74,
+            "throughput_tok_s": 291.96134166735425,
+            "total_tokens": 100,
+            "unique_tokens": 12,
+            "unique_tokens_ratio": 0.12
+          },
+          "prompt_id": "prompt_1",
+          "prompt_text": "The capital of France is",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " Lynch and the Fourteenth most populous city in Germany, and the Fourteenth largest city in Germany. Other major urban centres include Lynch and Tower Lynch and Tower Lynch and Tower Lynch and Tower Lyn",
+            "has_math_symbols": false,
+            "latency_ms": 439.925098,
+            "repeated_2grams": 54,
+            "repeated_3grams": 50,
+            "repeated_4grams": 46,
+            "throughput_tok_s": 227.31142290954267,
+            "total_tokens": 100,
+            "unique_tokens": 29,
+            "unique_tokens_ratio": 0.29
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "generated_text": "<|im_end|><|im_start|>assistantTo find the total number of cats in the total number of cats, we can calculate the total number of cats in the total number of cats in the total number of cats in the total number of ",
+            "has_math_symbols": false,
+            "latency_ms": 417.471498,
+            "repeated_2grams": 61,
+            "repeated_3grams": 57,
+            "repeated_4grams": 54,
+            "throughput_tok_s": 239.5373108800831,
+            "total_tokens": 100,
+            "unique_tokens": 25,
+            "unique_tokens_ratio": 0.25
+          },
+          "prompt_id": "prompt_2",
+          "prompt_text": "What is 15 + 27?",
+          "sampling_topp_09_temp_07": {
+            "generated_text": "<|im_end|><|im_start|>assistant15 + 27 + 27 = <<15+27+27=240>>240 + 27 + 27 + 27 = 240 + 240 + 270 + 270 + 270 + 270 + 270 = 240 + 270 ",
+            "has_math_symbols": true,
+            "latency_ms": 444.895498,
+            "repeated_2grams": 65,
+            "repeated_3grams": 55,
+            "repeated_4grams": 48,
+            "throughput_tok_s": 224.7718856440305,
+            "total_tokens": 100,
+            "unique_tokens": 16,
+            "unique_tokens_ratio": 0.16
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "generated_text": " the hypothesis \"A man is in a black shirt and a black shirt is in a black shirt and a black shirt is in a black shirt.\" is true?Options:- yes- no- it is not possible to tell.",
+            "has_math_symbols": true,
+            "latency_ms": 329.020199,
+            "repeated_2grams": 47,
+            "repeated_3grams": 41,
+            "repeated_4grams": 37,
+            "throughput_tok_s": 303.93270779098884,
+            "total_tokens": 100,
+            "unique_tokens": 32,
+            "unique_tokens_ratio": 0.32
+          },
+          "prompt_id": "prompt_3",
+          "prompt_text": "If all humans are mortal, and Socrates is human, then",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " what is the question?Answer:<|im_end|><|im_start|>assistantWhat can Socrates in the following sentence: \"In the same location is not paraphrases of the same location in the morning for the brain and the brain is high ",
+            "has_math_symbols": false,
+            "latency_ms": 431.007898,
+            "repeated_2grams": 29,
+            "repeated_3grams": 19,
+            "repeated_4grams": 10,
+            "throughput_tok_s": 232.01430986306426,
+            "total_tokens": 100,
+            "unique_tokens": 46,
+            "unique_tokens_ratio": 0.46
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "generated_text": "                                                                                                    ",
+            "has_math_symbols": false,
+            "latency_ms": 320.875999,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "throughput_tok_s": 311.6468676736399,
+            "total_tokens": 100,
+            "unique_tokens": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt_id": "prompt_4",
+          "prompt_text": "def fibonacci(n):",
+          "sampling_topp_09_temp_07": {
+            "generated_text": "           if n == 1:                                                              for a person             ",
+            "has_math_symbols": true,
+            "latency_ms": 396.348898,
+            "repeated_2grams": 82,
+            "repeated_3grams": 79,
+            "repeated_4grams": 76,
+            "throughput_tok_s": 252.30295960101293,
+            "total_tokens": 100,
+            "unique_tokens": 9,
+            "unique_tokens_ratio": 0.09
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "generated_text": " the software and the software are not always the same as the software and the software are not always the same as the software and the software are not always the same as the software and the software",
+            "has_math_symbols": false,
+            "latency_ms": 396.257998,
+            "repeated_2grams": 81,
+            "repeated_3grams": 77,
+            "repeated_4grams": 74,
+            "throughput_tok_s": 252.36083689091873,
+            "total_tokens": 100,
+            "unique_tokens": 11,
+            "unique_tokens_ratio": 0.11
+          },
+          "prompt_id": "prompt_5",
+          "prompt_text": "Once upon a time, in a deep magical forest,",
+          "sampling_topp_09_temp_07": {
+            "generated_text": " a man named Saturday, who has been involved in a tire of being a young woman in the night of a young man in the middle of a young man named Saturday and his mother. He is a young man named Saturday and that",
+            "has_math_symbols": false,
+            "latency_ms": 391.160698,
+            "repeated_2grams": 47,
+            "repeated_3grams": 38,
+            "repeated_4grams": 29,
+            "throughput_tok_s": 255.6494057590622,
+            "total_tokens": 100,
+            "unique_tokens": 30,
+            "unique_tokens_ratio": 0.3
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 420.66761800000006,
+        "avg_generation_throughput_tokens_per_sec": 237.71737048702425,
+        "peak_vram_mb": 1226.5
+      },
+      "elapsed_seconds_total": 876.470562147,
+      "step": 40000,
+      "timestamp_ms": 1788919994320
     }
   ],
   "model": "Standard Dense Causal Transformer (4L, d=256, H=688, Heads=8, Vocab=4000)",

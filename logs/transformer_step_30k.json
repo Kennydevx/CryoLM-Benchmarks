@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00032507063840039115,
+    "loss": 1.7775611877441406,
+    "perplexity": 5.915412232570213,
+    "tokens_seen": 30720000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the largest country in the United Kingdom and the most populous country in the United Kingdom. The country is the most populous country in the United Kingdom and the most populous country in the United Kingdom. The country is the most populous country in the United Kingdom",
+        "has_math_symbols": false,
+        "latency_ms": 327.7869,
+        "repeated_2grams": 74,
+        "repeated_3grams": 69,
+        "repeated_4grams": 64,
+        "throughput_tok_s": 305.0762553354024,
+        "total_tokens": 100,
+        "unique_tokens": 14,
+        "unique_tokens_ratio": 0.14
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " Let Estabil Sunday from 1909 to 179.  - Sunday is a country in the United Kingdom and is a county town in Germany and was a county county county county county. It is the largest county county county count",
+        "has_math_symbols": true,
+        "latency_ms": 469.7682,
+        "repeated_2grams": 43,
+        "repeated_3grams": 33,
+        "repeated_4grams": 24,
+        "throughput_tok_s": 212.8709435845168,
+        "total_tokens": 100,
+        "unique_tokens": 32,
+        "unique_tokens_ratio": 0.32
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe first step of the process is 15 + 27 = <<15+27=16>>16 years old.The second step of the process is 16 + 16 = <<16+16=16>>16 years old.The second step of the ",
+        "has_math_symbols": true,
+        "latency_ms": 327.8092,
+        "repeated_2grams": 43,
+        "repeated_3grams": 34,
+        "repeated_4grams": 28,
+        "throughput_tok_s": 305.0555017979971,
+        "total_tokens": 100,
+        "unique_tokens": 26,
+        "unique_tokens_ratio": 0.26
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistant1. The number of universal finest players have played 1 lead balloon 5 players and the number of universal players scored in the same match.2. The number of universal points were twice the number of ",
+        "has_math_symbols": true,
+        "latency_ms": 435.9374,
+        "repeated_2grams": 35,
+        "repeated_3grams": 27,
+        "repeated_4grams": 20,
+        "throughput_tok_s": 229.39073362368083,
+        "total_tokens": 100,
+        "unique_tokens": 39,
+        "unique_tokens_ratio": 0.39
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " the answer is present within the context. The question is unanswerable from the context of \"What is a human or a human or a human or a human or a human or a human or a human or a human or a human or ",
+        "has_math_symbols": false,
+        "latency_ms": 307.8722,
+        "repeated_2grams": 60,
+        "repeated_3grams": 54,
+        "repeated_4grams": 48,
+        "throughput_tok_s": 324.8100997751664,
+        "total_tokens": 100,
+        "unique_tokens": 23,
+        "unique_tokens_ratio": 0.23
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " they will be perfect from the physical relationship between cells and photos.   - A group of animals is mortal or mortal mortal mortal mortal mortal mortal mortal mortal mortal mortal mortal mortal m",
+        "has_math_symbols": true,
+        "latency_ms": 384.941,
+        "repeated_2grams": 50,
+        "repeated_3grams": 47,
+        "repeated_4grams": 45,
+        "throughput_tok_s": 259.780070192575,
+        "total_tokens": 100,
+        "unique_tokens": 28,
+        "unique_tokens_ratio": 0.28
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 313.3527,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 319.12921126896305,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "    print(false(n)<|im_end|><|im_start|>userGenerate a question about the following movie plot: The old bloody is the fifth most perfect to the young children of the cold family and he has become aware of the survival ",
+        "has_math_symbols": false,
+        "latency_ms": 423.3837,
+        "repeated_2grams": 17,
+        "repeated_3grams": 9,
+        "repeated_4grams": 3,
+        "throughput_tok_s": 236.192371128128,
+        "total_tokens": 100,
+        "unique_tokens": 50,
+        "unique_tokens_ratio": 0.5
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " the safety of the world is the most common and intimate world. The world is the most common and intimate world, which is the most common and intimate world. The world is the most common and intimate world, which is the most common",
+        "has_math_symbols": false,
+        "latency_ms": 336.7038,
+        "repeated_2grams": 69,
+        "repeated_3grams": 64,
+        "repeated_4grams": 60,
+        "throughput_tok_s": 296.9969450894228,
+        "total_tokens": 100,
+        "unique_tokens": 18,
+        "unique_tokens_ratio": 0.18
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " which are called the dangers of the farther area, which are rare from the excess of the dark eye. The other options of the marine taps are exchanged with the smallest and well being about the hepatitis and the chef ",
+        "has_math_symbols": false,
+        "latency_ms": 418.2294,
+        "repeated_2grams": 27,
+        "repeated_3grams": 16,
+        "repeated_4grams": 6,
+        "throughput_tok_s": 239.10322899346627,
+        "total_tokens": 100,
+        "unique_tokens": 45,
+        "unique_tokens_ratio": 0.45
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 426.45194000000004,
+    "avg_generation_throughput_tokens_per_sec": 234.4930122723794,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 660.244547082,
+  "step": 30000,
+  "timestamp_ms": 1788919778094
+}
