@@ -1,0 +1,164 @@
+{
+  "category_a_training": {
+    "learning_rate": 0.00038155863355880936,
+    "loss": 2.7871899604797363,
+    "perplexity": 16.2353337126359,
+    "tokens_seen": 15360000,
+    "vram_allocated_mb": 1334.5
+  },
+  "category_b_generation": [
+    {
+      "category": "Factual simples",
+      "greedy_argmax": {
+        "generated_text": " the most popular country in the world and the most populous country in the world. The country is the most popular country in the world and the most populous country in the world. The country in the world is the most popular country in the world and the",
+        "has_math_symbols": false,
+        "latency_ms": 347.0052,
+        "repeated_2grams": 76,
+        "repeated_3grams": 70,
+        "repeated_4grams": 64,
+        "throughput_tok_s": 288.18011949100475,
+        "total_tokens": 100,
+        "unique_tokens": 13,
+        "unique_tokens_ratio": 0.13
+      },
+      "prompt_id": "prompt_1",
+      "prompt_text": "The capital of France is",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " located on the North coast of the country in the Netherlands. The country of the Netherlands and the North Atlantic Ocean in the North Holland and the Dutch coast of the North and the North African states in the world. The European Union of Europe ",
+        "has_math_symbols": false,
+        "latency_ms": 416.0565,
+        "repeated_2grams": 50,
+        "repeated_3grams": 38,
+        "repeated_4grams": 26,
+        "throughput_tok_s": 240.35197142695762,
+        "total_tokens": 100,
+        "unique_tokens": 28,
+        "unique_tokens_ratio": 0.28
+      }
+    },
+    {
+      "category": "Matematico",
+      "greedy_argmax": {
+        "generated_text": "<|im_end|><|im_start|>assistantThe first step of the process is to determine the most popular steps in the process of the process of the process is to determine the most popular way for the first step of the process. The second step ",
+        "has_math_symbols": false,
+        "latency_ms": 311.475101,
+        "repeated_2grams": 51,
+        "repeated_3grams": 41,
+        "repeated_4grams": 34,
+        "throughput_tok_s": 321.05294991139596,
+        "total_tokens": 100,
+        "unique_tokens": 29,
+        "unique_tokens_ratio": 0.29
+      },
+      "prompt_id": "prompt_2",
+      "prompt_text": "What is 15 + 27?",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "<|im_end|><|im_start|>assistantStep 1: Identify the main subjects and objects of the subjects (the subjects of the objects) which occurs in the other pieces of the number of horses in the hes of the hes",
+        "has_math_symbols": true,
+        "latency_ms": 431.6232,
+        "repeated_2grams": 41,
+        "repeated_3grams": 26,
+        "repeated_4grams": 15,
+        "throughput_tok_s": 231.68356103193713,
+        "total_tokens": 100,
+        "unique_tokens": 38,
+        "unique_tokens_ratio": 0.38
+      }
+    },
+    {
+      "category": "Logica",
+      "greedy_argmax": {
+        "generated_text": " the answer is \"no.\" is not correct because the answer is \"no.\" is not correct because the answer is \"no.\" is not correct because the answer is \"no.\" is not correct because the answer is \"no.",
+        "has_math_symbols": false,
+        "latency_ms": 352.7918,
+        "repeated_2grams": 79,
+        "repeated_3grams": 77,
+        "repeated_4grams": 75,
+        "throughput_tok_s": 283.4533002184291,
+        "total_tokens": 100,
+        "unique_tokens": 13,
+        "unique_tokens_ratio": 0.13
+      },
+      "prompt_id": "prompt_3",
+      "prompt_text": "If all humans are mortal, and Socrates is human, then",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " then it is not possible to tell if the hypothesis is not entailed by the premise. Hypothesis: \"A man is sitting on a woman and it is not directly specifically related to the hypothesis.\"Hypothesis: \"A man",
+        "has_math_symbols": false,
+        "latency_ms": 424.533,
+        "repeated_2grams": 34,
+        "repeated_3grams": 26,
+        "repeated_4grams": 18,
+        "throughput_tok_s": 235.55294876958916,
+        "total_tokens": 100,
+        "unique_tokens": 37,
+        "unique_tokens_ratio": 0.37
+      }
+    },
+    {
+      "category": "Codigo",
+      "greedy_argmax": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 314.8187,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 317.64313873349965,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      },
+      "prompt_id": "prompt_4",
+      "prompt_text": "def fibonacci(n):",
+      "sampling_topp_09_temp_07": {
+        "generated_text": "                                                                                                    ",
+        "has_math_symbols": false,
+        "latency_ms": 383.575601,
+        "repeated_2grams": 98,
+        "repeated_3grams": 97,
+        "repeated_4grams": 96,
+        "throughput_tok_s": 260.7047991042579,
+        "total_tokens": 100,
+        "unique_tokens": 1,
+        "unique_tokens_ratio": 0.01
+      }
+    },
+    {
+      "category": "Criativo",
+      "greedy_argmax": {
+        "generated_text": " and the other hand of the world. The most popular music is not the most popular music and the most popular music in the world. The song is about the song \"The song \"The song \"The song \"The song \"The song \"The song \"The song ",
+        "has_math_symbols": false,
+        "latency_ms": 392.041501,
+        "repeated_2grams": 66,
+        "repeated_3grams": 57,
+        "repeated_4grams": 48,
+        "throughput_tok_s": 255.07503604828818,
+        "total_tokens": 100,
+        "unique_tokens": 18,
+        "unique_tokens_ratio": 0.18
+      },
+      "prompt_id": "prompt_5",
+      "prompt_text": "Once upon a time, in a deep magical forest,",
+      "sampling_topp_09_temp_07": {
+        "generated_text": " and they are in the western part of the world. It is about the world's world's history and the world's tennis tourist period in the world. It was only at the time of the world's visitors, and the German Beatles. The group was ",
+        "has_math_symbols": false,
+        "latency_ms": 389.229,
+        "repeated_2grams": 40,
+        "repeated_3grams": 29,
+        "repeated_4grams": 19,
+        "throughput_tok_s": 256.91816385726656,
+        "total_tokens": 100,
+        "unique_tokens": 33,
+        "unique_tokens_ratio": 0.33
+      }
+    }
+  ],
+  "category_c_efficiency": {
+    "avg_generation_latency_ms_per_100_tokens": 409.0034602,
+    "avg_generation_throughput_tokens_per_sec": 244.4967090280866,
+    "peak_vram_mb": 1226.5
+  },
+  "elapsed_seconds_total": 321.681470971,
+  "step": 15000,
+  "timestamp_ms": 1788919439531
+}
