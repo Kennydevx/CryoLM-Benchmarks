@@ -2227,6 +2227,165 @@
       },
       "step": 90000,
       "step_label": "90k"
+    },
+    {
+      "category_a_training": {
+        "learning_rate": 2.0000000095664984e-05,
+        "loss": 2.3691611289978027,
+        "ms_per_step_average": 47.90152289292,
+        "perplexity": 10.688422314774384,
+        "total_tokens_processed": 102400000
+      },
+      "category_b_generation": [
+        {
+          "category": "Factual simples",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 50,
+            "repeated_3grams": 44,
+            "repeated_4grams": 38,
+            "text": " the largest city in the United States. The state is the only city in the United States and the most populous city in the United States. The state is the most populous city in the United States, with a population of over 1.5 million people in ",
+            "tokens_count": 100,
+            "unique_tokens_count": 26,
+            "unique_tokens_ratio": 0.26
+          },
+          "prompt": "The capital of France is",
+          "prompt_id": "prompt_1",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1113.131045,
+            "repeated_2grams": 22,
+            "repeated_3grams": 15,
+            "repeated_4grams": 8,
+            "text": " one of the four seasian states of the state of Nuwyg, the capital of the United States.  - The National Conservation (EPA) is a French rock band formed in 1956 and is a popular music by the British rock band Bart ",
+            "throughput_tok_s": 89.83668225693947,
+            "tokens_count": 100,
+            "unique_tokens_count": 47,
+            "unique_tokens_ratio": 0.47,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Matematico",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 21,
+            "repeated_3grams": 13,
+            "repeated_4grams": 7,
+            "text": "<|im_end|><|im_start|>assistantTo solve the equation -4*o + 4 = -4*z + 4 for b, we will follow these steps:Step 1: Combine like terms on the left side of the equation.-6*k = -6",
+            "tokens_count": 100,
+            "unique_tokens_count": 47,
+            "unique_tokens_ratio": 0.47
+          },
+          "prompt": "What is 15 + 27?",
+          "prompt_id": "prompt_2",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": true,
+            "latency_ms": 1084.683507,
+            "repeated_2grams": 22,
+            "repeated_3grams": 12,
+            "repeated_4grams": 5,
+            "text": "<|im_end|><|im_start|>assistantTo solve the given equation -12*z + 89 + 240 = -5*g for q, we need to isolate 'm' by dividing both sides of the equation by -24*a to both sides ",
+            "throughput_tok_s": 92.19279112722786,
+            "tokens_count": 100,
+            "unique_tokens_count": 48,
+            "unique_tokens_ratio": 0.48,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Logica",
+          "greedy_argmax": {
+            "has_math_symbols": true,
+            "repeated_2grams": 26,
+            "repeated_3grams": 15,
+            "repeated_4grams": 7,
+            "text": " the answer is \"no.\"<|im_end|><|im_start|>userWrite a sentence based on \"a big big box of food that is not a good place for the restaurant.  - The man is a big big building called a",
+            "tokens_count": 100,
+            "unique_tokens_count": 43,
+            "unique_tokens_ratio": 0.43
+          },
+          "prompt": "If all humans are mortal, and Socrates is human, then",
+          "prompt_id": "prompt_3",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1158.391066,
+            "repeated_2grams": 20,
+            "repeated_3grams": 10,
+            "repeated_4grams": 1,
+            "text": " they do not use the moisture to the dishwasher in the recycling process. This is because the process of transportation is also a plastic energy source that will have a greater impact on the rate of oxygen and a reduced energy level ",
+            "throughput_tok_s": 86.32663263305935,
+            "tokens_count": 100,
+            "unique_tokens_count": 47,
+            "unique_tokens_ratio": 0.47,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Codigo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 98,
+            "repeated_3grams": 97,
+            "repeated_4grams": 96,
+            "text": "                                                                                                    ",
+            "tokens_count": 100,
+            "unique_tokens_count": 1,
+            "unique_tokens_ratio": 0.01
+          },
+          "prompt": "def fibonacci(n):",
+          "prompt_id": "prompt_4",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1153.103504,
+            "repeated_2grams": 92,
+            "repeated_3grams": 90,
+            "repeated_4grams": 88,
+            "text": "           return False                                                                                    ",
+            "throughput_tok_s": 86.72248384738236,
+            "tokens_count": 100,
+            "unique_tokens_count": 5,
+            "unique_tokens_ratio": 0.05,
+            "vram_mb": 1320.5
+          }
+        },
+        {
+          "category": "Criativo",
+          "greedy_argmax": {
+            "has_math_symbols": false,
+            "repeated_2grams": 37,
+            "repeated_3grams": 27,
+            "repeated_4grams": 18,
+            "text": " the sun is not a good place for the rest of the world. The other options are wrong because they are not the same as the same thing. They are not related to the same thing. They are not asking about the same thing in ",
+            "tokens_count": 100,
+            "unique_tokens_count": 35,
+            "unique_tokens_ratio": 0.35
+          },
+          "prompt": "Once upon a time, in a deep magical forest,",
+          "prompt_id": "prompt_5",
+          "sampling_topp_09_temp_07": {
+            "has_math_symbols": false,
+            "latency_ms": 1031.690567,
+            "repeated_2grams": 37,
+            "repeated_3grams": 23,
+            "repeated_4grams": 10,
+            "text": " a happy town of Tameran, is in the stabbing of a bag of water and is in the heart of the sand and the snow to the water in the lungs. The lungs get more to the spider as it ",
+            "throughput_tok_s": 96.92828760738296,
+            "tokens_count": 100,
+            "unique_tokens_count": 37,
+            "unique_tokens_ratio": 0.37,
+            "vram_mb": 1320.5
+          }
+        }
+      ],
+      "category_c_efficiency": {
+        "avg_generation_latency_ms_per_100_tokens": 1108.1999378,
+        "avg_generation_throughput_tokens_per_sec": 90.23642448358203,
+        "device": "NVIDIA GeForce RTX 3060 (12GB GDDR6)",
+        "vram_used_mb": 1320.5
+      },
+      "step": 100000,
+      "step_label": "100k"
     }
   ],
   "model": "CryoLM-7M (Modo 11 Fused GSA, Vocab=4000)",
